@@ -14,22 +14,24 @@
 *      numCols cols and returns a pointer to it
 */
 CellGrid* CellGrid_Create(int numRows, int numCols) {
-   // TODO (COMPLETE): complete this function
-   CellGrid* grid = calloc(1, sizeof(CellGrid));
-   grid->grid = malloc(numRows * sizeof(Cell*));
-   grid->numRows = numRows;
-   grid->numCols = numCols;
+  // TODO (COMPLETE): complete this function
+  CellGrid* window = malloc(sizeof(CellGrid));
+  window->grid = malloc(numRows * sizeof(Cell*));
+  
+  window->numCols = numCols;
+  window->numRows = numRows;
 
-   for (int i = 0; i < numRows; i++) {
-      grid->grid[i] = malloc(numCols * sizeof(Cell));
-   }
-   for (int i = 0; i < numRows; i++) {
-     for (int j = 0; j < numCols; i++) {
-       grid->grid[i][j].s = OFF;
-     }
-   }
+  for (int i = 0; i < numRows; i++) {
+    window->grid[i] = malloc(numCols * sizeof(Cell));
+  }
+  for (int i = 0; i < numRows; i++) {
+    for (int j = 0; j < numCols; i++) {
+      window->grid[i][j].s = OFF;
+      printf("Row: %d | Col: %d | State: %d\n", window->grid[i][j].x, window->grid[i][j].y, window->grid[i][j].s);
+    }
+  }
 
-   return grid;
+  return window;
 }
 
 /*
@@ -39,12 +41,12 @@ CellGrid* CellGrid_Create(int numRows, int numCols) {
 *      De-allocates G, including grid, row by row
 */
 void CellGrid_Delete(CellGrid* G) {
-   // TODO: complete this function
-   for (int i = 0; i < G->numRows; i++) {
-      free(G->grid[i]);
-   }
-   free(G->grid);
-   free(G);
+  // TODO: complete this function
+  for (int i = 0; i < G->numRows; i++) {
+    free(G->grid[i]);
+  }
+  free(G->grid);
+  free(G);
 }
 
 
@@ -57,8 +59,8 @@ void CellGrid_Delete(CellGrid* G) {
 *      The CellState in location row, col
 */
 CellState CellGrid_GetState(const CellGrid* G, int row, int col) {
-   // TODO(COMPLETE): complete this function
-   return G->grid[row][col].s;
+  // TODO(COMPLETE): complete this function
+  return G->grid[row][col].s;
 }
 
 /*
@@ -69,8 +71,8 @@ CellState CellGrid_GetState(const CellGrid* G, int row, int col) {
 *      Updates the (C.x, C.y) entry of G to be C
 */
 void CellGrid_SetCell(CellGrid* G, Cell C) {
-   // TODO(COMPLETE): complete this function
-   G->grid[C.x][C.y] = C;
+  // TODO(COMPLETE): complete this function
+  G->grid[C.x][C.y] = C;
 }
 
 /*
@@ -82,12 +84,12 @@ void CellGrid_SetCell(CellGrid* G, Cell C) {
 *      Updates the (row,col) entry of G
 */
 void CellGrid_Update(CellGrid* G, int row, int col) {
-   if (!CellGrid_Inbounds(G, row, col)) {
-      printf("Error in CellGrid_Update: index out of bounds\n");
-      exit(0);
-   }
-   Cell_NextState(&(G->grid[row][col]));
-   return;
+  if (!CellGrid_Inbounds(G, row, col)) {
+    printf("Error in CellGrid_Update: index out of bounds\n");
+    exit(0);
+  }
+  Cell_NextState(&(G->grid[row][col]));
+  return;
 }
 
 /*
@@ -99,11 +101,11 @@ void CellGrid_Update(CellGrid* G, int row, int col) {
 *      Checks if (row,col) is a Cell in G
 */
 bool CellGrid_Inbounds(const CellGrid* G, int row, int col) {
-   // TODO(COMPLETE): complete this function
-   if (row < G->numRows && row >= 0 && col < G->numCols && col >= 0) {
-      return true;
-   }
-   return false;
+  // TODO(COMPLETE): complete this function
+  if (row < G->numRows && row >= 0 && col < G->numCols && col >= 0) {
+    return true;
+  }
+  return false;
 }
 
 /*
@@ -115,27 +117,27 @@ bool CellGrid_Inbounds(const CellGrid* G, int row, int col) {
 *      as O's for ONs and # for DYINGs
 */
 void CellGrid_Print(const CellGrid* G, FILE* fp) {
-   // TODO(COMPLETE): complete this function
-   for (int i = 0; i < G->numRows; i++) {
-      for (int j = 0; j < G->numCols; j++) {
-         switch (G->grid[i][j].s) {
-            case ON:
-               fprintf(stdout, "O");
-               continue;
+  // TODO(COMPLETE): complete this function
+  for (int i = 0; i < G->numRows; i++) {
+    for (int j = 0; j < G->numCols; j++) {
+      switch (G->grid[i][j].s) {
+        case ON:
+        fprintf(stdout, "O");
+        continue;
 
-            case OFF:
-               fprintf(stdout, " ");
-               continue;
+        case OFF:
+        fprintf(stdout, " ");
+        continue;
 
-            case DYING:
-               fprintf(stdout, "#");
-               continue;
+        case DYING:
+        fprintf(stdout, "#");
+        continue;
 
-            default:
-               fprintf(stdout, " ");
-               continue;
-         }
+        default:
+        fprintf(stdout, " ");
+        continue;
       }
-      printf("\n");
-   }
+    }
+    printf("\n");
+  }
 }

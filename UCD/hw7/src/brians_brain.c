@@ -57,14 +57,7 @@ CellGrid* NextGeneration(CellGrid* generation) {
          else {
             CellGrid_Update(generation, i, j);
          }
-
-         deallocateList = neighborsList->head;
-         while (deallocateList != NULL) {
-            deallocateList = neighborsList->head->next;
-            free(neighborsList->head);
-            neighborsList->head = deallocateList;
-         }
-         free(neighborsList);
+         List_Delete(neighborsList);
       }
    }
 

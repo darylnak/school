@@ -13,7 +13,7 @@ int main() {
     // Homework TODO: complete this function
     while(gameboard_still_playing(*board)) {
       gameboard_print(*board);
-      if (board->squaresLeft == 0) {         
+      if (board->squaresLeft == 0) {
          board->state = TIE;
          printf("Game over: tie.");
          continue;
