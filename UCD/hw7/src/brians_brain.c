@@ -39,7 +39,7 @@ CellGrid* FirstGeneration(int numRows, int numCols, List* seedCells) {
 CellGrid* NextGeneration(CellGrid* generation) {
    // TODO: complete this function
    CellGrid* nextGeneration = CellGrid_Create(generation->numRows, generation->numCols);
-   List* tempOnList = malloc(sizeof(List));
+   List* neighborsList = malloc(sizeof(List));
    List* deallocateList;
 
    for (int i = 0; i < generation->numRows; i ++) {
@@ -50,21 +50,21 @@ CellGrid* NextGeneration(CellGrid* generation) {
 
    for (int i = 0; i < generation->numRows; i++) {
       for (int j = 0; j < generation->numCols; j++) {
-         tempOnList = GetNeighboringCells(generation->grid[i][j], generation);
-         if (CountOnNeighborCells(generation, tempOnList) >= 2 && generation->grid[i][j].s == OFF) {
+         neighborsList = GetNeighboringCells(generation->grid[i][j], generation);
+         if (CountOnNeighborCells(generation, neighborsList) >= 2 && generation->grid[i][j].s == OFF) {
             generation->grid[i][j].s = ON;
          }
          else {
             CellGrid_Update(generation, i, j);
          }
 
-         deallocateList = tempOnList;
+         deallocateList = neighborsList;
          while (deallocateList->head != NULL) {
-            deallocateList->head = tempOnList->head->next;
-            free(tempOnList->head);
+            deallocateList->head = neighborsList->head->next;
+            free(neighborsList->head);
             tempOnList = deallocateList;
          }
-         free(tempOnList);
+         free(neighborsList);
       }
    }
 

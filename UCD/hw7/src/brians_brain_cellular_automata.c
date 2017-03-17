@@ -44,7 +44,7 @@ int main(int argc, char* argv[]) {
     currentGeneration = FirstGeneration(rows, cols, seed);
     CellGrid_Print(currentGeneration, stdout);
     for (i = 1; i < generations; i++) {
-        nanosleep(&sleepTime, NULL);
+      //  nanosleep(&sleepTime, NULL);
         nextGeneration = NextGeneration(currentGeneration);
         CellGrid_Delete(currentGeneration);
         currentGeneration = nextGeneration;

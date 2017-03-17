@@ -15,14 +15,21 @@
 */
 CellGrid* CellGrid_Create(int numRows, int numCols) {
    // TODO (COMPLETE): complete this function
-   CellGrid* grid = malloc(sizeof(CellGrid));
+   CellGrid* grid = calloc(1, sizeof(CellGrid));
    grid->grid = malloc(numRows * sizeof(Cell*));
+   grid->numRows = numRows;
+   grid->numCols = numCols;
 
    for (int i = 0; i < numRows; i++) {
       grid->grid[i] = malloc(numCols * sizeof(Cell));
    }
-   grid->numRows = numRows;
-   grid->numCols = numCols;
+   for (int i = 0; i < numRows; i++) {
+     for (int j = 0; j < numCols; i++) {
+       grid->grid[i][j].s = OFF:
+       grid->grid[i][j]
+     }
+   }
+
    return grid;
 }
 
