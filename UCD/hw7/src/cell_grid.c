@@ -14,22 +14,23 @@
 *      numCols cols and returns a pointer to it
 */
 CellGrid* CellGrid_Create(int numRows, int numCols) {
-  // TODO (COMPLETE): complete this function
-  CellGrid* window = malloc(sizeof(CellGrid));
-  window->grid = malloc(numRows * sizeof(Cell*));
-  
-  window->numCols = numCols;
-  window->numRows = numRows;
+  CellGrid* window = (CellGrid*) malloc(sizeof(CellGrid));
+  window->grid = (Cell**) malloc(sizeof(Cell*) * numRows);
 
   for (int i = 0; i < numRows; i++) {
-    window->grid[i] = malloc(numCols * sizeof(Cell));
+    window->grid[i] = malloc(sizeof(Cell) * numCols);
   }
+
   for (int i = 0; i < numRows; i++) {
-    for (int j = 0; j < numCols; i++) {
+    for (int j = 0; j < numCols; j++) {
       window->grid[i][j].s = OFF;
-      printf("Row: %d | Col: %d | State: %d\n", window->grid[i][j].x, window->grid[i][j].y, window->grid[i][j].s);
+      window->grid[i][j].x = i;
+      window->grid[i][j].y = j;
     }
   }
+
+  window->numCols = numCols;
+  window->numRows = numRows;
 
   return window;
 }

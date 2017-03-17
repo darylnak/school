@@ -40,7 +40,6 @@ CellGrid* NextGeneration(CellGrid* generation) {
    // TODO: complete this function
    CellGrid* nextGeneration = CellGrid_Create(generation->numRows, generation->numCols);
    List* neighborsList = malloc(sizeof(List));
-   ListNode* deallocateList;
 
    for (int i = 0; i < generation->numRows; i ++) {
       for (int j = 0; j < generation->numCols; j++) {
@@ -52,10 +51,10 @@ CellGrid* NextGeneration(CellGrid* generation) {
       for (int j = 0; j < generation->numCols; j++) {
          neighborsList = GetNeighboringCells(generation->grid[i][j], generation);
          if (CountOnNeighborCells(generation, neighborsList) >= 2 && generation->grid[i][j].s == OFF) {
-            generation->grid[i][j].s = ON;
+            nextGeneration->grid[i][j].s = ON;
          }
          else {
-            CellGrid_Update(generation, i, j);
+            CellGrid_Update(nextGeneration, i, j);
          }
          List_Delete(neighborsList);
       }
