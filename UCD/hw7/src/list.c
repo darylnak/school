@@ -92,21 +92,20 @@ void List_Print(List* list) {
    // TODO: complete this function
    ListNode* tempList = list->head;
 
-   for (int i = 0; tempList != NULL; i++) {
-      printf("Continue\n");
+   while (tempList) {
       switch (tempList->data.s) {
          case ON:
-            printf("Cell: (%d,%d) ON\n", tempList->data.x, tempList->data.y);
+            printf("Cell: (%d,%d) On\n", tempList->data.x, tempList->data.y);
             tempList = tempList->next;
             continue;
 
          case OFF:
-            printf("Cell: (%d,%d) OFF\n", tempList->data.x, tempList->data.y);
+            printf("Cell: (%d,%d) Off\n", tempList->data.x, tempList->data.y);
             tempList = tempList->next;
             continue;
 
          case DYING:
-            printf("Cell: (%d,%d) DYING\n", tempList->data.x, tempList->data.y);
+            printf("Cell: (%d,%d) Dying\n", tempList->data.x, tempList->data.y);
             tempList = tempList->next;
             continue;
 

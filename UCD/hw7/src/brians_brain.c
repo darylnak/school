@@ -50,11 +50,16 @@ CellGrid* NextGeneration(CellGrid* generation) {
    for (int i = 0; i < generation->numRows; i++) {
       for (int j = 0; j < generation->numCols; j++) {
          neighborsList = GetNeighboringCells(generation->grid[i][j], generation);
-         if (CountOnNeighborCells(generation, neighborsList) >= 2 && generation->grid[i][j].s == OFF) {
+         if (CountOnNeighborCells(generation, neighborsList) == 2 && generation->grid[i][j].s == OFF) {
             nextGeneration->grid[i][j].s = ON;
          }
          else {
-            CellGrid_Update(nextGeneration, i, j);
+            if (Cell_IsOn(generation->grid[i][j])) {
+               nextGeneration->grid[i][j].s = DYING;
+            }
+            else if (Cell_IsDying(generation->grid[i][j])) {
+               nextGeneration->grid[i][j].s = OFF;
+            }
          }
          List_Delete(neighborsList);
       }
@@ -110,7 +115,7 @@ List* GetNeighboringCells(Cell cell, CellGrid* generation) {
          }
       }
    }
-   for (int i = 1; i > -2; i--) {
+   for (int i = 1; i > -2; i -= 2) {
       if (CellGrid_Inbounds(generation, cell.x + i, cell.y)) {
          List_PushFront(neighbors, generation->grid[cell.x + i][cell.y]);
       }
