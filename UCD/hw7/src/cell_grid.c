@@ -25,8 +25,7 @@ CellGrid* CellGrid_Create(int numRows, int numCols) {
    }
    for (int i = 0; i < numRows; i++) {
      for (int j = 0; j < numCols; i++) {
-       grid->grid[i][j].s = OFF:
-       grid->grid[i][j]
+       grid->grid[i][j].s = OFF;
      }
    }
 
