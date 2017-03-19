@@ -90,6 +90,25 @@ int main(int argc, char const *argv[]) {
 
    // Good practice is to reduce the amount of non-const global variables. If the name of a local variable is defined within a function, the global variable is now inaccesible.
 
+   // In regards to pointers, NULL is a macro that typically evaluates to zero, on most systems. By setting a pointer to NULL, e.g. int* ptr = NULL;, I am saying this pointer does not currently point to anything -- remmeber that pointer variables store a memory location. This is valid because 0 is an invalid memory location.
+
+   // when using malloc() to allocate memory for a pointer, the process can be generally thought of //as the following: I define a pointer variable int* ptr = NULL;. Then I say ptr = (int*) //malloc(sizeof(int)); - don't forget #include <stdlib.h> because this is where malloc() lives. //When I initially create the variable 'ptr', the variable is stored in memory, say at location //100. When I call malloc(), it returns, if succesful, a pointer to some memory location it found in the heap.
+   // This means the void* pointer/address malloc() returns is somewhere off in the space that is //memory, not neccesarily near where ptr is -- say malloc() allocated memory at location 300. //This means ptr now points to (haha) memory location 300 -- originally 0 -- because pointers //are variables that store memory addresses. Further, when derefrencing ptr, I am saying: go to //memory location 300, look inside, and tell me what is stored in there -- in this case no values were assigned so an error will be thrown by the compiler.
+
+   // When manipulating a pointer within a function, first check if the pointer is not null. This will prevent accessing invalid memory -- 0 -- which will result in an error -- varies by computer.
+
+   //FILE* myFile = NULL; -----> Included with stdio.h!
+   //myFile = fopen("myFile.txt", "r");
+   //if (myFile == NULL) {exit}
+   //else {while(!feof(myFile))}
+   //fclose(myFile);
+
+   // int main(int argc, char* argv[])
+   // if (argc == validAmount) {...}
+   // else {...}
+   /// ALWAYS CHECK IS CORRECT AMOUNT OF ARGUMENTS!!!!!!!
+   // Remember, argv[] is a C string. Must use atoi(argv[i]) to get an integer value. atoi() included with stdlib.h
+
  int my2DArray[3][4] = {
     {1, 1, 1, 1},
     {2, 2, 2, 2},

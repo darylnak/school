@@ -3,3 +3,18 @@ when using scanf() to get an input string larger than the array it is being assi
 
 (OK)
 if (int* myArr) is equivalent to (int myArr[]), why can't I do this with Strings(according to the book)? ANSWER: Zybooks was being dumb and answered my question. Common practice is (char* myString)
+
+(OK)
+I'm currently taking an introductory CS course that uses C. My textbook seems to imply that a pointer variable still holds the address for memory previously allocated to it, even after free() was called on it -- assume I previously used malloc(). Does this mean that portions of memory become "locked" when malloc() is called so the data of my pointer remains constant? What prevents other processes -- say google chrome or some app -- from messing with my variable? I could easily assign a value to an array at an invalid index, causing things to break. I could also access memory improperly, again using an array at an invalid index, giving me garbage or, if I'm really really lucky, a value that is meaningful to me. What is preventing a computer from spiraling into chaos!
+
+(?)
+realloc(). If memory size increased, contents copied. What if new size is smaller? What happens to contents? Do the end values get thrown out?
+
+(?)
+When to use fflush(stdout)? -- Force Flush?
+
+(?)
+When inserting node in list, why must the nodes be pointers? Why not use a regular variable since it has an address? Example is int* myInt; meant to hold a single memory address with a single value. Point in this? Why not define a regular int and pass address? For readability? Local variable destroyed. What about pointer?
+
+(?)
+Should I always use fprintf() and fscanf()?
