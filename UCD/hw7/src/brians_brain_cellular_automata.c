@@ -24,7 +24,7 @@ int main(int argc, char* argv[]) {
     int rows, cols, generations, i;
     struct timespec sleepTime;
     sleepTime.tv_sec = 0;
-    sleepTime.tv_nsec = 500000000L;
+    sleepTime.tv_nsec = 50000000L;
     if (argc != 3) {
         printf("Usage: %s <filename> <generations>\n", argv[0]);
         exit(0);

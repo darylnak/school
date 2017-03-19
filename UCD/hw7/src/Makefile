@@ -18,4 +18,7 @@ cell_grid_tester: cell_grid_tester.c cell_grid.o cell.o
 	$(CC) -Wall cell_grid_tester.c cell_grid.o cell.o -o cell_grid_tester
 
 clean:
-	rm *.o cell_tester cell_grid_tester list_tester brians_brain_cellular_automata
+	rm *.o cell_tester cell_grid_tester list_tester brians_brain_cellular_automata debug debug.dYSM
+
+debug:
+	clang -g brians_brain_cellular_automata.c brians_brain.c cell.c cell_grid.c list.c -o debug
