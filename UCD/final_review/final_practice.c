@@ -10,7 +10,7 @@ int main(int argc, char const *argv[]) {
 
   int heyThere; //lowerCamel case - think sitting on camel eith hump in front
 
-  int identifier = 1; //declare/define variable of type int, named/identified as identifier, and initialize/assign it the value of zero at it's memeory location.
+  int identifier = 1; //declare variable of type int, named/identified as identifier, and initialize/assign it the value of zero at it's memeory location.
 
   int divideByZeroError = 10 / identifier; // causes a runtime error and program will terminate if identifier is 0 - identifier is 0; cannot divide by zero.
 
@@ -85,6 +85,10 @@ int main(int argc, char const *argv[]) {
    // Remember this! Since parameters are local variables to a function, we can technically assign values to them during function calls. However, this is considered bad practice and lazy. Why? because it is confusing to read. We may use the value of the parameters later in the code, but not it has been changed! Everything will go to shit. I don't want that. Instead, create a local variable within the function and assign the value of the parameters to that instead. This will increase program readability and reduce the probability of error.
 
    // When passing an array to a function, doing int mayArr[] implies an array pointer will be passed. When passing an array, prepending & is not neccesary as arrays are passed by reference automatically. Further, if in the parameters of a functions we include 'const', e.g MyFunct(const int myArr[]) {...}, we are telling the compiler and others that we are not modifying the array, but looking at it's value or whatever.
+
+   // When dealing with ordinary arrays, it is a common error to not pass a variable to reference the size of the array. This contrasts with Strings because I have the strlen() function included in <string.h>. Make sure to pass a value to reference how big a non-string array is.
+
+   // Good practice is to reduce the amount of non-const global variables. If the name of a local variable is defined within a function, the global variable is now inaccesible.
 
  int my2DArray[3][4] = {
     {1, 1, 1, 1},

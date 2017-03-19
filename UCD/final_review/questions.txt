@@ -1,5 +1,5 @@
 (OK)
 when using scanf() to get an input string larger than the array it is being assigned to, how is the compiler assigning those extras characters to memory? I know when assigning a value out of bounds I am basically assigning a value to memory I have not allocated properly. Is this happening in the background when I do the former?
 
-(?)
-if (int* myArr) is equivalent to (int myArr[]), why can't I do this with Strings(according to the book)?
+(OK)
+if (int* myArr) is equivalent to (int myArr[]), why can't I do this with Strings(according to the book)? ANSWER: Zybooks was being dumb and answered my question. Common practice is (char* myString)
