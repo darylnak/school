@@ -8,3 +8,5 @@ bool IsPalindrome(char* line);
 
 // returns the number of lines that are palindromes, given an array of string and the amount of strings.
 int LinesWithPalindrome(char** lines, int numLines);
+
+#endif
