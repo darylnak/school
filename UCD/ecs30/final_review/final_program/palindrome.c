@@ -8,7 +8,7 @@ bool IsPalindrome(char* line) {
    // fgets() will give a string that includes the new-line character. Therefore, string is longer than it should be. Take away 1 to compensate.
    int boundry = (strlen(line) - 1) / 2;
 
-   /* here, I am taking away 2. Why? because I need to "rid" of the new line character, then I need to move back one to I don't access the array out of bounds. I could have done this in the if statement, but this improves readability a bit.
+   /* here, I am taking away 2. Why? because I need to "rid" of the new line character, then I need to move back one so I don't access the array out of bounds. I could have done this in the if statement, but this improves readability a bit.
    */
    int length = (strlen(line) - 2);
 

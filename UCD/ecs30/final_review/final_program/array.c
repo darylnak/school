@@ -18,6 +18,32 @@ int** Construct2DArray(int numRows, int numCols) {
   return array;
 }
 
+int** aray2D(int numrows, int numcols) {
+  int** result = malloc(numrows * sizeof(int*));
+
+  for (int i = 0; i < numrows; i++) {
+    result[i] = malloc(numcols * sizeof(int));
+    for (int j = 0; j < numcols; j++) {
+      result[i][j] = 3;
+    }
+  }
+  return result;
+}
+
+int LEQFive(IntListNode* node) {
+  if (node == NULL) {
+    return 0
+  }
+  else {
+    if (node->data <= 5) {
+      return 1 + LEQFive(node->next);
+    }
+    else {
+      return LEQFive(node->next);
+    }
+  }
+}
+
 // recursive function to return numbers less than of equal to 5 (LEQFive)
 int LEQFive (IntListNode* node) {
   // Base case: Return 0 if reached last Node

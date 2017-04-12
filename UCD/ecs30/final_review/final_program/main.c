@@ -3,9 +3,10 @@
 #include <string.h>
 
 #include "palindrome.h"
+#define MAX_LEN 12
 
 int main(int argc, char* argv[]) {
-   char line[12];
+   char line[MAX_LEN];
    char* next;
    char* lines[200];
    int numLines = 0;
@@ -16,11 +17,12 @@ int main(int argc, char* argv[]) {
    }
    else {
       FILE* file = fopen(argv[1], "r");
-      next = fgets(line, 12, file);
+      next = fgets(line, MAX_LEN, file);
+      printf("%lu\n", strlen(next));
       while(next != NULL && atoi(next) != EOF) {
-         lines[numLines] = malloc(strlen(line) * sizeof(char));
+         lines[numLines] = malloc((strlen(line) + 1) * sizeof(char));
          strcpy(lines[numLines], line);
-         next = fgets(line, 12, file);
+         next = fgets(line, MAX_LEN, file);
          ++numLines;
       }
       printf ("Number of Palindromes: %d\n", LinesWithPalindrome(lines, numLines));
