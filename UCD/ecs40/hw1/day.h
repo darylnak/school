@@ -6,11 +6,11 @@
 #include "appt.h"
 
 typedef struct Day_Struct{
-  short day;
   short month;
+  short day;
   short year;
   short apptCount;
-  Appointment appts[8];
+  Appointment* appts[8];
 } Day;
 
 void create(Day* day);

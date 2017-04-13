@@ -12,7 +12,8 @@ int main(int argc, char* argv[]) {
    int numLines = 0;
 
    if (argc != 2) {
-      fprintf(stderr, "Error: this program takes only one argument, the name of a file to analyze.\n");
+      fprintf(stderr, "Error: this program takes only one argument, the name of
+              a file to analyze.\n");
       return 0;
    }
    else {
