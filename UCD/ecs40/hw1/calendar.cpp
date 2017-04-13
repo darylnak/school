@@ -13,24 +13,32 @@ void create(Calendar* calendar) {
 void readFile(Calendar* calendar) {
   FILE* file = fopen("appts.csv", "r");
   char currLine[200];
+  char* next = fgets(currLine, 200, file);
 
   if (file != NULL) {
-    fgets(currLine, 200, file);
-    for (int i = 0; fgets(currLine, 200, file) != NULL; i++) {
+    next = fgets(currLine, 200, file);
+    for (int i = 0; next != NULL; i++) {
       if (calendar->count == calendar->size) {
         resize(calendar);
-        printf("Size %d | Count %d\n", calendar->size, calendar->count);
       }
-      printf("Current %d\n", calendar->count);
       calendar->days[i].month = atoi(strtok(currLine, "/"));
       calendar->days[i].day = atoi(strtok(NULL, "/"));
       calendar->days[i].year = atoi(strtok(NULL, "/"));
+      next = fgets(currLine, 200, file);
       calendar->count += 1;
     }
   }
 }
 
 void resize(Calendar* calendar) {
-  calendar = (Calendar*) realloc(calendar, 2 * calendar->size);
+  Day* newDays = (Day*) malloc(sizeof(Day) * (2 * calendar->size));
+
+  for (int i = 0; i < calendar->size; i++) {
+    newDays[i].month = calendar->days[i].month;
+    newDays[i].day = calendar->days[i].day;
+    newDays[i].year = calendar->days[i].year;
+  }
   calendar->size *= 2;
+  free(calendar->days);
+  calendar->days = newDays;
 }

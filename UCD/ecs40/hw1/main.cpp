@@ -7,7 +7,7 @@
 int getChoice();
 
 int main(void) {
-  Calendar* calendar = (Calendar*) malloc(sizeof(Calendar));;
+  Calendar* calendar = (Calendar*) malloc(sizeof(Calendar));
   create(calendar);
   readFile(calendar);
   switch (getChoice()) {
