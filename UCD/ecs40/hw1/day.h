@@ -13,7 +13,7 @@ typedef struct Day_Struct{
   Appointment* appts[8];
 } Day;
 
-void create(Day* day);
+void create(Day* currDay, int month, int day, int year);
 void equal(Day* day);
 bool lessThan(Day* day);
 void read(Day* day);

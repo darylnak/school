@@ -12,6 +12,7 @@ void create(Calendar* calendar) {
 
 void readFile(Calendar* calendar) {
   FILE* file = fopen("appts.csv", "r");
+  int day, month, year = 0;
   char currLine[200];
   char* next = fgets(currLine, 200, file);
 
@@ -21,13 +22,15 @@ void readFile(Calendar* calendar) {
       if (calendar->count == calendar->size) {
         resize(calendar);
       }
-      calendar->days[i].month = atoi(strtok(currLine, "/"));
-      calendar->days[i].day = atoi(strtok(NULL, "/"));
-      calendar->days[i].year = atoi(strtok(NULL, "/"));
+      month = atoi(strtok(currLine, "/"));
+      day = atoi(strtok(NULL, "/"));
+      year = atoi(strtok(NULL, "/"));
+      create(calendar->days, day, month, year);
       next = fgets(currLine, 200, file);
       calendar->count += 1;
     }
   }
+  fclose(file);
 }
 
 void resize(Calendar* calendar) {
