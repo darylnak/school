@@ -1,10 +1,23 @@
-CC = g++
-
 calendar: main.o calendar.o appt.o day.o time.o
-	$(CC) main.o calendar.o appt.o day.o time.o -g -Wall -o calendar.out
+	g++ main.o calendar.o appt.o day.o time.o -g -Wall -o calendar.out
 
-%.o: %.cpp
-	$(CC) -Wall -g -ansi -c $<
+main.o: main.cpp
+	g++ -Wall -g -ansi -c main.cpp
+
+calendar.o: main.cpp
+	g++ -Wall -g -ansi -c calendar.cpp
+
+appt.o: main.cpp
+	g++ -Wall -g -ansi -c appt.cpp
+
+day.o: main.cpp
+	g++ -Wall -g -ansi -c day.cpp
+
+time.o: main.cpp
+	g++ -Wall -g -ansi -c time.cpp
 
 clean:
-	rm main.o calendar.o appt.o day.o time.o
+	rm calendar.out main.o calendar.o appt.o day.o time.o
+
+test:
+	./Testing/DesignChecker.sh ./

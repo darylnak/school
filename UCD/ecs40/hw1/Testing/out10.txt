@@ -1,0 +1,26 @@
+Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+
+Your choice >> 
+Please enter the month, day, and year (mm/dd/yyyy) >> That date was not found.
+Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+
+Your choice >> 
+Please enter the month, day, and year (mm/dd/yyyy) >> Start End   Subject      Location
+08:25 11:15 Pediatrics   1100 Social Science
+09:25 11:35 Spanish      123 Sciences Lecture Hall
+10:50 13:20 History      Rock Hall
+17:35 18:00 Psychiatry   180 Med Sci
+24:55 15:30 Hydrology    170 Schalm Hall
+
+Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+
+Your choice >> 

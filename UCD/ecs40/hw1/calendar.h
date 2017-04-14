@@ -13,7 +13,7 @@ void create(Calendar* calendar);
 void readFile(Calendar* calendar);
 void resize(Calendar* calendar);
 void dateSearch(Calendar* calendar);
-void getDate(Calendar* calendar);
+void getDate(char* date);
 void subjectSearch(Calendar* calendar);
 void destroy(Calendar* calendar);
 
