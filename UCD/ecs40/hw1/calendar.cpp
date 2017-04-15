@@ -83,13 +83,13 @@ void readFile(Calendar* calendar)
     {
       if (calendar->count == calendar->size)
         resize(calendar);
-      strtok(currLine, "/,");
+
+      month = atoi(strtok(currLine, "/,"));
       day = atoi(strtok(NULL, "/,"));
       year = atoi(strtok(NULL, "/,"));
       create(&dayTemp, month, day, year);
       sortDays(calendar, &dayTemp);
 
-      printf("%s\n", strtok(NULL, "/,"));
       next = fgets(currLine, 200, file);
     }
   }
@@ -127,6 +127,7 @@ void sortDays(Calendar* calendar, Day* dayTemp)
       for (int j = calendar->count; j > i; j--)
         calendar->days[j] = calendar->days[j - 1];
       calendar->days[i] = *dayTemp;
+      read(&(calendar->days[i]));
       calendar->count += 1;
       break;
     }
@@ -134,6 +135,7 @@ void sortDays(Calendar* calendar, Day* dayTemp)
   if (i == calendar->count)
   {
     calendar->days[i] = *dayTemp;
+    read(&(calendar->days[i]));
     calendar->count += 1;
   }
 }
