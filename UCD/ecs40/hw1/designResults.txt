@@ -1,12 +1,10 @@
 Design error: "malloc" or "new" not found in resize() in calendar.cpp.
-Design error: Call to equal() with two parameters not found in dateSearch() function in calendar.cpp.
 Design error: Call to subjectSearch() with two parameters not found in subjectSearch() function in calendar.cpp.
 Design error: Call to destroy() with a pointer to one of the days as a parameter not found in destroy() function in calendar.cpp.
 Design error: days not deallocated in destroy() function in calendar.cpp.
 Design error: Dynamic allocation of an Appointment not found in read() in day.cpp.
 Design error: Call to read() with one parameter not found in read() in day.cpp.
 Design error: Call to lessThan with two parameters not found in read() in day.cpp.
-Design error: print() with with only a Day parameter not found in day.cpp.
 Design error: Call to print() with only an Appointment* not found in print() in day.cpp.
 Design error: subjectSearch() with two parameters not found in day.cpp.
 Design error: Call to equal with two parameters not found in subjectSearch() in day.cpp.
