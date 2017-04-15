@@ -38,7 +38,11 @@ int getChoice()
     fprintf(stdout, "Calendar Menu\n0. Done\n1. Search for date\n2. Search for subject.\n\nYour choice >> ");
     printf("FIXME: char input\n");
     if (fscanf(stdin, "%d", &choice) == 1 && choice >= 0 && choice <= 2)
+    {
+      int c;
+      while((c = getchar()) != '\n' && c != EOF);
       return choice;
+    }
     else
       fprintf(stdout, "Choice must be between 0 and 2.  Please try again.\n\n");
   }

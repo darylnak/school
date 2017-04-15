@@ -14,8 +14,9 @@ bool equal(Day* day1, Day* day2)
 {
   if (day1->month == day2->month && day1->day == day2->day &&
       day1->year == day2->year)
+  {
     return true;
-
+  }
   return false;
 }
 
@@ -34,6 +35,11 @@ bool lessThan(Day* day1, Day* day2)
     }
   }
   return false;
+}
+
+void print(Day* currDay)
+{
+  printf("Start End   Subject      Location\n");
 }
 
 void read(Day* currDay)

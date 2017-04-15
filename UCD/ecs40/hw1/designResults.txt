@@ -1,7 +1,5 @@
 Design error: "malloc" or "new" not found in resize() in calendar.cpp.
-Design error: Call to getDate() with three parameters not found in dateSearch() function in calendar.cpp.
 Design error: Call to equal() with two parameters not found in dateSearch() function in calendar.cpp.
-Design error: getDate() with three parameters not found in calendar.cpp.
 Design error: Call to subjectSearch() with two parameters not found in subjectSearch() function in calendar.cpp.
 Design error: Call to destroy() with a pointer to one of the days as a parameter not found in destroy() function in calendar.cpp.
 Design error: days not deallocated in destroy() function in calendar.cpp.

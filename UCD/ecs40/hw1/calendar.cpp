@@ -13,13 +13,20 @@ void create(Calendar* calendar)
 
 void dateSearch(Calendar* calendar)
 {
-  char date[10];
-  int day, month, year = 0;
+  int month, day, year = 0;
+  Day currDay;
 
-  fprintf(stdout, "Please enter the month, day, and year (mm/dd/yyyy) >> ");
-  fscanf(stdin, "%s", date);
-  printf("%d",atoi(strtok()));
-  //getDate(&month, &day, &year);
+  getDate(&month, &day, &year);
+  create(&currDay, month, day, year);
+  for (int i = 0; i < 1; i++)
+  {
+    printf("curr: %d/%d/%d\n", month, day, year);
+    printf("days: %d/%d/%d\n", calendar->days[i].month, calendar->days[i].day, calendar->days[i].year);
+    if (equal(&currDay, &(calendar->days[i])))
+    {
+      print(&(calendar->days[i]));
+    }
+  }
 }
 
 void destroy(Calendar* calendar)
@@ -27,8 +34,40 @@ void destroy(Calendar* calendar)
 
 }
 
-void getDate(char* date) {
+void getDate(int* const month, int* const day, int* const year)
+{
+  char date[800];
+  char dateCopy[800];
+  char *tempMonth, *tempDay, *tempYear;
 
+  while(true)
+  {
+    printf("Please enter the month, day, and year (mm/dd/yyyy) >> ");
+    fgets(date, 800, stdin);
+    date[strlen(date) - 1] = '\0';
+    strcpy(dateCopy, date);
+
+    if (strlen(date) > 0)
+    {
+      tempMonth = strtok(date, "/");
+      tempDay = strtok(NULL, "/");
+      tempYear = strtok(NULL, "/");
+
+      if (tempDay != NULL && tempYear != NULL)
+      {
+        if (atoi(tempMonth) > 0 && atoi(tempMonth) < 13 && atoi(tempDay) > 0 &&
+            atoi(tempDay) < 32 && atoi(tempYear) > 1999 &&
+            atoi(tempYear) < 2018)
+        {
+          *month = atoi(tempMonth);
+          *day = atoi(tempDay);
+          *year = atoi(tempYear);
+          return;
+        }
+      }
+    }
+    printf("%s is not a valid date.\nPlease try again.\n\n", dateCopy);
+  }
 }
 
 void readFile(Calendar* calendar)
@@ -46,26 +85,43 @@ void readFile(Calendar* calendar)
     for (int i = 0; next != NULL; i++)
     {
       if (calendar->count == calendar->size)
+      {
         resize(calendar);
+      }
       month = atoi(strtok(currLine, "/"));
       day = atoi(strtok(NULL, "/"));
       year = atoi(strtok(NULL, "/"));
       create(&dayTemp, month, day, year);
 
-      for (int i = 0; i < calendar->size; i++)
+      for (int i = calendar->count; i > 0; i--)
       {
-        if (equal(&dayTemp, &(calendar->days[i])))
-          read(&dayTemp);
-        else if (lessThan(&dayTemp, &(calendar->days[i])))
+        if (equal(&dayTemp, &(calendar->days[i - 1])))
         {
-          for (int j = calendar->size; j > i; j++)
+          read(&calendar->days[i - 1]);
+        }
+        else if (lessThan(&dayTemp, &(calendar->days[i - 1])))
+        {
+          for (int j = calendar->count; j > i; j--)
+          {
             calendar->days[j] = calendar->days[j - 1];
-          calendar->days[i] = dayTemp;
+          }
+          calendar->days[i - 1] = dayTemp;
           calendar->count += 1;
+          break;
+        }
+        else
+        {
+          calendar->days[i + 1] = dayTemp;
+          calendar->count += 1;
+          break;
         }
       }
       next = fgets(currLine, 200, file);
     }
+  }
+  printf("Count %d\n", calendar->count);
+  for (int i = 0; i < calendar->count; i++) {
+    printf("Date: %d/%d/%d\n", calendar->days[i].month, calendar->days[i].day, calendar->days[i].year);
   }
   fclose(file);
 }
