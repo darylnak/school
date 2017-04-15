@@ -21,4 +21,5 @@ void read(Appointment* appt)
 
   read(&appt->startTime);
   read(&appt->endTime);
+  appt->location = strtok(NULL, "/,");
 }

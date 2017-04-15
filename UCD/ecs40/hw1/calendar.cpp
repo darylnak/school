@@ -72,7 +72,7 @@ void readFile(Calendar* calendar)
 {
   FILE* file = fopen("appts.csv", "r");
   Day dayTemp;
-  int day, month, year = 0;
+  int day, month, year, i = 0;
   char currLine[100];
   char* next = fgets(currLine, 100, file);
 
@@ -88,7 +88,27 @@ void readFile(Calendar* calendar)
       day = atoi(strtok(NULL, "/,"));
       year = atoi(strtok(NULL, "/,"));
       create(&dayTemp, month, day, year);
-      sortDays(calendar, &dayTemp);
+      for (i = 0; i < calendar->count; i++)
+      {
+        if (equal(&dayTemp, &(calendar->days[i])))
+        {
+          read(&calendar->days[i]);
+          break;
+        }
+        else if (lessThan(&dayTemp, &calendar->days[i]))
+        {
+          for (int j = calendar->count; j > i; j--)
+            calendar->days[j] = calendar->days[j - 1];
+          calendar->days[i] = dayTemp;
+          calendar->count += 1;
+          break;
+        }
+      }
+      if (i == calendar->count)
+      {
+        calendar->days[i] = dayTemp;
+        calendar->count += 1;
+      }
 
       next = fgets(currLine, 200, file);
     }
@@ -109,35 +129,6 @@ void resize(Calendar* calendar)
   calendar->size *= 2;
   free(calendar->days);
   calendar->days = newDays;
-}
-
-void sortDays(Calendar* calendar, Day* dayTemp)
-{
-  int i = 0;
-
-  for (i = 0; i < calendar->count; i++)
-  {
-    if (equal(dayTemp, &(calendar->days[i])))
-    {
-      read(&calendar->days[i]);
-      break;
-    }
-    else if (lessThan(dayTemp, &calendar->days[i]))
-    {
-      for (int j = calendar->count; j > i; j--)
-        calendar->days[j] = calendar->days[j - 1];
-      calendar->days[i] = *dayTemp;
-      read(&(calendar->days[i]));
-      calendar->count += 1;
-      break;
-    }
-  }
-  if (i == calendar->count)
-  {
-    calendar->days[i] = *dayTemp;
-    read(&(calendar->days[i]));
-    calendar->count += 1;
-  }
 }
 
 void subjectSearch(Calendar* calendar)

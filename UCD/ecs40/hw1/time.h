@@ -10,6 +10,6 @@ typedef struct Time_Struct {
 
 void read(Time* appt);
 void print(Time* appt);
-bool lessThan(Time* appt);
+bool lessThan(Time* time1, Time* time2);
 
 #endif
