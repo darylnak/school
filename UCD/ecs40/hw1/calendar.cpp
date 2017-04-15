@@ -93,6 +93,7 @@ void readFile(Calendar* calendar)
       {
         if (equal(&dayTemp, &(calendar->days[i])))
         {
+          printf("%s",strtok(currLine, ","));
           read(&calendar->days[i]);
           break;
         }
