@@ -12,10 +12,8 @@ Design error: Call to print with only an Appointment* notfound in subjectSearch(
 Design error: destroy() with with only a Day parameter not found in day.cpp.
 Design error: Call to destroy() with a pointer to one of the appointments as a parameter not found in destroy() function in day.cpp.
 Design error: appointments not deallocated in destroy() function in day.cpp.
-Design error: read() with only Appointment pointer as its parameter not found in appt.cpp.
 Design error: Call to read() with a Time pointer as its only parameter not found in read() in appt.cpp.
 Design error: Two calls to strtok() not found in read() in appt.cpp.
-Design error: print() with only Appointment pointer as its parameter not found in appt.cpp.
 Design error: Call to print() with a Time pointer as its only parameter not found in printhh) in appt.cpp.
 Design error: lessThanread() with only two Appointment pointers as its parameters not found in appt.cpp.
 Design error: Call to lessThan() with two parameters not found in lessThanread() in appt.cpp.

@@ -40,9 +40,12 @@ bool lessThan(Day* day1, Day* day2)
 void print(Day* currDay)
 {
   printf("Start End   Subject      Location\n");
+  for (int i = 0; i < 8; i++) {
+    print(currDay->appts[i]);
+  }
 }
 
 void read(Day* currDay)
 {
-
+  
 }
