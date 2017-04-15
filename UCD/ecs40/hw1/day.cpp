@@ -1,6 +1,7 @@
 #include "day.h"
 
 #include <stdio.h>
+#include <stdlib.h>
 
 void create(Day* currDay, int month, int day, int year)
 {
@@ -47,5 +48,6 @@ void print(Day* currDay)
 
 void read(Day* currDay)
 {
-  
+  Appointment* appt = (Appointment*) malloc(sizeof(Appointment));
+  read(appt);
 }
