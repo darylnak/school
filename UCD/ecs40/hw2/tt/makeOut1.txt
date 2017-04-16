@@ -1,0 +1,2 @@
+Executable name required.
+usage: makemake.sh executable_name
