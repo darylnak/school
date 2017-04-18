@@ -5,7 +5,8 @@
 
 #include "appt.h"
 
-typedef struct Day_Struct{
+typedef struct
+{
   short month;
   short day;
   short year;
@@ -18,7 +19,7 @@ bool equal(Day* day1, Day* day2);
 bool lessThan(Day* day1, Day* day2);
 void read(Day* currDay);
 void print(Day* day);
-void subjectSearch(Day* day);
-void destroy(Day* day);
+void subjectSearch(Day* day, char* subject);
+void destroy(Day* currDay);
 
 #endif

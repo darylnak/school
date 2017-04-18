@@ -11,21 +11,23 @@ int main(void)
   Calendar* calendar = (Calendar*) malloc(sizeof(Calendar));
   create(calendar);
   readFile(calendar);
-  switch (getChoice())
+  while(true)
   {
-    case 0:
-      return 0;
+    switch (getChoice())
+    {
+      case 0:
+        destroy(calendar);
+        return 0;
 
-    case 1:
-      dateSearch(calendar);
-      break;
+      case 1:
+        dateSearch(calendar);
+        break;
 
-    case 2:
-      subjectSearch(calendar);
-      break;
+      case 2:
+        subjectSearch(calendar);
+        break;
+    }
   }
-  destroy(calendar);
-  return 0;
 }
 
 int getChoice()
@@ -35,10 +37,10 @@ int getChoice()
 
   while(check)
   {
-    fprintf(stdout, "Calendar Menu\n0. Done\n1. Search for date\n2. Search for subject.\n\nYour choice >> ");
-    printf("FIXME: char input\n");
+    fprintf(stdout, "Calendar Menu\n0. Done\n1. Search for date.\n2. Search for subject.\n\nYour choice >> ");
     if (fscanf(stdin, "%d", &choice) == 1 && choice >= 0 && choice <= 2)
     {
+      fprintf(stdout, "\n");
       int c;
       while((c = getchar()) != '\n' && c != EOF);
       return choice;

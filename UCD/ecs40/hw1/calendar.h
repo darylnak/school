@@ -3,7 +3,8 @@
 
 #include "day.h"
 
-typedef struct Calendar_Struct {
+typedef struct
+{
   Day* days;
   int size;
   int count;
@@ -13,7 +14,6 @@ void create(Calendar* calendar);
 void readFile(Calendar* calendar);
 void resize(Calendar* calendar);
 void dateSearch(Calendar* calendar);
-void sortDays(Calendar* calendar, Day* dayTemp);
 void getDate(int* const month, int* const day, int* const year);
 void subjectSearch(Calendar* calendar);
 void destroy(Calendar* calendar);

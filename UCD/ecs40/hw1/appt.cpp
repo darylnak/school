@@ -3,23 +3,49 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-bool lessThan(Appointment* appt)
+void destroy(Appointment* appt)
 {
+  free(appt->subject);
+  free(appt->location);
+}
 
-  return true;
+bool equal(Appointment* appt, char* subject)
+{
+  if (strstr(appt->subject, subject) != NULL)
+    return true;
+  return false;
+}
+
+bool lessThan(Appointment* appt, Appointment* arrAppt)
+{
+  return lessThan(&appt->startTime, &arrAppt->startTime);
 }
 
 void print(Appointment* appt)
 {
-
+  print(&appt->startTime);
+  print(&appt->endTime);
+  printf("%-13s", appt->subject);
+  fflush(stdout);
+  printf("%s", appt->location);
+  fflush(stdout);
+  printf("\n");
 }
 
 void read(Appointment* appt)
 {
-  appt->subject = strtok(NULL, "/,");
-  printf("%s\n", appt->subject);
+  char* location;
+  char* subject;
+
+  subject = strtok(NULL, "/,");
+  appt->subject = (char*) malloc(sizeof(char) * strlen(subject));
+  strcpy(appt->subject, subject);
 
   read(&appt->startTime);
   read(&appt->endTime);
-  appt->location = strtok(NULL, "/,");
+
+  location = strtok(NULL, "/,");
+  location[strlen(location) - 1] = '\0';
+  appt->location = (char*) malloc(sizeof(char) * strlen(location));
+  strcpy(appt->location, location);
 }

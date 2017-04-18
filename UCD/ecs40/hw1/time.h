@@ -3,7 +3,8 @@
 
 #include <stdbool.h>
 
-typedef struct Time_Struct {
+typedef struct
+{
   short hour;
   short minute;
 } Time;
