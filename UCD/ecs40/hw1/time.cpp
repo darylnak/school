@@ -8,7 +8,7 @@ bool lessThan(Time* time1, Time* time2)
 {
   if (time2->hour == 24 && time1->hour < 24)
   {
-    return false;
+    return true;
   }
   else if (time1->hour < time2->hour)
   {

@@ -37,10 +37,10 @@ int getChoice()
 
   while(check)
   {
-    fprintf(stdout, "Calendar Menu\n0. Done\n1. Search for date.\n2. Search for subject.\n\nYour choice >> ");
+    fprintf(stdout, "Calendar Menu\n0. Done\n1. Search for date.\n2.");
+    fprintf(stdout, " Search for subject.\n\nYour choice >> ");
     if (fscanf(stdin, "%d", &choice) == 1 && choice >= 0 && choice <= 2)
     {
-      fprintf(stdout, "\n");
       int c;
       while((c = getchar()) != '\n' && c != EOF);
       return choice;

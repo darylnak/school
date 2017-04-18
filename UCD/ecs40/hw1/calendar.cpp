@@ -23,9 +23,11 @@ void dateSearch(Calendar* calendar)
     if (equal(&currDay, &(calendar->days[i])))
     {
       print(&(calendar->days[i]));
+      fprintf(stdout, "\n");
+      return;
     }
   }
-  fprintf(stdout, "\n");
+  fprintf(stdout, "That date was not found.\n");
 }
 
 void destroy(Calendar* calendar)
@@ -47,7 +49,7 @@ void getDate(int* const month, int* const day, int* const year)
   while(true)
   {
     date = (char*) malloc(sizeof(char) * 81);
-    printf("Please enter the month, day, and year (mm/dd/yyyy) >> ");
+    printf("\nPlease enter the month, day, and year (mm/dd/yyyy) >> ");
     fgets(date, 81, stdin);
     date[strlen(date) - 1] = '\0';
     strcpy(dateCopy, date);
@@ -74,7 +76,7 @@ void getDate(int* const month, int* const day, int* const year)
       }
     }
     free(date);
-    printf("%s is not a valid date.\nPlease try again.\n\n", dateCopy);
+    printf("%s is not a valid date.\nPlease try again.\n", dateCopy);
   }
 }
 
