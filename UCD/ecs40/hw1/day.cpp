@@ -9,7 +9,7 @@ void create(Day* currDay, int month, int day, int year)
   currDay->day = day;
   currDay->year = year;
   currDay->apptCount = 0;
-}
+} // create()
 
 void destroy(Day* currDay)
 {
@@ -17,43 +17,45 @@ void destroy(Day* currDay)
   {
     destroy(currDay->appts[i]);
     free(currDay->appts[i]);
-  }
-}
+  } // for every appointment
+} // destroy()
 
 bool equal(Day* day1, Day* day2)
 {
-  if (day1->month == day2->month && day1->day == day2->day &&
-      day1->year == day2->year)
-  {
+  if (day1->month == day2->month && day1->day == day2->day
+      && day1->year == day2->year) // if days equal, return true
     return true;
-  }
-  return false;
-}
+
+  return false; // days not equal
+} // equal()
 
 bool lessThan(Day* day1, Day* day2)
 {
   if (day1->year < day2->year)
-    return true;
-  else if (day1->year == day2->year)
+    return true; // day1 is less than because year
+
+  if (day1->year == day2->year)
   {
     if (day1->month < day2->month)
-      return true;
-    else if (day1->month == day2->month)
+      return true; // day1 less by month
+
+    if (day1->month == day2->month)
     {
       if (day1->day < day2->day)
-        return true;
-    }
-  }
-  return false;
-}
+        return true; // day1 less by day
+    } // else if months are same
+  } // else if years are same
+
+  return false; // day1 is not less
+} // lessThan()
 
 void print(Day* currDay)
 {
   printf("Start End   Subject      Location\n");
-  for (int i = 0; i < currDay->apptCount; i++) {
+
+  for (int i = 0; i < currDay->apptCount; i++) // for each appointment print
     print(currDay->appts[i]);
-  }
-}
+} // print()
 
 void read(Day* currDay)
 {
@@ -65,28 +67,29 @@ void read(Day* currDay)
   {
     if (lessThan(appt, currDay->appts[i]))
     {
-      for (int j = currDay->apptCount; j > i; j--)
+      for (int j = currDay->apptCount; j > i; j--) // for each appointment
         currDay->appts[j] = currDay->appts[j - 1];
+
       currDay->appts[i] = appt;
       currDay->apptCount += 1;
       return;
-    }
-  }
+    } // if appointment less than, insert appropriately
+  } // for each appointment
+
   currDay->appts[i] = appt;
   currDay->apptCount += 1;
-
   return;
-}
+} // read()
 
 void subjectSearch(Day* day, char* subject)
 {
   for (int i = 0; i < day->apptCount; i++)
   {
-    if (equal(day->appts[i], subject))
+    if (equal(day->appts[i], subject)) // check subject equality
     {
       fprintf(stdout, "%2d/%2d/%d ", day->month, day->day, day->year);
       fflush(stdout);
       print(day->appts[i]);
-    }
-  }
-}
+    } // if subject are equal
+  } // for each appointment
+} // subjectSearch()

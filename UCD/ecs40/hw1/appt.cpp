@@ -7,19 +7,20 @@ void destroy(Appointment* appt)
 {
   free(appt->subject);
   free(appt->location);
-}
+} // destroy()
 
 bool equal(Appointment* appt, char* subject)
 {
-  if (strstr(appt->subject, subject) != NULL)
+  if (strstr(appt->subject, subject) != NULL) // find substring
     return true;
+
   return false;
-}
+} //equal()
 
 bool lessThan(Appointment* appt, Appointment* arrAppt)
 {
   return lessThan(&appt->startTime, &arrAppt->startTime);
-}
+} //lessThan()
 
 void print(Appointment* appt)
 {
@@ -30,7 +31,7 @@ void print(Appointment* appt)
   printf("%s", appt->location);
   fflush(stdout);
   printf("\n");
-}
+} // print()
 
 void read(Appointment* appt)
 {
@@ -38,7 +39,7 @@ void read(Appointment* appt)
   char* subject;
 
   subject = strtok(NULL, "/,");
-  appt->subject = (char*) malloc(sizeof(char) * strlen(subject) + 1);
+  appt->subject = (char*) malloc(sizeof(char) * (strlen(subject) + 1));
   strcpy(appt->subject, subject);
 
   read(&appt->startTime);
@@ -46,6 +47,6 @@ void read(Appointment* appt)
 
   location = strtok(NULL, "/,");
   location[strlen(location) - 1] = '\0';
-  appt->location = (char*) malloc(sizeof(char) * strlen(location));
+  appt->location = (char*) malloc(sizeof(char) * (strlen(location) + 1));
   strcpy(appt->location, location);
-}
+} // read()
