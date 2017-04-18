@@ -38,7 +38,7 @@ void read(Appointment* appt)
   char* subject;
 
   subject = strtok(NULL, "/,");
-  appt->subject = (char*) malloc(sizeof(char) * strlen(subject));
+  appt->subject = (char*) malloc(sizeof(char) * strlen(subject) + 1);
   strcpy(appt->subject, subject);
 
   read(&appt->startTime);
