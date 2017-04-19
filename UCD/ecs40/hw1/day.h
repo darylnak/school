@@ -20,6 +20,6 @@ bool lessThan(Day* day1, Day* day2);
 void read(Day* currDay);
 void print(Day* day);
 void subjectSearch(Day* day, char* subject);
-void destroy(Day* currDay);
+void destroy(Day* day);
 
 #endif

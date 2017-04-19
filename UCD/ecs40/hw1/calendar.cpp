@@ -21,7 +21,8 @@ void dateSearch(Calendar* calendar)
 
   for (int i = 0; i < calendar->count; i++)
   {
-    if (equal(&currDay, &(calendar->days[i]))) // dates are equal
+    // dates are equal
+    if (equal(&currDay, &(calendar->days[i])))
     {
       print(&(calendar->days[i]));
       fprintf(stdout, "\n");
@@ -101,10 +102,11 @@ void readFile(Calendar* calendar)
 
     for (i = 0; i < calendar->count; i++)
     {
-      if (equal(&dayTemp, &(calendar->days[i]))) // days are equal
+      // days are equal
+      if (equal(&dayTemp, &calendar->days[i]))
         break;
-
-      if (lessThan(&dayTemp, &calendar->days[i])) // day1 less than day2
+      // day1 less than day2
+      if (lessThan( &dayTemp, &calendar->days[i]))
       {
         for (int j = calendar->count; j > i; j--) // for each day
           calendar->days[j] = calendar->days[j - 1];
@@ -131,23 +133,23 @@ void resize(Calendar* calendar)
 {
   if (calendar->count == calendar->size) // calendar is full
   {
-    Day* newDays = (Day*) malloc(sizeof(Day) * (2 * calendar->size));
+    Day* daysNew = (Day*) malloc(sizeof(Day) * (2 * calendar->size));
 
     for (int i = 0; i < calendar->size; i++)
     {
-      newDays[i].month = calendar->days[i].month;
-      newDays[i].day = calendar->days[i].day;
-      newDays[i].year = calendar->days[i].year;
-      newDays[i].apptCount = calendar->days[i].apptCount;
+      daysNew[i].month = calendar->days[i].month;
+      daysNew[i].day = calendar->days[i].day;
+      daysNew[i].year = calendar->days[i].year;
+      daysNew[i].apptCount = calendar->days[i].apptCount;
       // for each appointment, copy
       for (int j = 0; j < calendar->days[i].apptCount; j++)
-        newDays[i].appts[j] = calendar->days[i].appts[j];
+        daysNew[i].appts[j] = calendar->days[i].appts[j];
 
     } // for each day
 
     calendar->size *= 2;
     free(calendar->days);
-    calendar->days = newDays;
+    calendar->days = daysNew;
   } // if the calendar is full
 
   return;

@@ -11,12 +11,12 @@ void create(Day* currDay, int month, int day, int year)
   currDay->apptCount = 0;
 } // create()
 
-void destroy(Day* currDay)
+void destroy(Day* day)
 {
-  for (int i = 0; i < currDay->apptCount; i++)
+  for (int i = 0; i < day->apptCount; i++)
   {
-    destroy(currDay->appts[i]);
-    free(currDay->appts[i]);
+    destroy( day->appts[i]);
+    free( day->appts[i]);
   } // for every appointment
 } // destroy()
 
@@ -49,12 +49,12 @@ bool lessThan(Day* day1, Day* day2)
   return false; // day1 is not less
 } // lessThan()
 
-void print(Day* currDay)
+void print(Day* day)
 {
   printf("Start End   Subject      Location\n");
 
-  for (int i = 0; i < currDay->apptCount; i++) // for each appointment print
-    print(currDay->appts[i]);
+  for (int i = 0; i < day->apptCount; i++) // for each appointment print
+    print(day->appts[i]);
 } // print()
 
 void read(Day* currDay)
@@ -85,7 +85,8 @@ void subjectSearch(Day* day, char* subject)
 {
   for (int i = 0; i < day->apptCount; i++)
   {
-    if (equal(day->appts[i], subject)) // check subject equality
+    // check subject equality
+    if (equal(day->appts[i], subject))
     {
       fprintf(stdout, "%2d/%2d/%d ", day->month, day->day, day->year);
       fflush(stdout);
