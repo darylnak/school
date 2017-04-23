@@ -4,16 +4,17 @@
  * and open the template in the editor.
  */
 
-/* 
+/*
  * File:   appt.cpp
  * Author: darylnak
- * 
+ *
  * Created on April 22, 2017, 9:35 AM
  */
 
 #include <iostream>
 #include <iomanip>
 #include <cstring>
+#include <fstream>
 
 #include "appt.h"
 
@@ -42,10 +43,10 @@ void Appointment::print() const
 {
   startTime.print();
   endTime.print();
-  cout << left << setw(13) << subject;
-  fflush(stdout);
-  cout << location;
-  fflush(stdout);
+  cout << left << setw(13) << setfill(' ') << subject << flush;
+  //fflush(stdout);
+  cout << setfill(' ') << location << flush;
+  //fflush(stdout);
   cout << endl;
 } // print()
 
@@ -54,7 +55,7 @@ void Appointment::read()
   char* currLocation;
   char* currSubject;
 
-  subject = strtok(NULL, "/,");
+  currSubject = strtok(NULL, "/,");
   subject = new char[(strlen(currSubject) + 1)];
   strcpy(subject, currSubject);
 
@@ -62,7 +63,6 @@ void Appointment::read()
   endTime.read();
 
   currLocation = strtok(NULL, "/,");
-  currLocation[strlen(currLocation) - 1] = '\0';
   location = new char[(strlen(currLocation) + 1)];
   strcpy(location, currLocation);
 } // read()

@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-/* 
+/*
  * File:   day.h
  * Author: darylnak
  *
@@ -25,8 +25,8 @@ public:
   short year;
   short apptCount;
   Appointment* appts[8];
-  
-  void create(int month, int day, int year);
+
+  void create(int currMonth, int currDay, int currYear);
   bool equal(const Day* day2) const;
   bool lessThan(const Day* day2) const;
   void read();
@@ -38,4 +38,3 @@ private:
 }; // class Day
 
 #endif /* DAY_H */
-

@@ -4,10 +4,10 @@
  * and open the template in the editor.
  */
 
-/* 
+/*
  * File:   time.cpp
  * Author: darylnak
- * 
+ *
  * Created on April 22, 2017, 9:29 AM
  */
 
@@ -42,25 +42,25 @@ bool Time::lessThan(const Time* time2) const
 
 void Time::print()  const
 {
-  cout << setw(2) << setfill('0') << hour;
-  fflush(stdout);
-  cout << ":";
-  fflush(stdout);
-  cout << minute;
-  fflush(stdout);
+  cout << setw(2) << setfill('0') << hour << flush;
+  //fflush(stdout);
+  cout << ":" << flush;
+  //fflush(stdout);
+  cout << setfill('0') << setw(2) << minute << " " << flush;
+  //fflush(stdout);
 } // print()
 
 void Time::read()
 {
-  int hour = atoi(strtok(NULL, "/,:"));
-  int minute = atoi(strtok(NULL, "/,:"));
+  int currHour = atoi(strtok(NULL, "/,:"));
+  int currMinute = atoi(strtok(NULL, "/,:"));
   char* ampm = strchr(strtok(NULL, "/,:"), ' ');
 
   if (strcmp(ampm, " AM") == 0) // check for AM time
   {
-    if (hour == 12) // midnight
+    if (currHour == 12) // midnight
     {
-      if (minute == 0) // minute(s) are 0
+      if (currMinute == 0) // minute(s) are 0
       {
         hour = 24;
         minute = 0;
@@ -69,21 +69,21 @@ void Time::read()
       else // minute(0) are not 0
       {
         hour = 0;
-        minute = minute;
+        minute = currMinute;
         return;
       } // else minute(s) are not zero
     } // if midnight
     else // not midnight
     {
-      hour = hour;
-      minute = minute;
+      hour = currHour;
+      minute = currMinute;
       return;
     } //  else just return hours and minute(s)
   } // if morning
   else // In PM
   {
-    hour = hour + 12;
-    minute = minute;
+    hour = currHour + 12;
+    minute = currMinute;
     return;
   } // else time in PM
 } // read()

@@ -4,10 +4,10 @@
  * and open the template in the editor.
  */
 
-/* 
+/*
  * File:   calendar.cpp
  * Author: darylnak
- * 
+ *
  * Created on April 22, 2017, 9:37 AM
  */
 
@@ -72,7 +72,6 @@ void Calendar::getDate(int*  month, int*  day, int*  year) const
     date = new char[81];
     cout << endl << "Please enter the month, day, and year (mm/dd/yyyy) >> ";
     cin.getline(date, 81);
-    date[strlen(date) - 1] = '\0';
     strcpy(dateCopy, date);
     save = date;
 
@@ -96,7 +95,7 @@ void Calendar::getDate(int*  month, int*  day, int*  year) const
     } // if a string was read
 
     delete date;
-    cout << dateCopy << "is not a valid date." << endl << "Please try again." 
+    cout << dateCopy << "is not a valid date." << endl << "Please try again."
             << endl;
   } // loop until return
 } // getDate()

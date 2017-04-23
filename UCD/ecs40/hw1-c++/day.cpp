@@ -4,10 +4,10 @@
  * and open the template in the editor.
  */
 
-/* 
+/*
  * File:   day.cpp
  * Author: darylnak
- * 
+ *
  * Created on April 22, 2017, 9:33 AM
  */
 
@@ -18,11 +18,11 @@
 
 using namespace std;
 
-void Day::create(int month, int day, int year)
+void Day::create(int currMonth, int currDay, int currYear)
 {
-  month = month;
-  day = day;
-  year = year;
+  month = currMonth;
+  day = currDay;
+  year = currYear;
   apptCount = 0;
 } // create()
 
@@ -64,7 +64,7 @@ bool Day::lessThan(const Day* day2) const
   return false; // day1 is not less
 } // lessThan()
 
-void Day::print() const 
+void Day::print() const
 {
   cout << "Start End   Subject      Location" << endl;
 
@@ -103,9 +103,9 @@ void Day::subjectSearch(const char* subject) const
     // check subject equality
     if (appts[i]->equal(subject))
     {
-      cout << setw(2); 
+      cout << setw(2);
       cout << month << "/" << day << "/" << year << " ";
-      fflush(stdout);
+      //fflush(stdout);
       appts[i]->print();
     } // if subject are equal
   } // for each appointment

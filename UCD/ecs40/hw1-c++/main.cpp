@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-/* 
+/*
  * File:   main.cpp
  * Author: darylnak
  *
@@ -51,7 +51,9 @@ int getChoice()
     cout << "Calendar Menu\n0. Done\n1. Search for date.\n2.";
     cout << " Search for subject.\n\nYour choice >> ";
     // scan choice and check
-    if (cin >> choice == 1 && choice >= 0 && choice <= 2)
+    cin >> choice;
+
+    if (choice >= 0 && choice <= 2)
     {
       int c;
 
@@ -65,4 +67,3 @@ int getChoice()
 
   return -1;
 } // getChoice()
-
