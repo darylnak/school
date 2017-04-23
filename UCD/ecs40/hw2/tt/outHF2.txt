@@ -1,4 +1,0 @@
-HF1.txt
-HF3.c
-HF4.txt
-HF6.csv

@@ -10,6 +10,8 @@ typedef struct
   int count;
 } Calendar;
 
+void shift(Calendar* calendar, Day* dayTemp, int i);
+void largest(Calendar* calendar, Day* dayTemp, int i);
 void create(Calendar* calendar);
 void readFile(Calendar* calendar);
 void resize(Calendar* calendar);

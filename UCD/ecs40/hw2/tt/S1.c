@@ -1,3 +1,0 @@
-asdf
-printf("what");
-

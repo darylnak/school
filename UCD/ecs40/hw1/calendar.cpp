@@ -101,8 +101,7 @@ void readFile(Calendar* calendar)
     create(&dayTemp, month, day, year);
 
     for (i = 0; i < calendar->count; i++)
-    {
-      // days are equal
+    { // days are equal
       if (equal(&dayTemp, &calendar->days[i]))
         break;
       // day1 less than day2
@@ -111,23 +110,33 @@ void readFile(Calendar* calendar)
         for (int j = calendar->count; j > i; j--) // for each day
           calendar->days[j] = calendar->days[j - 1];
 
-        calendar->days[i] = dayTemp;
-        calendar->count += 1;
+        shift(calendar, &dayTemp, i);
         break;
       } // check if days less than
     } // for each day
 
-    if (i == calendar->count) // largest date in array
-    {
-      calendar->days[i] = dayTemp;
-      calendar->count += 1;
-    } // if largest day
-
+    largest(calendar, &dayTemp, i);
     read(&calendar->days[i]);
   } // while there is more to be read & file was opened
 
   fclose(file);
 } // readFile()
+
+void shift(Calendar* calendar, Day* dayTemp, int i)
+{
+  calendar->days[i] = *dayTemp;
+  calendar->count += 1;
+} // shift()
+
+void largest(Calendar* calendar, Day* dayTemp, int i)
+{
+  // largest date in array
+  if (i == calendar->count)
+  {
+    calendar->days[i] = *dayTemp;
+    calendar->count += 1;
+  } // if largest day
+} // largest()
 
 void resize(Calendar* calendar)
 {
