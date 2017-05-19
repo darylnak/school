@@ -1,0 +1,61 @@
+---STL Intro---
+sequence containers (expect data to remain) - vector, list (#include <list>), deque (double ended que)
+associative - set (no duplicates), multiset (duplicates),
+              map(ID with data), multimap (multiple ID with table) (sorts data. operator<)
+
+que - FIFO
+stack - FILO
+priority que - minimum value
+^^^^^^^^^^^
+container adapters
+
+algorithms - random shuffle, search.
+
+---Iterators---
+
+meant to be used with any generic type.
+
+---Vectors---
+#include <vector>
+
+constructor
+copy
+destructor
+empty
+max-size
+size
+swap
+=
+<
+>
+<=
+>=
+!=
+==
+- Rapid insertions and deletions at back.
+[]
+- push_back
+- resize()
+- capacity()
+- pop_back
+
+---list---
+
+#include <list>
+
+- push_front
+- pop_first
+- remove
+- merge (both already sorted)
+- reverse
+
+---Deque---
+
+
+
+
+---First Class containers (containers guaranteed to have these)
+begin, end, rend
+rbegin, erase(iterator)
+erase(begin, end)
+clear

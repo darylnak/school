@@ -12,10 +12,11 @@ class Calendar
 public:
   Calendar();
   ~Calendar();
+  void addAppointment();
   void dateSearch() const;
-  void destroy();
+  int findDate(int day, int month, int year);
   void getDate(int *day, int *month, int *year) const;
-  void readFile();
+  std::ifstream& operator>>(std::ifstream &inf, Calendar &calendar);
   void resize();
   void subjectSearch() const;
 };  // class Calendar

@@ -1,0 +1,86 @@
+appts=rhs.appts
+
+
+
+---NOTES---
+
+remove for double linked list
+
+void ... (int num)
+ListNode *ptr, *prev = nullptr;
+
+for (ptr = head, ptr && ptr->data < data; ptr = ptr->next)
+{
+  prev = ptr;
+}
+
+if (!ptr || ptr->data != num)
+  return;
+
+if (prev)
+  prev->next = ptr->next;
+
+if (ptr->next)
+{
+  ptr->next->prior = prev;
+}
+
+else // remove first ListNode
+  head = ptr->next
+  if (ptr->next)
+    ptr->next->prior = NULL:
+
+delete ptr;
+
+
+--
+
+LinkedList::~LinkedList()
+{
+  for (ListNode *ptr = head; ptr; ptr = head)
+  {
+    head = ptr->next;
+    delete ptr;
+  }
+}
+
+
+---P6 Notes: inheritance stuff---
+
+class Person
+{
+  char *name;
+protected:
+  int age;
+
+public:
+  Person(const char *name, int age);
+  void print(){ cout << name << endl; }
+}
+
+class Student : public Person // public/private/protected
+{
+  double GPA;
+
+public:
+  Student(const char *ptr, double G) : Person(name, age), GPA(G)
+  { }
+  void print() { cout << GPA << endl; }
+}
+
+int main()
+{
+  Person Don("Don", 69), Obama("Obama", 55, *pptr;
+  Student Chris("Chris", 19, 3.7), *sptr;
+
+  Don.print(); // prints name
+  Chris.print(); // prints GPA
+  pptr = &Obama;
+  pptr->print(); // Obama
+  pptr = &Chris; // what will happen?
+  pptr->print(); // prints name because now a part of Person
+  sptr = &Chris;
+  sptr->print(); // prints GPA
+
+  // virtual void print() { .. } 
+}

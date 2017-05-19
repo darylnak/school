@@ -1,53 +1,62 @@
+// Author: Sean Davis
+
 #include <iostream>
 #include <iomanip>
-#include <cstring>
-#include <fstream>
-
+#include <string.h>
 #include "appt.h"
+#include "time.h"
 
 using namespace std;
 
-void Appointment::destroy()
+Appointment::Appointment() : subject(NULL), location(NULL)
+{ } // Appointment default contructor
+
+Appointment::Appointment(const Appointment &appt) :
+startTime(appt.startTime), endTime(appt.endTime)
+{
+  subject = new char[strlen(appt.subject) + 1];
+  location = new char[strlen(appt.location) + 1];
+
+  strcpy(subject, appt.subject);
+  strcpy(location, appt.location);
+} // Appointment copy constructor
+
+Appointment::~Appointment()
 {
   delete [] subject;
   delete [] location;
-} // destroy()
+}  // Appointment destructor
 
-bool Appointment::equal(const char* currSubject) const
+
+bool Appointment::equal(const char *subject2)const
 {
-  if (strstr(subject, currSubject) != NULL) // find substring
-    return true;
+  return strstr(subject, subject2) != NULL;
+}  // equal()
 
-  return false;
-} //equal()
 
-bool Appointment::lessThan(const Appointment* arrAppt) const
+bool Appointment::lessThan(const Appointment *appointment2) const
 {
-  return startTime.lessThan(&arrAppt->startTime);
-} //lessThan()
+  return startTime.lessThan(&appointment2->startTime);
+}  // lessThan()
+
 
 void Appointment::print() const
 {
   startTime.print();
   endTime.print();
-  cout << left << setw(13) << setfill(' ') << subject;
-  cout << setfill(' ') << location;
-  cout << right << endl;
+  cout << left << setw(13) << subject << location << right << endl;
 } // print()
+
 
 void Appointment::read()
 {
-  char* currLocation;
-  char* currSubject;
-
-  currSubject = strtok(NULL, "/,");
-  subject = new char[(strlen(currSubject) + 1)];
-  strcpy(subject, currSubject);
-
+  char *ptr;
+  ptr = strtok(NULL, ",");
+  subject = new char[strlen(ptr) + 1];
+  strcpy(subject, ptr);
   startTime.read();
   endTime.read();
-
-  currLocation = strtok(NULL, "/,");
-  location = new char[(strlen(currLocation) + 1)];
-  strcpy(location, currLocation);
+  ptr = strtok(NULL, "\n");
+  location = new char[strlen(ptr) + 1];
+  strcpy(location, ptr);
 } // read()

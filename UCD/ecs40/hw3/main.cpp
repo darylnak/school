@@ -1,56 +1,54 @@
-#include <iostream>
-#include <string.h>
+// Author: Sean Davis
+// Created on April 2, 2017, 3:51 PM
 
+#include <iostream>
 #include "calendar.h"
+using namespace std;
 
 using namespace std;
 
-int getChoice();
-
-int main(void)
+int getChoice()
 {
-  Calendar* calendar = new Calendar;
-
-  calendar->create();
-  calendar->readFile();
+  int choice;
+  char line[80];
 
   while(true)
   {
-    switch (getChoice())
-    {
-      case 0: calendar->destroy();
-        return 0;
-      case 1: calendar->dateSearch();
-        break;
-      case 2: calendar->subjectSearch();
-        break;
-    } // execute choice
-  } // while user has not exited, go
-} // main()
-
-int getChoice()
-{
-  int choice = -1;
-  int check = 1;
-
-  while(check)
-  {
-    cout << "Calendar Menu\n0. Done\n1. Search for date.\n2.";
-    cout << " Search for subject.\n\nYour choice >> ";
-    // scan choice and check
+    cout << "Calendar Menu\n";
+    cout << "0. Done\n";
+    cout << "1. Search for date.\n";
+    cout << "2. Search for subject.\n";
+    cout << "\nYour choice >> ";
     cin >> choice;
 
-    if (choice >= 0 && choice <= 2)
-    {
-      int c;
+    if(choice >= 0 && choice < 3)
+      break;
 
-      while((c = getchar()) != '\n' && c != EOF); // flush stdin
+    cout << "Choice must be between 0 and 2.  Please try again.\n\n";
+  }  // while invalid choice
 
-      return choice;
-    } // if choice is entered
-    else // reprompt user
-      cout << "Choice must be between 0 and 2.  Please try again.\n\n";
-  } // while user has not entered valid input
-
-  return -1;
+  cin.getline(line, 80);
+  return choice;
 } // getChoice()
+
+
+int main()
+{
+  Calendar* calendar = new Calendar;
+  int choice;
+  calendar->readFile();
+  choice = getChoice();
+
+  while(choice)
+  {
+    if(choice == 1)
+      calendar->dateSearch();
+    else // choice not 1
+      calendar->subjectSearch();
+
+    choice = getChoice();
+  } // while choice not 0.
+
+  delete calendar;
+  return 0;
+} // main())

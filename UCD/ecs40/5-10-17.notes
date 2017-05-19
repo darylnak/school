@@ -1,0 +1,46 @@
+class Person
+{
+  char *name;
+protected:
+  int age;
+public:
+  virtual print(){ cout << name;}
+  const char *getName() const { return name;}
+}
+
+class Student : private Person // applies to only derived class/main
+{
+
+}
+
+main()
+{
+  Person Don("Don", 69), bill;
+  Student Jim("Jim", 19, 37);
+
+  // cannot do this
+  Jim.getName();
+
+  const Person *ptr = is >> foo();
+
+  Student *sptr = dynamic_cast<Student*>(pptr);
+
+  if(sptr) { creteSeries(*sptr, );} // copy constructor (const student)
+  // month day year
+
+  sptr = &Don;
+  sptr->print();
+
+  // vtable. Array of function pointers. Each class has one
+  // strptr->vtable[0];
+  // virtual: base class for derived. Don't use base, use mine.
+}
+
+// making public
+class Student : public Person
+{
+  double GPA;
+public:
+  Student(const char *n, int ag, double G) : Person(n, ag), GPA(G) { }
+
+}

@@ -1,0 +1,79 @@
+Points:
+- const
+- name mangling
+- constructors
+
+// ----
+
+
+// MAJOR POINT: const can be applied to return types, parameters, and functions!
+
+
+class Person
+{
+  static int count;
+  char name[200];
+  int age;
+public:
+  static int getCount();
+  void setAge(int age);
+  int getAge() const; // means nothing will be changed
+  char* getName() const; // const means pointer will not be changed
+}
+
+
+Somewhere else...
+
+int Person::count = 0; // global variable
+
+int Person::getCount
+{
+  return count
+}
+
+int Person::getAge() const
+{
+  return age;
+}
+
+cout << Don.getAge();
+
+const char* ptr must be assign a const char*
+
+----
+
+int foo(int c, float, b, char e, int* d) = @foo & (name mangling) ?wtf
+
+reference variables:
+int n = 7;
+int &ref = n; // alias, must be assigned at declaration
+
+ref = 19;
+cout << n; // 19 because we aliased n.
+foo2(n);
+cout << n; // will output 33
+
+foo2(int &num); //uh oh, foo can use addresses
+{
+  num = 33;
+}
+
+reference variables will always be pass without change. Therefore, the functions
+must be const.
+
+----
+
+constructors:
+
+- default -> Person(); -> : age(0) // initialization list...age(0) init. age
+  Person::Person()
+  {
+    age = 0;
+    name[0] = '\0';
+  }
+- copy
+  Person(const Person &p) // has to be pass by reference
+  // initialization must be done in order in class!
+
+- standard constructor
+  Person(const cjar* name, int age);

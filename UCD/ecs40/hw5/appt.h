@@ -9,14 +9,18 @@ class Appointment
   Time endTime;
   char *subject;
   char *location;
+  static int count;
 public:
   Appointment();
   Appointment(const Appointment &appt);
   ~Appointment();
-  bool equal(const char *subject) const;
-  bool lessThan(const Appointment *appointment2) const;
-  void print() const;
+  void addAppointment();
+  bool operator==(const char *rhs) const;
+  static int getCount();
+  bool operator<(const Appointment &rhs) const;
+  friend std::ostream& operator<<(std::ostream &os, const Appointment &appt);
   void read();
+
 
 }; // class Appoiintmen
 #endif	// APPT_H

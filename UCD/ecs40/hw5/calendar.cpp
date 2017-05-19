@@ -8,21 +8,44 @@
 
 using namespace std;
 
-Calendar::Calendar() : days(new Day[30]), size(30), count(0)
-{ } // Calendar constructor
+Calendar::Calendar()
+{
+  count = 0;
+  size = 30;
+  days = new Day[30];
+} // create()
+
+
+Calendar::~Calendar()
+{
+ // for(int i = 0; i < count; i++)
+ //   deletedays[i].destroy();
+
+  delete [] days;
+}  // ~Calendar()
+
+
+void Calendar::addAppointment()
+{
+  int pos, day, month, year;
+  getDate(&day, &month, &year);
+  pos = findDate(day, month, year);
+  days[pos].addAppointment();
+
+
+}  // addAppointment()
 
 
 void Calendar::dateSearch() const
 {
   int day = -1, month = -1, year = -1;
-
   getDate(&day, &month, &year);
   Day dayTemp(day, month, year);
 
   for(int i = 0; i < count; i++)
-    if(days[i].equal(&dayTemp))
+    if(days[i] == dayTemp)
     {
-      days[i].print();
+      cout << days[i];
       return;
     } // if found matching date
 
@@ -30,10 +53,6 @@ void Calendar::dateSearch() const
 }  // dateSearch()
 
 
-Calendar::~Calendar()
-{
-    delete [] days;
-}  // Calendar destructor
 
 
 void Calendar::getDate(int *day, int *month, int *year) const
@@ -75,11 +94,36 @@ void Calendar::getDate(int *day, int *month, int *year) const
   } // while invalid date
 }  // getDate()
 
-void Calendar::readFile()
+int Calendar::findDate(int day, int month, int year)
 {
-  ifstream inf("appts.csv");
+  int pos;
+  Day dayTemp(day, month, year);
+
+  for(pos = 0;
+     pos < count && !(dayTemp == days[pos]); pos++);
+
+  if(pos == count) // not found
+  {
+    if(count == size)
+      resize();
+
+    for(pos = count - 1;
+      pos >= 0 && dayTemp < days[pos]; pos--)
+        days[pos + 1] = days[pos];
+
+    days[++pos] = dayTemp;  // copy the new day into pos + 1
+    count++;
+  } // if not found
+
+  return pos;
+}  // findDate()
+
+
+std::ifstream& operator>>(std::ifstream &inf, Calendar &calendar)
+{
   char line[80];
-  int day, month, year, pos;
+  char day[3], month[3], year[5]
+  int pos;
   inf.getline(line, 80);  // get rid of label line;
 
   while(inf.getline(line, 80))
@@ -87,24 +131,7 @@ void Calendar::readFile()
     month = atoi(strtok(line, "/"));
     day = atoi(strtok(NULL, "/"));
     year = atoi(strtok(NULL, ","));
-    Day dayTemp(day, month, year);
-
-    for(pos = 0;
-      pos < count && !dayTemp.equal(&days[pos]); pos++);
-
-    if(pos == count) // not found
-    {
-      if(count == size)
-        resize();
-
-      for(pos = count - 1;
-        pos >= 0 && dayTemp.lessThan(&days[pos]); pos--)
-          days[pos + 1] = days[pos];
-
-      days[++pos] = dayTemp;  // copy the new day into pos + 1
-      count++;
-    } // if not found
-
+    pos = findDate(day, month, year);
     days[pos].read();
   } // while more lines in the file
 

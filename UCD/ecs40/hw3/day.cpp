@@ -1,99 +1,102 @@
+// Author: Sean Davis
+
 #include <iostream>
 #include <iomanip>
-
 #include "day.h"
+#include "appt.h"
+#include "DayOfWeek.h"
 
 using namespace std;
 
-void Day::create(int currMonth, int currDay, int currYear)
-{
-  month = currMonth;
-  day = currDay;
-  year = currYear;
-  apptCount = 0;
-} // create()
+Day::Day() :  day(-1), month(-1), year(-1), apptCount(0)
+{ } // Day default constructor
 
-void Day::destroy()
+Day::Day(int day1, int month1, int year1) :
+day(day1), month(month1), year(year1), apptCount(0)
+{ }  // Day standard constructor
+
+Day& Day::operator=(const Day &rhs)
 {
+  if (this == &rhs)
+    return *this;
+
   for (int i = 0; i < apptCount; i++)
   {
-    appts[i]->destroy();
     delete appts[i];
-  } // for every appointment
-} // destroy()
+  }
 
-bool Day::equal(const Day* day2) const
+  day = rhs.day;
+  month = rhs.month;
+  year = rhs.year;
+  apptCount = rhs.apptCount;
+
+  for (int i = 0; i < apptCount; i++)
+    appts[i] = new Appointment(*rhs.appts[i]);
+
+  return *this;
+} // Day operator=
+
+Day::~Day()
 {
-  if (month == day2->month && day == day2->day
-      && year == day2->year) // if days equal, return true
-    return true;
+  // for each appointment
+  for(int i = 0; i < apptCount; i++)
+    delete appts[i];
 
-  return false; // days not equal
+}  // Day destructor
+
+
+bool Day::equal(const Day *day2) const
+{
+  return day == day2->day && month == day2->month
+    && year == day2->year;
 } // equal()
 
-bool Day::lessThan(const Day* day2) const
+
+bool Day::lessThan(const Day *day2) const
 {
-  if (year < day2->year)
-    return true; // day1 is less than because year
-
-  if (year == day2->year)
-  {
-    if (month < day2->month)
-      return true; // day1 less by month
-
-    if (month == day2->month)
-    {
-      if (day < day2->day)
-        return true; // day1 less by day
-    } // else if months are same
-  } // else if years are same
-
-  return false; // day1 is not less
+  return (year < day2->year)
+    || (year == day2->year && month < day2->month)
+    || (year == day2->year && month == day2->month
+      && day < day2->day);
 } // lessThan()
+
 
 void Day::print() const
 {
-  cout << "Start End   Subject      Location" << endl;
+  cout << "Start End   Subject      Location\n";
 
-  for (int i = 0; i < apptCount; i++) // for each appointment print
+  for(int i = 0; i < apptCount; i++)
     appts[i]->print();
-} // print()
+
+  cout << "\n";
+} // print90
 
 void Day::read()
 {
-  Appointment* appt = new Appointment;
-  int i = 0;
-  appt->read();
+  int pos;
+  Appointment *appointment = new Appointment;
+  appointment->read();
 
-  for (i = 0; i < apptCount; i++)
-  {
-    if (appt->lessThan(appts[i]))
-    {
-      for (int j = apptCount; j > i; j--) // for each appointment
-        appts[j] = appts[j - 1];
+  for(pos = apptCount - 1;
+    pos >= 0 && appointment->lessThan(appts[pos]); pos--)
+      appts[pos + 1] = appts[pos];
 
-      appts[i] = appt;
-      apptCount += 1;
-      return;
-    } // if appointment less than, insert appropriately
-  } // for each appointment
-
-  appts[i] = appt;
-  apptCount += 1;
-  return;
+  appts[pos + 1] = appointment;
+  apptCount++;
 } // read()
 
-void Day::subjectSearch(const char* subject) const
+
+void Day::subjectSearch(const char *subject) const
 {
-  for (int i = 0; i < apptCount; i++)
-  {
-    // check subject equality
-    if (appts[i]->equal(subject))
+  for(int i = 0; i < apptCount; i++)
+    if(appts[i]->equal(subject))
     {
-      cout << setw(2) << month << "/";
-      cout << setw(2) << day << "/";
-      cout << setw(2) << year << " ";
+      DayOfWeek* dow = new DayOfWeek;
+
+      dow->read(month, day, year);
+      dow->print();
+
       appts[i]->print();
-    } // if subject are equal
-  } // for each appointment
+    } // if appointment has the subject
+
 } // subjectSearch()

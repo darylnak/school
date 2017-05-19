@@ -1,0 +1,80 @@
+main()
+{
+  Person Don("Don", 69);
+  Person who(21), people[20]; // array of 20 people with "None" name
+  Person Donjr(Don) // example of copy constructor
+  // problem temp[i] = days[i];
+  Fred = Jim; // parameter to function
+  delete [] days;
+}
+
+
+Person.cpp
+  Person::Person(const char* n, in age):age(age)
+  {
+    strcpy(name, n);
+  }
+
+  Person& Person::operator=(const Person &p)
+  {
+    if(&p == this)
+      return *this
+
+    if(name)
+      delete [] name;
+    if(person.name)
+    {
+      name = new char[strlen(person.name) + 1];
+      strcpy(name, person.name);
+    }
+    else
+      name = NULL:
+    age = person.age
+
+    return *this; // refers to Fred
+  }
+
+// Person.h
+class Person
+Public
+  Person(const char* n = "None", int age);
+  ~Person() // destructor. Only one. Called every time out of scope
+  // Person who(21) with name None
+Private
+  Person& operator = (const Person &p);
+  char* name;
+  int age;
+
+// copy constructors take only object as arg
+Person::Person(const Person &person):age(person.age)
+{
+  if(person.name) // check for NULL
+  {
+    name = new char[strlen(person.name) + 1];
+    strcpy(name, person.name);
+  }
+  else
+    name = NULL; // could do :name(null). Must go in order, so before ag
+}
+Person::Person(const char* n, int age):age(age)
+{
+  if(n)
+  {
+    name = new char[strlen(n) + 1];
+    strcpy(name, n);
+  }
+  else
+    name = NULL;
+}
+
+Person::~Person()
+{
+  if(name)
+    delete [] name;
+}
+
+
+int x = 7, y = 12;
+x = y;
+x = x;
+x = y = 13;

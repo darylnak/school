@@ -1,0 +1,40 @@
+---templates---
+template<typename T> // parameterized type
+class Vector
+{
+  T *array;
+  int count;
+  int size;
+public:
+  Vector(int size);
+  T& operator[](int index);
+  friend ostream& operator<<(ostream &os, Vector<T>& v);
+  virtual ostream& write(Vector<T> &v);
+}
+// above endif
+#include "vector.cpp" // g++ vector.h - calendar.o vector.h vector.cpp
+
+--main.cpp--
+
+Vector<Day> days(30);
+LinkedList<Appointment*> ll;
+Vector<int> ints(25); // creates a whole new class
+
+--vector.cpp--
+
+operator>>(ostream,  rhs) // virtual functions must match signatures
+{
+  rhs.write(os);
+}
+
+template<typename T>
+Vector<T>::Vector(int sz) : count(0);, size(sz)
+{
+  array = new T[size];
+}
+
+template<typename T>
+T& Vector<T>::operator[](int index)
+{
+  return array[index];
+}

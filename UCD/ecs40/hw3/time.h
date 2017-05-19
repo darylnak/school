@@ -1,19 +1,18 @@
-#ifndef TIME_H
-#define TIME_H
+// Author: Sean Davis
 
-#include <stdbool.h>
+#ifndef TIME_H
+#define	TIME_H
 
 class Time
 {
-public:
   short hour;
   short minute;
-
-  void read();
+public:
+  bool lessThan(const Time *time2) const;
   void print() const;
-  bool lessThan(const Time* time2) const;
-private:
-
+  void read();
 }; // class Time
 
-#endif
+
+#endif	// TIME_H 
+

@@ -1,0 +1,41 @@
+// stl - standard template library
+
+typedef basic_string<char> string;
+
+s.length();
+string s3, s1("hello"), s2(8, 'x'), month = "march" // last one calls a copy constructor
+int s1.compare(...);
+s.substring(int s_start, int s_length);
+s1.swap(s2);
+s1.size() ---> s1.length()
+s1.capacity() // return largest size string was
+s1.max_size();
+s.find("hello"); // return an int
+s.rfind("hello") // reverse start
+
+// return unsigned int : string::npos
+s.find_last_of("qprx"); // looks for last occurrence of the set of characters provided
+s.replace(int beginPos, int numChars, string replacement_str, int startReplace, int numChar_replace)
+s.insert( " );
+
+ostringstream outStr
+string s("hello"), s2("hey");
+double num = 3.4;
+outStr << s << s2 << " " << 53 << setw(6) << num;
+cout << outStr.str();
+
+string s("hello there 1234"), s2, s3;
+istringstream inStr(s);
+int num;
+inStr >> s2 >> s3;
+
+---Iterators: move incrementally through an object---
+
+s("hello");
+
+for (string::const_iterator itr = s.begin(); itr != s.end(); itr++) // end returns 1+ end of string
+  cout << *itr << endl; // print out letters one at a time
+
+// reverse iterator
+for (string::const_reverse_iterator ritr = s.rbegin; ritr != s.rend; ritr++) // rend front of first
+  cout << *itr << endl;
