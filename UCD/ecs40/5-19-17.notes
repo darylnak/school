@@ -1,0 +1,32 @@
+---Creating a Deque---
+
+Table of subarrays that increases as needed
+-functions
+push-front
+push-back
+pop-back
+[]
+^^^
+O(1)
+
+---Associative Containers---
+
+Red-black tree
+
+
+---bidirectional iterators---
+
+++ --
+insert(value)
+find(value) // return an iterator
+end()
+
+// example code
+set<int> intSet;
+intSet.insert(15);
+
+//
+// typedef set<int>::const_iterator sitr;
+set<int>::iterator itr = intSet.find(15);
+if (*itr != intSet.end())
+  cout << "found" << endl;

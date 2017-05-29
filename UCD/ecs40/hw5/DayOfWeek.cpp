@@ -42,6 +42,4 @@ void DayOfWeek::read(int month, int day, int year)
   inf.seekg(dateNumber * sizeof(DayOfWeek));
   inf.read((char*) this, sizeof(DayOfWeek));
   inf.close();
-
-
 }  // read()

@@ -1,0 +1,66 @@
+lower_bound(x); // returns an iterator pointing to the earliest occurrence of x
+upper_bound(x); // element after last occurrence
+
+<map>
+<set>
+
+typedef multimap<string, int> Zipmap;
+
+Zipmap zipmap; // sorted based on string
+zipmap.insert(Zipmap::value_type("Davis", 95616));
+zipmap.insert(Zipmap::value_type("Davis", 95617));
+zipmap.insert(Zipmap::value_type("Woodland", 95695));
+
+for (Zipmap::const_iterator itr = zipmap.lowerbound("Davis");
+     itr != zipmap.upper_bound("Davis"); itr++)
+     {
+        cout << itr->second << endl; // 95616, 95617 OR 95617, 95616
+     }
+
+---Container Adapters---
+
+push, pop, empty, size
+- stack, que, priority-que // #include <name>
+
+* By default, stack is implemented with deque. It can be a vector.
+* stack is FILO (first in last out)
+
+stack<int, vector<int> > st; // space must be there so not confused with >>
+int ar[10];
+int topIndex = -1; // class variable
+
+void push(int num)
+{
+  ar[++topIndex] = num;
+}
+
+bool empty()
+{
+  return topIndex == -1;
+}
+
+int pop()
+{
+  return ar[topindex--];
+}
+
+---With Lists---
+void push(int num)
+{
+  topPtr = new ListNode(num, topPtr);
+}
+
+int top()
+{
+  return topPtr->data;
+}
+
+int pop()
+{
+  int num = topPtr->data;
+  ListNode *ptr = topPtr;
+  topPtr = topPtr->next;
+  delete ptr;
+
+  return num;
+}

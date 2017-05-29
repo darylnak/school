@@ -1,0 +1,32 @@
+- syntax for derived class who's base class it templated?
+- why forward declare LinkedList in list.h for p6?
+- ok to use nullptr so we don't have to include iostream?
+- pass ifstream as argument for istream parameter?
+
+
+---NOTES From Review Session---
+void remove(int d)
+{
+  ListNode *ptr, *prev = NULL;
+
+  for (ptr= = head; ptr && ptr->data < d; ptr = ptr->next)
+    prev = ptr;
+
+  if (!ptr || ptr->data != d)
+    return;
+
+  if (prev)
+  {
+    prev->next = ptr->next;
+    if (ptr->next)
+      ptr->next->prior = prev;
+  }
+  else // removing from front
+  {
+    head = ptr->next;
+    if (ptr->next)
+      ptr->next->prior = prev; // NULL
+  }
+
+  delete ptr;
+}

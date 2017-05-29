@@ -1,12 +1,11 @@
-#include <iostream>
-#include "static.h"
+#include "test.h"
 
 using namespace std;
 
-int Static::hello = 0;
-
 int main()
 {
-  //cout << "hello";
-  cout << ++Static::hello << endl;
+  Test test;
+  test.hello();
+
+  cout << "another test" << endl;
 }
