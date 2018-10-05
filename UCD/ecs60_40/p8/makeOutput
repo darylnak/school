@@ -1,0 +1,4 @@
+g++ -Wall -c -g -ansi main.cpp
+g++ -Wall -c -g -ansi indexpager.cpp
+g++ -Wall -c -g -ansi pager.cpp
+g++ -Wall -g -ansi main.o indexpager.o pager.o -o p8.out

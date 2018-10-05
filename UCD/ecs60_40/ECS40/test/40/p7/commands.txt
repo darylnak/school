@@ -1,0 +1,11 @@
+I 2 18  ECS 40
+I 4 23  until dawn,
+R 6 7 12 midterms
+R 3 9 11 not
+F I'
+F y
+F STL
+D 1 1
+D 3 4
+E  I'm
+E A Limerick by Grady Tibboel

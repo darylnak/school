@@ -1,0 +1,14 @@
+Scores from p4 for Davis,Sean Davis,Steve , 
+
+Note that the format for authors.csv is: e-mail<comma>family name<comma>given name
+For example: ssdavis@ucdavis.edu,Davis,Sean
+
+Addresses used: davis@cs.ucdavis.edu ssdavis@ucdavis.edu   
+Commit.txt:
+OK
+Style: 5 out of 5
+Design: 10 out of 10 
+Operation: 15 out of 15 
+Commit.txt: 10 of 10 
+Warnings (subtracted from final score down to zero): 0
+Total: 40 out of 40.

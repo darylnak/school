@@ -1,0 +1,9 @@
+The testhw and the Testing directory are now available for use.
+Copy testhw to one of your own directories.
+There is no need to copy the Testing directory.
+testhw takes only one argument--the directory that holds your calendar source code.
+testhw will run the style checker, design checker, and operations checker, and
+place all of the results in a series of result* files in the directory with the
+source code in it.
+
+Sean

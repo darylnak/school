@@ -1,0 +1,345 @@
+A 149.
+Adopted 2.
+America 6, 163.
+And 173.
+Britain 34, 169.
+British 152, 168.
+But 28.
+Congress 2, 164.
+Creator 16.
+Crown 168.
+Declaration 0, 6.
+Divine 174.
+English 110.
+For 94, 96, 100, 102, 104, 107, 110, 116, 120.
+General 164.
+God 11.
+Great 34, 169.
+He 38, 41, 46, 51, 56, 60, 67, 73, 76, 80, 84, 87, 90, 124, 127, 130, 136, 141.
+In 147.
+Independence 0.
+Indian 143.
+Judge 164.
+July 2.
+Indian 143.
+Judge 164.
+July 2.
+King 34.
+Nor 152.
+Providence 174.
+Prudence 23.
+States 6, 163.
+Such 31.
+Supreme 164.
+That 17, 19.
+The 6, 33.
+They 158.
+Thirteen 6.
+To 36.
+Unanimous 6.
+United 6, 163.
+We 15, 152, 154-155, 159, 163.
+When 8.
+a 11, 28-29, 34, 36, 48, 60, 80, 90, 110, 134, 150, 173.
+abdicated 124.
+abolish 21.
+abolishing 27, 110, 116.
+abdicated 124.
+abolish 21.
+abolishing 27, 110, 116.
+absolute 29, 35, 114.
+absolved 168.
+abuses 28.
+accommodation 46.
+accordingly 25.
+accustomed 27.
+acquiesce 159.
+act 149.
+acts 92, 172.
+administration 73.
+affected 87.
+after 60.
+against 125, 137.
+ages 133, 144.
+all 15, 25, 34, 64, 100, 121, 144, 168-169, 172.
+allegiance 168.
+alliances 171.
+alone 76.
+already 132.
+alter 21, 33.
+alone 76.
+already 132.
+alter 21, 33.
+altering 117.
+among 10, 17-18, 84, 94.
+amongst 141.
+amount 77.
+an 35, 111, 113, 153.
+and 9-11, 17, 21-23, 25, 28, 30, 32, 34, 38, 42-43, 49, 52, 64, 70, 77, 80-81, 87, 91, 112-113, 117, 120, 125, 128, 132-134, 138, 141, 144, 155-156, 158-160, 165-170, 172, 175.
+annihilation 62.
+another 9.
+answered 148.
+any 19, 97.
+appealed 155.
+appealing 164.
+appropriations 71.
+arbitrary 111.
+are 15-18, 26-27, 167-168.
+armed 94.
+armies 84, 130.
+arms 137.
+as 22, 112, 160, 170.
+assembled 164.
+arms 137.
+as 22, 112, 160, 170.
+assembled 164.
+assent 38, 43, 74, 92.
+assume 10.
+at 51, 62, 113, 130.
+attempts 153.
+attend 44.
+attention 152.
+authority 165.
+away 116.
+bands 9.
+barbarous 133.
+be 15, 24, 36, 43, 61, 107, 150, 167, 170.
+bear 137.
+become 137.
+becomes 8, 20.
+been 31, 148, 152, 158.
+begun 132.
+benefits 104.
+between 169.
+beyond 107.
+bodies 51, 94.
+between 169.
+beyond 107.
+bodies 51, 94.
+boundaries 112.
+brethren 138, 152.
+bring 142.
+burned 127.
+by 16, 27, 73, 91, 96, 104, 124, 139, 148-149, 153, 156, 165.
+called 51.
+candid 36.
+captive 136.
+cases 104, 122.
+cause 61.
+causes 12, 25.
+certain 16.
+changed 24.
+character 149.
+charters 116.
+circumstances 132, 155.
+citizens 136.
+civil 88.
+civilized 134.
+coasts 127.
+civil 88.
+civilized 134.
+coasts 127.
+colonies 32, 114, 166-167.
+combined 90.
+commerce 172.
+commit 97.
+common 157.
+complete 131.
+compliance 54.
+conclude 171.
+conditions 70, 145.
+conjured 156.
+connected 9.
+connection 169.
+connections 158.
+consanguinity 159.
+consent 19, 85, 102.
+constitution 91.
+constrained 136.
+constrains 32.
+contract 171.
+convulsions 65.
+between 169.
+beyond 107.
+bodies 51, 94.
+boundaries 112.
+brethren 138, 152.
+bring 142.
+burned 127.
+by 16, 27, 73, 91, 96, 104, 124, 139, 148-149, 153, 156, 165.
+called 51.
+candid 36.
+captive 136.
+cases 104, 122.
+cause 61.
+causes 12, 25.
+certain 16.
+changed 24.
+character 149.
+charters 116.
+circumstances 132, 155.
+citizens 136.
+civil 88.
+civilized 134.
+coasts 127.
+arms 137.
+as 22, 112, 160, 170.
+assembled 164.
+assent 38, 43, 74, 92.
+assume 10.
+at 51, 62, 113, 130.
+attempts 153.
+attend 44.
+attention 152.
+authority 165.
+away 116.
+bands 9.
+barbarous 133.
+be 15, 24, 36, 43, 61, 107, 150, 167, 170.
+bear 137.
+become 137.
+becomes 8, 20.
+been 31, 148, 152, 158.
+begun 132.
+benefits 104.
+between 169.
+beyond 107.
+bodies 51, 94.
+between 169.
+beyond 107.
+bodies 51, 94.
+boundaries 112.
+brethren 138, 152.
+bring 142.
+burned 127.
+by 16, 27, 73, 91, 96, 104, 124, 139, 148-149, 153, 156, 165.
+called 51.
+candid 36.
+captive 136.
+cases 104, 122.
+cause 61.
+causes 12, 25.
+certain 16.
+changed 24.
+character 149.
+charters 116.
+circumstances 132, 155.
+citizens 136.
+civil 88.
+civilized 134.
+coasts 127.
+civil 88.
+civilized 134.
+coasts 127.
+colonies 32, 114, 166-167.
+combined 90.
+commerce 172.
+commit 97.
+common 157.
+complete 131.
+compliance 54.
+conclude 171.
+conditions 70, 145.
+conjured 156.
+connected 9.
+connection 169.
+connections 158.
+consanguinity 159.
+consent 19, 85, 102.
+constitution 91.
+constrained 136.
+constrains 32.
+contract 171.
+convulsions 65.
+constrains 32.
+contract 171.
+convulsions 65.
+correspondence 158.
+country 137.
+course 8.
+created 15.
+cruelty 132.
+cutting 100.
+dangers 64.
+deaf 158.
+death 131.
+decent 11.
+declaration 173.
+declare 12, 166.
+declaring 120, 124.
+define 150.
+denounces 160.
+dependent 76.
+depository 52.
+depriving 104.
+deriving 18.
+design 29.
+depriving 104.
+deriving 18.
+design 29.
+desolation 131.
+despotism 29.
+destroyed 128.
+destruction 144.
+destructive 20.
+dictate 24.
+direct 35.
+disavow 157.
+disposed 26.
+dissolutions 60.
+dissolve 9.
+dissolved 56, 170.
+distant 52.
+districts 47.
+do 165, 172-173.
+domestic 141.
+duty 30.
+each 174.
+earth 10.
+eat 81.
+constrains 32.
+contract 171.
+convulsions 65.
+correspondence 158.
+country 137.
+course 8.
+created 15.
+cruelty 132.
+cutting 100.
+dangers 64.
+deaf 158.
+death 131.
+decent 11.
+declaration 173.
+declare 12, 166.
+declaring 120, 124.
+define 150.
+denounces 160.
+dependent 76.
+depository 52.
+depriving 104.
+deriving 18.
+design 29.
+civil 88.
+civilized 134.
+coasts 127.
+colonies 32, 114, 166-167.
+combined 90.
+commerce 172.
+commit 97.
+common 157.
+complete 131.
+compliance 54.
+conclude 171.
+conditions 70, 145.
+conjured 156.
+connected 9.
+connection 169.
+connections 158.
+consanguinity 159.
+consent 19, 85, 102.
+constitution 91.
+constrained 136.
+constrains 32.
+contract 171.
+convulsions 65.

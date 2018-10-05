@@ -1,0 +1,5 @@
+1 Queue size 5
+2 SU  8
+3 SU  10
+4 SU  3
+5 SU  5

@@ -1,0 +1,15 @@
+Scores from p3 for Nakamoto,Daryl 
+
+Note that the format for authors.csv is: e-mail<comma>last name<comma>first name
+For example: ssdavis@ucdavis.edu,Davis,Sean
+
+Addresses used: dtnakamoto@ucdavis.edu  
+BSTX.cpp operation testing:
+Height: OK
+Sum: OK
+Ancestor found: OK
+Ancestor not found: OK
+Highest Full: OK
+Deepest Full: OK
+
+BSTX.cpp score: 10

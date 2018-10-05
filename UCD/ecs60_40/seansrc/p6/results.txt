@@ -1,0 +1,13 @@
+As with previous programs, this version of the DesignChecker does not
+check for correct consts.  I will add those checks Saturday morning.
+Scores from p6 for Davis,Sean Davis,Steve , 
+
+Note that the format for authors.csv is: e-mail<comma>family name<comma>given name
+For example: ssdavis@ucdavis.edu,Davis,Sean
+
+Addresses used: davis@cs.ucdavis.edu ssdavis@ucdavis.edu   
+Style: 5 out of 5
+Design: 15 out of 15 
+Operation: 30 out of 30 
+Warnings (subtracted from final score down to zero): 0
+Total: 50 out of 50.

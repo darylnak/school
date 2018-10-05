@@ -1,0 +1,7 @@
+1 Queue size 17
+2 QU  23
+3 QU  88
+4 QU  4
+5 QP  23
+6 QP  88
+7 QP  4

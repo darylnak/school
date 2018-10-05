@@ -1,0 +1,138 @@
+==28686== Memcheck, a memory error detector
+==28686== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==28686== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==28686== Command: calendar.out
+==28686== 
+Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+3. Add an appointment.
+4. Print appointment count.
+
+Your choice >> 
+Please enter the month, day, and year (mm/dd/yyyy) >> Start End   Subject      Location
+07:00 08:40 Spanish      1002 Geidt
+09:30 12:15 Music        170 Schalm Hall
+
+Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+3. Add an appointment.
+4. Print appointment count.
+
+Your choice >> Please enter the subject >> Date                          Start End   Subject      Location
+Friday, November 25           12:05 13:45 English      1100 Social Science
+Monday, April 16              13:00 14:40 English      1100 Social Science
+Monday, February 6            07:40 08:45 English      66 Roessler
+Invalid, February 31          06:50 07:05 English      1100 Social Science
+Monday, September 12          07:05 07:15 English      206 Olson
+Thursday, August 16           11:55 13:35 English      100 Hunt
+Thursday, August 16           12:40 14:55 English      2205 Haring
+Thursday, August 16           15:55 16:10 English      26 Wellman
+Tuesday, May 26               16:05 17:20 English      234 Wellman
+
+Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+3. Add an appointment.
+4. Print appointment count.
+
+Your choice >> 
+Please enter the month, day, and year (mm/dd/yyyy) >> Start End   Subject      Location
+08:40 09:10 Geology      26 Wellman
+09:00 09:45 Pediatrics   194 Young
+11:40 14:30 Art History  179 Chemistry
+12:55 15:40 French       Rock Hall
+13:25 16:05 Pediatrics   1002 Geidt
+17:40 19:55 Nutrition    194 Young
+
+Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+3. Add an appointment.
+4. Print appointment count.
+
+Your choice >> 
+Please enter the month, day, and year (mm/dd/yyyy) >> Subject >> Location >> Start time (hh:mm) >> End time (hh:mm) >> Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+3. Add an appointment.
+4. Print appointment count.
+
+Your choice >> 
+Please enter the month, day, and year (mm/dd/yyyy) >> Subject >> Location >> Start time (hh:mm) >> End time (hh:mm) >> Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+3. Add an appointment.
+4. Print appointment count.
+
+Your choice >> Please enter the subject >> Date                          Start End   Subject      Location
+Tuesday, November 2           12:40 14:40 Comp Sci     179 Chemistry
+Monday, March 17              16:45 19:30 Comp Sci     106 Wellman
+Saturday, July 10             08:20 10:25 Comp Sci     3 Kleiber
+Monday, April 16              07:20 08:50 Comp Sci     123 Sciences Lecture Hall
+Saturday, November 10         12:40 14:45 Comp Sci     206 Olson
+Thursday, September 19        14:55 16:10 Comp Sci     170 Schalm Hall
+Monday, January 15            13:50 13:55 Comp Sci     26 Wellman
+Wednesday, May 2              16:35 17:25 Comp Sci     2 Wellman
+Wednesday, March 18           09:55 10:10 Comp Sci     206 Olson
+Friday, June 25               06:55 08:10 Comp Sci     106 Wellman
+Tuesday, May 5                15:40 16:25 Comp Sci     1001 Geidt
+Monday, May 1                 09:00 09:50 Comp Sci     1001 Giedt
+Saturday, August 5            14:35 15:50 Comp Sci     1100 Social Science
+
+Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+3. Add an appointment.
+4. Print appointment count.
+
+Your choice >> 
+Please enter the month, day, and year (mm/dd/yyyy) >> Start End   Subject      Location
+09:00 09:50 Comp Sci     1001 Giedt
+16:10 17:00 CompSci      223 Olson
+
+Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+3. Add an appointment.
+4. Print appointment count.
+
+Your choice >> Appointment count: 343
+
+Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+3. Add an appointment.
+4. Print appointment count.
+
+Your choice >> ==28686== Conditional jump or move depends on uninitialised value(s)
+==28686==    at 0x402460: Day::~Day() (in /home/ssdavis/40/p4/SeansSrc/calendar.out)
+==28686==    by 0x401A91: Calendar::~Calendar() (in /home/ssdavis/40/p4/SeansSrc/calendar.out)
+==28686==    by 0x402DA9: main (in /home/ssdavis/40/p4/SeansSrc/calendar.out)
+==28686== 
+==28686== 
+==28686== HEAP SUMMARY:
+==28686==     in use at exit: 191,042 bytes in 12,597 blocks
+==28686==   total heap usage: 14,053 allocs, 1,456 frees, 634,113 bytes allocated
+==28686== 
+==28686== LEAK SUMMARY:
+==28686==    definitely lost: 100,776 bytes in 4,199 blocks
+==28686==    indirectly lost: 90,266 bytes in 8,398 blocks
+==28686==      possibly lost: 0 bytes in 0 blocks
+==28686==    still reachable: 0 bytes in 0 blocks
+==28686==         suppressed: 0 bytes in 0 blocks
+==28686== Rerun with --leak-check=full to see details of leaked memory
+==28686== 
+==28686== For counts of detected and suppressed errors, rerun with: -v
+==28686== Use --track-origins=yes to see where uninitialised values come from
+==28686== ERROR SUMMARY: 20 errors from 1 contexts (suppressed: 0 from 0)

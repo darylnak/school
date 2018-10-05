@@ -1,0 +1,1 @@
+p9b.out: void Queue<T>::pop(T&) [with T = int]:

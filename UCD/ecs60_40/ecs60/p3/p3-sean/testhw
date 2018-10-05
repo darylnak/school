@@ -1,0 +1,122 @@
+#! /bin/bash
+
+echo $1
+testerDirectory="/home/ssdavis/60/p3/Testing"
+
+if [ $# -ne 1 ]; then
+  echo "usage testhw: testhw source_directory" 1>&2
+  exit
+fi
+
+if [[ $1 =~ Testing ]]; then # Use from this directory is not allowed
+  echo "You may not use Testing as your own source directory!"  1>&2
+  exit
+fi
+
+cd $1
+echo -n "Scores from p3 for " > results.txt
+
+if [ -e authors.txt ]; then
+  dos2unix authors.txt &> /dev/null
+  awk {'for (i = 2; i <= NF; ++i) printf"%s ", $i'} authors.txt >> results.txt
+  echo -e "\n" >> results.txt
+  awk 'NR < 3 {for (i = 2; i <= NF; ++i) printf"%s", $i; printf"\n";}' authors.txt > names.txt
+  awk {'printf"%s ", $1'} authors.txt > addresses
+else
+  echo  "You need to create an authors.txt file!!!! No one will receive credit for this assignment"  >> results.txt
+  echo "$1@ucdavis.edu" > addresses
+  finger ${PWD##*/} | awk 'NR == 1 {printf"%s,%s", $5, $4}' > names.txt
+fi
+
+
+echo -n "Addresses used: " >> results.txt
+cat addresses >> results.txt
+echo -e "\n" >> results.txt
+BXTXScore=0
+
+rm a.out &> /dev/null
+cp $testerDirectory/*.cpp $testerDirectory/*.h .
+
+if [ ! -e BSTX.cpp ]; then
+  echo "BSTX.cpp does not exist."  >> results.txt
+else
+  g++ BSTXtest.cpp &> /dev/null
+
+  if [[ ! -e a.out ]]; then # a.out not found
+    BXTXScore=0
+    echo "BSTX.cpp does not compile!"  >> results.txt 
+  else
+    fileNum=1
+    echo BSTX.cpp operation testing:  >> results.txt
+    (a.out > out.txt)&
+    sleep 1
+    pkill a.out
+    
+    grep "Height: 5" out.txt > temp
+    if [ -s temp ]; then
+      (( BXTXScore += 1 ))
+      echo "Height: OK" >> results.txt
+    else
+      echo "Correct height not found." >> results.txt
+    fi
+
+
+    grep "Sum: 197" out.txt > temp
+    if [ -s temp ]; then
+      (( BXTXScore += 1 ))
+      echo "Sum: OK" >> results.txt
+    else
+      echo "Correct sum not found." >> results.txt
+    fi
+
+
+    grep "5 is an ancestor of 4" out.txt > temp
+    if [ -s temp ]; then
+      (( BXTXScore += 2 ))
+      echo "Ancestor found: OK" >> results.txt
+    else
+      echo "Ancestor found: Not OK" >> results.txt
+    fi
+
+
+    grep "4 is not an ancestor of 5" out.txt > temp
+    if [ -s temp ]; then
+      (( BXTXScore += 2 ))
+      echo "Ancestor not found: OK" >> results.txt
+    else
+      echo "Ancestor not found: not OK." >> results.txt
+    fi
+
+
+    grep "Highest Full: 3" out.txt > temp
+    if [ -s temp ]; then
+      (( BXTXScore += 2 ))
+      echo "Highest Full: OK" >> results.txt
+    else
+      echo "Correct highest full not found." >> results.txt
+    fi
+
+
+    grep "Deepest Full: 2" out.txt > temp
+    if [ -s temp ]; then
+      (( BXTXScore += 2 ))
+      echo "Deepest Full: OK" >> results.txt
+    else
+      echo "Correct deepest full not found." >> results.txt
+    fi
+  fi # if a.out
+fi # if BSTX.cpp exists
+
+rm -f a.out core &> /dev/null
+echo -e "\nBSTX.cpp score: $BXTXScore" >> results.txt 
+
+# mailx -s "ECS 60 P3 Test Results" `cat addresses` < results.txt
+
+#awk 'NR == 1 {printf"%s,", $0}' names.txt >> ../results.csv
+# echo " ${1%%/}, $BSTXScore" >> ../results.csv
+# authorCount=$(grep "@" authors.txt | wc -l)
+
+#if [ $authorCount -gt 1 ]; then
+#  awk 'NR == 2 {printf"%s,", $0}' names.txt >> ../results.csv
+#  echo "${1%%/}, $BSTXScore" >> ../results.csv
+# fi

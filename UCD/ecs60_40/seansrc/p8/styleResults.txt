@@ -1,0 +1,19 @@
+Processing :  /home/ssdavis/40/p8/SeansSrc/indexpager.cpp
+Processing :  /home/ssdavis/40/p8/SeansSrc/pager.cpp
+Processing :  /home/ssdavis/40/p8/SeansSrc/pager.h
+Processing :  /home/ssdavis/40/p8/SeansSrc/indexpager.h
+Processing :  /home/ssdavis/40/p8/SeansSrc/main.cpp
+
+
+=================================== Summary Report ===================================
+ ** Total Available Rules     : 52
+ ** Total Applied Rules       : 30
+ ** Total Violated Rules      : 0
+ ** Total Errors Occurs       : 0
+ ** Total Analyzed Files      : 5
+ ** Total Violated Files Count: 0
+ ** Build Quality             : 100.00%
+
+================================ Violated Rule Details ===============================
+
+================================ Violated File Details ===============================

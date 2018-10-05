@@ -1,0 +1,1 @@
+Please enter first long integer >> Please enter second long integer >> 1123456

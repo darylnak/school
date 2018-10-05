@@ -1,0 +1,5 @@
+To test your BSTX code, copy testhw into your account using cp.  Once testhw is in your account type:
+testhw your_source_directory
+The results of the testing will be in results.txt in your_source_directory.
+
+

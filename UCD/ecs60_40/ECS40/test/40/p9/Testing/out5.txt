@@ -1,0 +1,9 @@
+1 Queue size 13
+2 BU  12
+3 BU  8
+4 BP  8
+5 BU  23
+6 BP  12
+7 BU  3
+8 BU  19
+9 BP  3

@@ -1,0 +1,27 @@
+Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+
+Your choice >> Please enter the subject >> Date       Start End   Subject      Location
+ 8/ 2/1996 08:35 10:20 Mathematics  3 Kleiber
+12/21/1998 17:15 18:40 Mathematics  66 Roessler
+ 2/23/1999 14:55 17:40 Mathematics  206 Olson
+11/ 6/2001 10:55 11:10 Mathematics  6 Welman
+ 8/25/2003 16:05 17:05 Mathematics  26 Wellman
+ 5/ 8/2004 13:50 14:15 Mathematics  66 Roessler
+10/28/2004 06:30 08:35 Mathematics  1100 Social Science
+12/20/2004 15:15 15:40 Mathematics  26 Wellman
+ 3/25/2005 15:00 16:35 Mathematics  3 Kleiber
+ 8/27/2009 13:20 15:30 Mathematics  Rock Hall
+11/ 4/2009 09:35 09:40 Mathematics  198 Young
+11/ 4/2009 11:00 11:45 Mathematics  106 Wellman
+ 6/29/2010 07:30 07:50 Mathematics  106 Wellman
+ 6/25/2016 09:35 11:20 Mathematics  6 Olson
+
+Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+
+Your choice >> 

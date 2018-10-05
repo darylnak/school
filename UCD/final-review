@@ -1,0 +1,7 @@
+- Sometimes when I call getline and use extraction operator successively, it moves to next line.
+- (Part of implementation) Why is backindex of queue one more than current size?
+- Any point to use setiosflags? Why don't I have to reset anything? Wouldn't I have to
+  resetiosflags/scientific?
+- price cannot be accessed by operator >>
+- (ANSWER: strtok() uses pointerish)confused about strtok(info, ","). How is this possible?
+- why no include $f in second f? Part of syntax? mv $f ${f%.*}.$2

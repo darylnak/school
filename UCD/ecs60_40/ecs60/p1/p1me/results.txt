@@ -1,0 +1,50 @@
+Scores from p1 for Nakamoto,Daryl 
+
+Note that the format for authors.csv is: e-mail<comma>last name<comma>first name
+For example: ssdavis@ucdavis.edu,Davis,Sean
+
+Addresses used: dtnakamoto@ucdavis.edu  
+Timetest testing:
+timetest.cpp operation testing:
+#1 for user input: 
+Test.dat
+1
+0
+OK
+#2 for user input: 
+Test.dat
+2
+0
+OK
+#3 for user input: 
+Test2.dat
+3
+0
+OK
+#4 for user input: 
+Test2.dat
+4
+0
+OK
+#5 for user input: 
+Test2.dat
+5
+0
+OK
+#6 for user input: 
+Test2.dat
+6
+0
+OK
+
+LongInt testing:
+File#: 7 
+OK
+File#: 8 
+OK
+File#: 9 
+OK
+File#: 10 
+OK
+Timetest score: 5  LongInt score: 20
+Total: 25 out of 25.

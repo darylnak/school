@@ -1,0 +1,40 @@
+
+Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+
+Your choice >> Please enter the subject >> Date       Start End   Subject      Location
+ 4/14/1993 16:55 19:00 Physics      194 Young
+ 4/14/1993 17:00 17:55 Physics      66 Roessler
+ 3/29/1994 06:10 06:35 Physics      26 Wellman
+ 3/29/1994 14:00 16:20 Physics      1002 Geidt
+11/17/1999 11:20 11:25 Physics      26 Wellman
+12/13/1999 17:50 19:50 Physics      180 Med Sci
+ 8/ 3/2003 08:35 09:45 Physics      176 Everson
+ 8/ 3/2003 13:45 14:10 Physics      Rock Hall
+ 5/ 9/2005 08:05 08:10 Physics      6 Welman
+ 8/ 5/2006 10:35 11:10 Physics      106 Wellman
+11/ 5/2009 08:55 09:30 Physics      1001 Geidt
+
+Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+
+Your choice >> 
+Please enter the month, day, and year (mm/dd/yyyy) >> Start End   Subject      Location
+07:15 10:05 Neurology    Rock Hall
+07:30 09:20 Comp Sci     206 Olson
+08:20 10:05 Russian      2 Wellman
+09:55 24:00 Statistics   234 Wellman
+13:05 14:25 Psychology   179 Chemistry
+16:35 16:45 Statistics   234 Wellman
+24:05 24:05 Comp Sci     206 Olson
+
+Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+
+Your choice >> 

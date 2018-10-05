@@ -1,0 +1,646 @@
+commit 452dd625d66ee48a3d677be93c32822e9d6e050b
+Author: Daryl <darylnak@gmail.com>
+Date:   Tue May 2 23:01:52 2017 -0700
+
+    Add appointment
+
+commit c8f99fd1bff09de160ef1f4914d84de0426b40e2
+Author: Daryl <darylnak@gmail.com>
+Date:   Tue May 2 14:34:04 2017 -0700
+
+    Add appointment
+
+commit 95e2acc4cc760194f8465871ac89235f3b18c534
+Author: Daryl <darylnak@gmail.com>
+Date:   Mon May 1 23:50:49 2017 -0700
+
+    Days of week
+
+commit 29346dfeab6b953b6c6ef1661f3138b7fa301c34
+Author: Daryl <darylnak@gmail.com>
+Date:   Mon May 1 15:41:37 2017 -0700
+
+    destructors
+
+commit 12c0a223a7be09bb90bfd42b0786b451e0728fd6
+Author: Daryl <darylnak@gmail.com>
+Date:   Mon May 1 14:24:30 2017 -0700
+
+    destructors
+
+commit de025ac2b2158876c8a6464eaabbee723d7e61aa
+Author: Daryl <darylnak@gmail.com>
+Date:   Mon May 1 12:13:56 2017 -0700
+
+    destruc
+    
+    destruc
+
+commit 3b4c2473c9da6d82183706171adc8265f1ce58b6
+Author: Daryl <darylnak@gmail.com>
+Date:   Sun Apr 30 23:08:52 2017 -0700
+
+    constructors
+
+commit d0b99fdab375d344aa831ef569b54ea10935abd8
+Author: Daryl <darylnak@gmail.com>
+Date:   Sun Apr 30 23:06:28 2017 -0700
+
+    constructors
+
+commit 2dcedbbf726498e28634098b889deab9573d0146
+Author: Daryl <darylnak@gmail.com>
+Date:   Sun Apr 30 22:52:43 2017 -0700
+
+    P4: add some constructors (from Win10)
+
+commit 4ca6d7be8f9c6db9e3360442caa2db09f37b54fa
+Author: Daryl <darylnak@gmail.com>
+Date:   Sat Apr 22 21:57:10 2017 -0700
+
+    Hw3
+    
+    Hw3 final
+
+commit ba9f7694e85bd02dca0ee1ef2197b8c2f52dd520
+Author: Daryl <darylnak@gmail.com>
+Date:   Sat Apr 22 21:56:15 2017 -0700
+
+    delete
+    
+    delete .o
+
+commit df623739b6452c759aaa7e6329b7fcfc77a11106
+Author: Daryl <darylnak@gmail.com>
+Date:   Sat Apr 22 21:55:33 2017 -0700
+
+    delete
+    
+    Delete
+
+commit 29278dba55b14dc6a16b10bf589b356bf49da52e
+Merge: fc34991 bb78219
+Author: Daryl <darylnak@gmail.com>
+Date:   Sat Apr 22 21:54:55 2017 -0700
+
+    Merge remote-tracking branch 'origin/master'
+    
+    # Conflicts:
+    #       UCD/ecs40/hw1-c++/Makefile
+    #       UCD/ecs40/hw1-c++/appt.cpp
+    #       UCD/ecs40/hw1-c++/appts.csv
+    #       UCD/ecs40/hw1-c++/calendar.cpp
+    #       UCD/ecs40/hw1-c++/day.cpp
+    #       UCD/ecs40/hw1-c++/day.h
+    #       UCD/ecs40/hw1-c++/main.cpp
+    #       UCD/ecs40/hw1-c++/time.cpp
+
+commit fc34991044013926044838bfba3d5edc7e9a2d83
+Author: Daryl <darylnak@gmail.com>
+Date:   Sat Apr 22 21:53:39 2017 -0700
+
+    delete
+    
+    delete
+
+commit 33fdf0e8292bb70c6f3cc44496be74b7c4b630be
+Author: Daryl <darylnak@gmail.com>
+Date:   Sat Apr 22 21:52:33 2017 -0700
+
+    Merge remote-tracking branch 'origin/master'
+    
+    # Conflicts:
+    #       UCD/ecs40/hw1-c++/Makefile
+    #       UCD/ecs40/hw1-c++/appts.csv
+    #       UCD/ecs40/hw3/appt.cpp
+    #       UCD/ecs40/hw3/calendar.cpp
+    #       UCD/ecs40/hw3/day.cpp
+    #       UCD/ecs40/hw3/day.h
+    #       UCD/ecs40/hw3/time.cpp
+
+commit bb78219b6e148dea9f0ddb6c6a9c63ec74583ca4
+Author: Daryl <darylnak@gmail.com>
+Date:   Sat Apr 22 19:41:18 2017 -0700
+
+    hw1
+    
+    hw1
+
+commit 08cfb6e94fc57cce6b3e7f2a99c31969f3a7775c
+Author: Daryl <darylnak@gmail.com>
+Date:   Sat Apr 22 17:23:15 2017 -0700
+
+    1
+    
+    1
+
+commit 1644a9feee518156b5254150cc712a72df79580d
+Author: Daryl <darylnak@gmail.com>
+Date:   Wed Apr 19 09:05:44 2017 -0700
+
+    1
+    
+    1
+
+commit af7dedc94dff8685f44095c934207d44f29d3e9a
+Author: Daryl <darylnak@gmail.com>
+Date:   Tue Apr 18 12:54:10 2017 -0700
+
+    HW1
+    
+    Almost done!
+
+commit e74cb02888cd7a1fd2698f4787afaffbd6489cd9
+Author: Daryl <darylnak@gmail.com>
+Date:   Tue Apr 18 06:42:28 2017 -0700
+
+    d
+    
+    d
+
+commit 8e6753178162a8692135fc06e2b42be298183f95
+Author: Daryl <darylnak@gmail.com>
+Date:   Mon Apr 17 21:47:56 2017 -0700
+
+    S
+    
+    S
+
+commit 074f6fe87ea181441a2b32f26b6944c15439cce0
+Author: Daryl <darylnak@gmail.com>
+Date:   Mon Apr 17 20:40:28 2017 -0700
+
+    hw
+    
+    hw
+
+commit d4b1966b7e0c702887c2eaff7e69aca3ff7e52da
+Author: Daryl <darylnak@gmail.com>
+Date:   Sun Apr 16 08:01:59 2017 +0200
+
+    hw2
+    
+    Hw2
+
+commit 33bcda2ecec303b1cc8c6382e8492cc371ca925b
+Author: Daryl <darylnak@gmail.com>
+Date:   Sun Apr 16 00:47:56 2017 +0200
+
+    d
+    
+    d
+
+commit 37af9099a578cf45f0671d0bcba0c2589ea78f5c
+Author: Daryl <darylnak@gmail.com>
+Date:   Sat Apr 15 23:17:30 2017 +0200
+
+    1
+    
+    1
+
+commit ff503eebd439bf350e36d19e3ab7fd2955af999d
+Author: Daryl <darylnak@gmail.com>
+Date:   Sat Apr 15 22:49:57 2017 +0200
+
+    hw1
+    
+    h1
+
+commit 3c2da5c87137346d503f4067d8bc6c48f2ff09e8
+Author: Daryl <darylnak@gmail.com>
+Date:   Sat Apr 15 21:36:05 2017 +0200
+
+    hw1
+    
+    hw1
+
+commit 9778aa40613c2d2f7ae1a253cf020d2db9f03e9d
+Author: Daryl <darylnak@gmail.com>
+Date:   Sat Apr 15 18:09:59 2017 +0200
+
+    hw1
+    
+    hw1
+
+commit a39f6c2159f115a6ba6103e8eb7c711766482062
+Author: Daryl <darylnak@gmail.com>
+Date:   Sat Apr 15 15:20:11 2017 +0200
+
+    hw1
+    
+    hw1
+
+commit 76da04a1d671f9762b7456818818d0deb882dc7d
+Author: Daryl <darylnak@gmail.com>
+Date:   Sat Apr 15 14:49:10 2017 +0200
+
+    hw1
+    
+    hw1
+
+commit 850f174b9059d44702ae394da6b6321c49c52d85
+Author: Daryl <darylnak@gmail.com>
+Date:   Sat Apr 15 14:27:41 2017 +0200
+
+    hw1 update
+    
+    update
+
+commit b380a8d6debc5444ff0752d306625c8419d92238
+Author: Daryl <darylnak@gmail.com>
+Date:   Sat Apr 15 10:48:51 2017 +0200
+
+    hw1
+    
+    Hw1
+
+commit 2cd3dc0fbbcd11425500aec202bf4781e5fde0c8
+Author: Daryl <darylnak@gmail.com>
+Date:   Sat Apr 15 00:41:45 2017 +0200
+
+    hw1
+    
+    Hw1 updates
+
+commit 2632a4491e4117beb4b133feef30326c5d646dda
+Author: Daryl <darylnak@gmail.com>
+Date:   Thu Apr 13 21:59:28 2017 +0200
+
+    hw1
+    
+    hw1
+
+commit e7755550424d1de9f9fcd7232bcacbe532edfda0
+Author: Daryl <darylnak@gmail.com>
+Date:   Thu Apr 13 17:00:38 2017 +0200
+
+    HW1
+    
+    HW1 Update - ECS40
+
+commit c2cff2aed6716b0d13e1c00b2e1822ab356d39d2
+Author: Daryl <darylnak@gmail.com>
+Date:   Thu Apr 13 15:06:42 2017 +0200
+
+    hw1
+    
+    Hw1 update
+
+commit 26b103e12909cc57f16110917db850933c2ebfd6
+Author: Daryl <darylnak@gmail.com>
+Date:   Wed Apr 12 21:11:24 2017 +0200
+
+    ECS40
+    
+    HW1 for ECS 40
+
+commit 604038ece6e64c24284b99b77edaec810cdcf9d4
+Author: Daryl <darylnak@gmail.com>
+Date:   Mon Mar 20 03:28:35 2017 -0700
+
+    palindrome
+    
+    Palindrome
+
+commit ac1a67fec79c039967066f55e742c06a6390e61e
+Author: Daryl <darylnak@gmail.com>
+Date:   Sun Mar 19 22:30:12 2017 -0700
+
+    More review
+    
+    Code for practice final exam.
+
+commit a1aa229e708da3fc855290139c6a87bfff1fe79e
+Author: Daryl <darylnak@gmail.com>
+Date:   Sun Mar 19 04:08:02 2017 -0700
+
+    final
+    
+    More final notes
+
+commit fbc2871ee626f24a23208b4c0c669de652848d94
+Author: Daryl <darylnak@gmail.com>
+Date:   Sun Mar 19 00:01:06 2017 -0700
+
+    t
+    
+    T
+
+commit 61ba4a06f4fb89030657571b5017d463a601ce28
+Author: Daryl <darylnak@gmail.com>
+Date:   Sat Mar 18 20:58:42 2017 -0700
+
+    final_review
+    
+    Notes to review for final.
+
+commit a343a28f70cf365a211421c8a1fd84ce0449411b
+Author: Daryl <darylnak@gmail.com>
+Date:   Fri Mar 17 12:13:32 2017 -0700
+
+    HW7 Update
+    
+    HW7 finished.
+
+commit 59c5c8e38ebc81534737958b8e16a73cc3080f8d
+Author: Daryl <darylnak@gmail.com>
+Date:   Fri Mar 17 01:11:10 2017 -0700
+
+    Almost Done
+    
+    Almost done. The suffering is almost over
+
+commit 44712b3e1963d52d56a9cbc16145c456c240c20f
+Author: Daryl <darylnak@gmail.com>
+Date:   Thu Mar 16 23:34:50 2017 -0700
+
+    test
+    
+    test
+
+commit b697c08db35a3fb5fd8e2659ff5a74fadbe7c2ff
+Author: Daryl <darylnak@gmail.com>
+Date:   Thu Mar 16 21:15:47 2017 -0700
+
+    test
+    
+    Est
+
+commit 2e0c28c5042038d043692f0fd2758cd5e20c8f4d
+Author: Daryl <darylnak@gmail.com>
+Date:   Thu Mar 16 20:40:05 2017 -0700
+
+    Test
+    
+    Test
+
+commit 05fd3b3c00844e5940ae5fb83dffb1da34d77f01
+Author: Daryl <darylnak@gmail.com>
+Date:   Thu Mar 16 13:08:00 2017 -0700
+
+    Memory
+    
+    Potential memory fixes.
+
+commit a0b1f54dbbbc0e467e7ee36fc12c79a849553576
+Author: Daryl <darylnak@gmail.com>
+Date:   Thu Mar 16 02:56:54 2017 -0700
+
+    T
+    
+    T
+
+commit e0716e8a122fec4497a3b483a906909fdea9560f
+Author: Daryl <darylnak@gmail.com>
+Date:   Thu Mar 16 01:51:57 2017 -0700
+
+    backup
+    
+    Backup for movement to Ubuntu
+
+commit 3b96b0e1a7714ee96f6437a9f530e47a55a34fb8
+Author: Daryl <darylnak@gmail.com>
+Date:   Thu Mar 16 00:11:50 2017 -0700
+
+    Implemented NextGeneration(), modified CellGrid_Print(), & Debug
+    
+    NextGeneration() has been implemented. Currently does not work due to
+    an unknown segfault (11); started debug process as a result. Added
+    clang -g command to makefile for debugging purposes.
+
+commit 139c6157033ffa5ae65bc91f13fa9153677ee4f3
+Author: Daryl <darylnak@gmail.com>
+Date:   Wed Mar 15 22:35:47 2017 -0700
+
+    Initial Implementation of GetNeighboringCells()
+    
+    Version 1 of GetNeighboringCells(). May not work.
+
+commit e0bb858ab538fdb3e7cfab4f8a818d24f149bf76
+Author: Daryl <darylnak@gmail.com>
+Date:   Wed Mar 15 22:25:08 2017 -0700
+
+    Test
+    
+    Test
+
+commit 885f3d24a87128ad85c3ee7c92ba05523c3946b3
+Author: Daryl <darylnak@gmail.com>
+Date:   Wed Mar 15 22:06:11 2017 -0700
+
+    Initial Implementation of GetNeighboringCells()
+    
+    Version 1 of GetNeighboringCells(). May not work.
+
+commit 09e87f778b24251b9b77398060551c2d695f358d
+Author: Daryl <darylnak@gmail.com>
+Date:   Wed Mar 15 21:54:49 2017 -0700
+
+    test
+    
+    Test
+
+commit f20953a0f5f371da0e0512e9196b5e566e671e1e
+Author: Daryl <darylnak@gmail.com>
+Date:   Wed Mar 15 21:51:32 2017 -0700
+
+    Initial Implementation of GetNeighboringCells()
+    
+    Version 1 of GetNeighboringCells(). May not work.
+
+commit 7cfcda0d7a3d02ead50b15b2ba6c690770deb7aa
+Author: Daryl <darylnak@campus-115-181.ucdavis.edu>
+Date:   Wed Mar 15 15:17:51 2017 -0700
+
+    idk
+    
+    Idk
+
+commit 57443121fb3c17a2393fafe6774bc5abb2935459
+Author: Daryl <darylnak@campus-015-245.ucdavis.edu>
+Date:   Mon Mar 13 15:53:15 2017 -0700
+
+    Fixed Cell Neighbors
+    
+    Cell neighbors works according to program guidelines.
+
+commit 5954d315cb89e479e91fa824a95082798098b1ef
+Author: Daryl <darylnak@campus-015-245.ucdavis.edu>
+Date:   Mon Mar 13 13:52:09 2017 -0700
+
+    Hw7
+    
+    Update Hw7
+
+commit 460a464e2e28701a6c3b536da17b59814c1bb67a
+Author: Daryl Nakamoto <djnakamoto@gmail.com>
+Date:   Fri Mar 10 12:56:57 2017 -0800
+
+    HW7 and zybooks
+
+commit 76a211b8d68aa695fd1d757f6deea6f0ecf79a42
+Author: Daryl Nakamoto <djnakamoto@gmail.com>
+Date:   Wed Mar 8 01:26:53 2017 -0800
+
+    HW Update
+    
+    Upload new homework and finished all.
+
+commit b45186afcfb990e0afca0e0658d68be05743e808
+Author: Daryl Nakamoto <djnakamoto@gmail.com>
+Date:   Fri Feb 10 16:58:46 2017 -0800
+
+    HW4
+    
+    Edit testmystringfunctions.c to fix some bugs. Still waiting for
+    official results to finalize.
+
+commit f0f39dc76efc68b8d862709d1cfb7723557eadac
+Author: Daryl Nakamoto <djnakamoto@gmail.com>
+Date:   Fri Feb 10 16:22:09 2017 -0800
+
+    return
+    
+    return 0
+
+commit 68fc1d6f0b674e97ea514d00cf7de8d2f71abd8d
+Author: Daryl Nakamoto <djnakamoto@gmail.com>
+Date:   Thu Feb 9 12:12:50 2017 -0800
+
+    HW4
+    
+    yahtzee finalize.
+
+commit 8b55d0949c7dd416cadd656a78ffedf080a0a602
+Author: Daryl Nakamoto <djnakamoto@gmail.com>
+Date:   Thu Feb 9 11:56:22 2017 -0800
+
+    Fix
+    
+    Fix hw4
+
+commit 6e6e127ab6fe74159c6f79e0fd3209d39fe1e580
+Author: Daryl Nakamoto <djnakamoto@gmail.com>
+Date:   Wed Feb 8 00:45:29 2017 -0800
+
+    Hw4 Complete?
+    
+    Complete hw4 (maybe)
+
+commit 5c87fa16e2d561fcdaa74a4185b3092a903ca529
+Author: Daryl Nakamoto <djnakamoto@gmail.com>
+Date:   Tue Feb 7 20:26:37 2017 -0800
+
+    hw4
+    
+    change hw4
+
+commit 2079e35433ef026d213700f12beb339ef8c391cb
+Author: Daryl Nakamoto <djnakamoto@gmail.com>
+Date:   Sun Feb 5 01:28:23 2017 -0800
+
+    HW4
+    
+    Start hw4
+
+commit b642d082bf0c86651797563114cd2ea484f63c9e
+Author: Daryl Nakamoto <djnakamoto@gmail.com>
+Date:   Sat Jan 28 10:59:48 2017 -0800
+
+    HW3 completion
+    
+    Complete HW3:
+    1) guessyournumber.c complete
+    2) remove a.out
+    3) update roshambo.c
+
+commit a56b4dac33e30e10d81b525744f3e415abfc2e41
+Author: Daryl Nakamoto <djnakamoto@gmail.com>
+Date:   Thu Jan 26 13:03:46 2017 -0800
+
+    Hw updates
+    
+    - Finish HW2.
+    - Start HW3:
+      a) squareroot.c finished
+      b) guessyournumber.c in progress
+
+commit b077cf60a3369d18912bcdc51bc75def89391bc7
+Author: Daryl Nakamoto <djnakamoto@gmail.com>
+Date:   Wed Jan 18 23:24:15 2017 -0800
+
+    Start unitconversion.c
+    
+    Add prototypes, scanners for user inputs, and parameter checks.
+
+commit 50753b65b492c093b0f5f4ae9adaa6891416f806
+Author: Daryl Nakamoto <djnakamoto@gmail.com>
+Date:   Wed Jan 18 19:39:24 2017 -0800
+
+    New Additions
+    
+    1) Add hw2 and code.
+    2) Add program specifications to designated homework.
+    3) remove hw1 a.out
+
+commit a1e6d87ff66ec774b059be9c744adc204ba6cf80
+Author: Daryl Nakamoto <djnakamoto@gmail.com>
+Date:   Sun Jan 15 00:42:36 2017 -0800
+
+    code update
+    
+    update code to practice “good programing.”
+
+commit 85ba9ac5bc7efc3c845aeb064a487f9e27cab97a
+Author: Daryl Nakamoto <djnakamoto@gmail.com>
+Date:   Wed Jan 11 01:50:29 2017 -0800
+
+    remove file
+    
+    remove a.out from directory.
+
+commit 3d2593a04eb164e25b2afe8660e26e8897a3de6c
+Author: Daryl Nakamoto <djnakamoto@gmail.com>
+Date:   Wed Jan 11 01:49:05 2017 -0800
+
+    Algorithm fix
+    
+    Change algorithms for correct output on GradeScope.
+
+commit 6c6ebbbbc1df70e20cb3f0017b5db34092bc7ba6
+Author: Daryl <darylnak@users.noreply.github.com>
+Date:   Tue Jan 10 22:02:05 2017 -0800
+
+    Word change
+    
+    Change "work" to "code" in final sentence.
+
+commit 439e2a24cc69b7a13d003c40b2493777b6563d47
+Author: Daryl Nakamoto <djnakamoto@gmail.com>
+Date:   Tue Jan 10 21:59:03 2017 -0800
+
+    UCD folder
+    
+    Create UCD folder to organize work.
+
+commit 6d09e40f41aa7b38b7e448f94385c491a1351079
+Author: Daryl Nakamoto <djnakamoto@gmail.com>
+Date:   Tue Jan 10 21:57:36 2017 -0800
+
+    read change
+    
+    edit readme description.
+
+commit b1ad47330d0d243e46e26de86e77c4c176730738
+Author: Daryl Nakamoto <djnakamoto@gmail.com>
+Date:   Tue Jan 10 21:52:53 2017 -0800
+
+    hw1
+    
+    add homework 1 project to repository.
+
+commit f6a81cba7fca04dad68417396615e0fb586ba1af
+Author: Daryl <darylnak@users.noreply.github.com>
+Date:   Tue Jan 10 21:51:38 2017 -0800
+
+    Initial commit

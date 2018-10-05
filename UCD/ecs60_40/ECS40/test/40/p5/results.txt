@@ -1,0 +1,17 @@
+As with previous programs, this version of the DesignChecker does not
+check for correct consts.  I will ad those checks Thursday morning.
+This time the DesignChecker checks for proper names in comments after 
+some of the closing parentheses of functions.
+Since the operations are identical to p4's, to prevent submission of p4
+The design score can be as little as -20, which would eliminate both
+the style and operation points if p4 is submitted unchanged.
+Scores from p5 for You need to create an authors.csv file!!!! No one will receive credit for this assignment
+
+Addresses used: Sean@ucdavis.edu
+ 
+Style: 5 out of 5
+Design: -20 out of 30 
+Operation: 0 out of 15 
+Warnings (subtracted from final score down to zero): 0
+Your program did not work so you will only receive points for design.
+Total: 0 out of 50.

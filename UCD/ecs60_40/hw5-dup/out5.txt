@@ -1,0 +1,33 @@
+Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+3. Add an appointment.
+4. Print appointment count.
+
+Your choice >> 
+Please enter the month, day, and year (mm/dd/yyyy) >> Subject >> Location >> Start time (hh:mm) >> End time (hh:mm) >> Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+3. Add an appointment.
+4. Print appointment count.
+
+Your choice >> 
+Please enter the month, day, and year (mm/dd/yyyy) >> Subject >> Location >> Start time (hh:mm) >> End time (hh:mm) >> Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+3. Add an appointment.
+4. Print appointment count.
+
+Your choice >> Appointment count: 343
+
+Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+3. Add an appointment.
+4. Print appointment count.
+
+Your choice >> 

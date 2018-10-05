@@ -1,0 +1,3 @@
+CPU Time: 1.53839 Evacuation hours: 46
+CPU Time: 0.96997 Evacuation hours: 58
+CPU Time: 1.70931 Evacuation hours: 83

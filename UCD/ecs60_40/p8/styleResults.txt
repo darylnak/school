@@ -1,0 +1,19 @@
+Processing :  /home/darylnak/p8/pager.cpp
+Processing :  /home/darylnak/p8/pager.h
+Processing :  /home/darylnak/p8/main.cpp
+Processing :  /home/darylnak/p8/indexpager.cpp
+Processing :  /home/darylnak/p8/indexpager.h
+
+
+=================================== Summary Report ===================================
+ ** Total Available Rules     : 52
+ ** Total Applied Rules       : 30
+ ** Total Violated Rules      : 0
+ ** Total Errors Occurs       : 0
+ ** Total Analyzed Files      : 5
+ ** Total Violated Files Count: 0
+ ** Build Quality             : 100.00%
+
+================================ Violated Rule Details ===============================
+
+================================ Violated File Details ===============================

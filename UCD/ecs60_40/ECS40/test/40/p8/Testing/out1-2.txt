@@ -1,0 +1,96 @@
+IntToString 6, 13.
+Pager 6, 15, 34, 43.
+ProcessKey 15, 32.
+Text 20-21, 39, 47-48, 51.
+TopLine 19-21, 27-29, 45, 50.
+WritePage 22, 30, 43, 52.
+b 15, 25, 31.
+back 15, 39.
+buf 9-11.
+char 9.
+const 6.
+cout 51.
+cstdio 1.
+d 10.
+else 24.
+end 45, 47-48, 50.
+endl 51.
+f 15, 17, 23.
+for 50.
+forward 15.
+getline 38.
+h 2.
+i 50-51.
+getline 38.
+h 2.
+i 50-51.
+if 17, 20, 23, 25, 28, 31, 47.
+in 34, 38.
+include 0-2.
+int 6, 15, 20, 45, 47, 50.
+iostream 0.
+is 23, 31.
+istream 34.
+key 15, 17, 23, 25, 31.
+n 38.
+namespace 4.
+num 6, 10.
+pager 2.
+push 39.
+read 34, 40.
+return 12.
+s 8, 11-12, 36, 38-39.
+size 20-21, 47-48.
+sprintf 10.
+static 8.
+std 4.
+sprintf 10.
+static 8.
+std 4.
+string 6, 8, 11, 36.
+using 4.
+void 15, 34, 43.
+while 38.
+iostream 0.
+is 23, 31.
+istream 34.
+key 15, 17, 23, 25, 31.
+n 38.
+namespace 4.
+num 6, 10.
+pager 2.
+push 39.
+read 34, 40.
+return 12.
+s 8, 11-12, 36, 38-39.
+size 20-21, 47-48.
+sprintf 10.
+static 8.
+std 4.
+string 6, 8, 11, 36.
+using 4.
+void 15, 34, 43.
+while 38.
+back 15, 39.
+buf 9-11.
+char 9.
+const 6.
+cout 51.
+cstdio 1.
+d 10.
+else 24.
+end 45, 47-48, 50.
+endl 51.
+f 15, 17, 23.
+for 50.
+forward 15.
+getline 38.
+h 2.
+i 50-51.
+if 17, 20, 23, 25, 28, 31, 47.
+in 34, 38.
+include 0-2.
+int 6, 15, 20, 45, 47, 50.
+iostream 0.
+is 23, 31.
+istream 34.

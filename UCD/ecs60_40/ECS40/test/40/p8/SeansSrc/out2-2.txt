@@ -1,0 +1,200 @@
+All 4, 34.
+And 5, 15, 17, 20, 22, 27, 35.
+BY 1.
+Bandersnatch 10.
+Beware 7, 9.
+CARROLL 1.
+Callay 29.
+Callooh 29.
+Came 19.
+Come 28.
+Did 3, 33.
+He 12, 24-25, 30.
+Jabberwock 7, 18, 27.
+Jabberwocky 0.
+Jubjub 9.
+LEWIS 1.
+Long 13.
+O 29.
+One 22.
+So 14.
+The 8, 10, 18, 23.
+Tumtum 14.
+Twas 2, 32.
+All 4, 34.
+And 5, 15, 17, 20, 22, 27, 35.
+BY 1.
+Bandersnatch 10.
+Beware 7, 9.
+CARROLL 1.
+Callay 29.
+Callooh 29.
+Came 19.
+Come 28.
+Did 3, 33.
+He 12, 24-25, 30.
+Jabberwock 7, 18, 27.
+Jabberwocky 0.
+Jubjub 9.
+LEWIS 1.
+Long 13.
+O 29.
+One 22.
+So 14.
+The 8, 10, 18, 23.
+Tumtum 14.
+Twas 2, 32.
+The 8, 10, 18, 23.
+Tumtum 14.
+Twas 2, 32.
+and 2-3, 9, 22, 24, 32-33.
+arms 28.
+as 17, 20.
+awhile 15.
+back 25.
+beamish 28.
+bird 9.
+bite 8.
+blade 23.
+borogoves 4, 34.
+boy 28.
+brillig 2, 32.
+burbled 20.
+by 14.
+came 20.
+catch 8.
+chortled 30.
+claws 8.
+day 29.
+dead 24.
+claws 8.
+day 29.
+dead 24.
+eyes 18.
+flame 18.
+foe 13.
+frabjous 29.
+frumious 10.
+galumphing 25.
+gimble 3, 33.
+gyre 3, 33.
+hand 12.
+hast 27.
+he 13-14, 17.
+head 24.
+his 12, 30.
+in 3, 12, 15, 17, 30, 33.
+it 20, 24.
+its 24.
+jaws 8.
+joy 30.
+left 24.
+manxome 13.
+The 8, 10, 18, 23.
+Tumtum 14.
+Twas 2, 32.
+and 2-3, 9, 22, 24, 32-33.
+arms 28.
+as 17, 20.
+awhile 15.
+back 25.
+beamish 28.
+bird 9.
+bite 8.
+blade 23.
+borogoves 4, 34.
+boy 28.
+brillig 2, 32.
+burbled 20.
+by 14.
+came 20.
+catch 8.
+chortled 30.
+claws 8.
+day 29.
+dead 24.
+claws 8.
+day 29.
+dead 24.
+eyes 18.
+flame 18.
+foe 13.
+frabjous 29.
+frumious 10.
+galumphing 25.
+gimble 3, 33.
+gyre 3, 33.
+hand 12.
+hast 27.
+he 13-14, 17.
+head 24.
+his 12, 30.
+in 3, 12, 15, 17, 30, 33.
+it 20, 24.
+its 24.
+jaws 8.
+joy 30.
+left 24.
+manxome 13.
+joy 30.
+left 24.
+manxome 13.
+mimsy 4, 34.
+mome 5, 35.
+my 7, 28.
+of 18.
+outgrabe 5, 35.
+raths 5, 35.
+rested 14.
+shun 9.
+slain 27.
+slithy 2, 32.
+snack 23.
+snicker 23.
+son 7.
+sought 13.
+stood 15, 17.
+sword 12.
+that 8.
+the 2-5, 7-9, 13-14, 19, 27, 32-35.
+thou 27.
+thought 15, 17.
+the 2-5, 7-9, 13-14, 19, 27, 32-35.
+thou 27.
+thought 15, 17.
+through 19, 22.
+time 13.
+to 28.
+took 12.
+toves 2, 32.
+tree 14.
+tulgey 19.
+two 22.
+uffish 17.
+vorpal 12, 23.
+wabe 3, 33.
+went 23, 25.
+were 4, 34.
+whiffling 19.
+with 18, 24.
+wood 19.
+that 8.
+the 2-5, 7-9, 13-14, 19, 27, 32-35.
+thou 27.
+thought 15, 17.
+through 19, 22.
+time 13.
+to 28.
+took 12.
+toves 2, 32.
+tree 14.
+tulgey 19.
+two 22.
+uffish 17.
+vorpal 12, 23.
+wabe 3, 33.
+went 23, 25.
+were 4, 34.
+whiffling 19.
+with 18, 24.
+wood 19.

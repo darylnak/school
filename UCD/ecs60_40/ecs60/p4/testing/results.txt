@@ -1,0 +1,19 @@
+Scores from p4 for Nakamoto,Daryl 
+
+Note that the format for authors.csv is: e-mail<comma>last name<comma>first name
+For example: ssdavis@ucdavis.edu,Davis,Sean
+
+Addresses used: dtnakamoto@ucdavis.edu  
+This is a run of p4 with a three minute limit on the time allowed per run.
+I  will extend the time limit tomorrow, and see if any that didn't complete before do then.
+Makefile optimization check: OK
+Testing  Disk500000_4000_85_30_3.txt: 
+CPU Time: 1.87362 Disk accesses: 1122284 RAM: 1354112
+Testing  Disk500000_4000_85_30_4.txt: 
+CPU Time: 1.33288 Disk accesses: 1122358 RAM: 1354112
+Testing  Disk500000_4000_85_30_5.txt: 
+CPU Time: 1.16633 Disk accesses: 1116570 RAM: 1354112
+
+Total CPU Time: Yours 4.37283  Sean's: 7.77 so your score is 17
+Total disk accesses: Yours 3361212  Sean's: 3423172 so your score is 16
+Total score: 17 + 16 + 20 = 53

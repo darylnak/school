@@ -1,0 +1,65 @@
+% printenv
+LESSOPEN=|/usr/bin/lesspipe.sh %s
+IPATH=/pkg/icon.v940/ilib
+HISTSIZE=1000
+HOSTNAME=pc7.cs.ucdavis.edu
+LOGNAME=davis
+HISTFILESIZE=1000
+LPATH=/pkg/icon.v940/ilib
+MAIL=/var/mail/davis
+TERM=xterm
+HOSTTYPE=i386-linux
+PATH=/home/davis/bin:.:/sbin:/usr/sbin:/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin:/pkg/bin:/usr/local/jdk1.2.2/bin:/altpkg/java/bin
+KDEDIR=/usr
+HOME=/home/davis
+SHELL=/pkg/bin/tcsh
+USER=davis
+QTDIR=/usr/lib/qt-2.1.0
+DISPLAY=:0
+LANG=en_US
+OSTYPE=linux
+FPATH=/pkg/icon.v940/bin
+SHLVL=1
+LS_COLORS=no=00:fi=00:di=01;34:ln=01;36:pi=40;33:so=01;35:bd=40;33;01:cd=40;33;01:or=01;05;37;41:mi=01;05;37;41:ex=01;32:*.cmd=01;32:*.exe=01;32:*.com=01;32:*.btm=01;32:*.bat=01;32:*.sh=01;32:*.csh=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.gz=01;31:*.bz2=01;31:*.bz=01;31:*.tz=01;31:*.rpm=01;31:*.cpio=01;31:*.jpg=01;35:*.gif=01;35:*.bmp=01;35:*.xbm=01;35:*.xpm=01;35:*.png=01;35:*.tif=01;35:
+COLORTERM=
+VENDOR=intel
+MACHTYPE=i386
+PWD=/home/davis/40/temp
+GROUP=users
+HOST=pc7.cs.ucdavis.edu
+% echo $user $USER $group $GROUP
+davis davis users users
+% set user = fred
+% echo $user $USER $group $GROUP
+fred fred users users
+% set USER = derf
+% echo $user $USER $group $GROUP
+fred derf users users
+% setenv GROUP smith
+% echo $user $USER $group $GROUP
+fred derf smith smith
+% set GROUP = jones
+% echo $user $USER $group $GROUP
+fred derf smith jones
+% tcsh
+% echo $user $USER $group $GROUP
+fred fred smith smith
+% set user = sean
+% setenv GROUP ECS
+% echo $user $USER $group $GROUP
+sean sean ECS ECS
+% ps
+  PID TTY          TIME CMD
+ 9327 pts/0    00:00:00 tcsh
+ 9361 pts/0    00:00:00 tcsh
+ 9382 pts/0    00:00:00 ps
+% exit
+exit
+% ps
+  PID TTY          TIME CMD
+ 9327 pts/0    00:00:00 tcsh
+ 9383 pts/0    00:00:00 ps
+% echo $user $USER $group $GROUP
+fred derf smith jones
+%                                        
+        

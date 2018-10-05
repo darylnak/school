@@ -1,0 +1,19 @@
+Scores from p5 for Daryl,dtnakamoto@ucdavis.edu 
+
+Note that the format for authors.csv is: e-mail<comma>last name<comma>first name
+For example: ssdavis@ucdavis.edu,Davis,Sean
+
+Addresses used: Nakamoto  
+This is a run of p5 with a five minute limit on the time allowed per run.
+I  will extend the time limit tomorrow, and see if any that didn't complete before do then.
+Makefile optimization check: OK
+Testing cities-10000-100000-4.txt: 
+CPU Time: 1.06762 Evacuation hours: 71
+Testing cities-10000-100000-5.txt: 
+CPU Time: 0.783113 Evacuation hours: 72
+Testing cities-10000-100000-6.txt: 
+CPU Time: 1.05993 Evacuation hours: 73
+
+Total CPU Time: Yours 2.91066  Sean's: 5.51 so your score is 18
+Total hours: Yours 216  Sean's: 325 so your score is 18
+Total score: 18 + 18 + 20 = 56

@@ -1,0 +1,342 @@
+Date,Subject,Start Time,End Time,Location
+7/28/1995,Russian,1:10:00 PM,1:30:00 PM,106 Wellman
+7/25/2000,Classics,8:20:00 AM,9:00:00 AM,206 Olson
+6/29/2016,Hydrology,6:25:00 AM,8:15:00 AM,6 Olson
+1/31/2000,Japanese,7:30:00 AM,8:35:00 AM,2 Wellman
+8/21/2001,Spanish,5:15:00 PM,5:40:00 PM,100 Hunt
+4/20/1999,Philosophy,6:50:00 AM,7:40:00 AM,123 Sciences Lecture Hall
+4/16/1997,Pathology,4:10:00 PM,6:15:00 PM,106 Wellman
+11/2/1993,Economics,5:00:00 PM,7:50:00 PM,1100 Social Science
+12/20/2004,Urology,3:05:00 PM,5:40:00 PM,6 Welman
+6/1/2016,Sociology,10:55:00 AM,10:55:00 AM,6 Welman
+4/2/2001,Philosophy,4:55:00 PM,6:15:00 PM,6 Olson
+6/31/2014,Italian,1:30:00 PM,3:00:00 PM,100 Hunt
+12/20/2004,Physics,10:40:00 AM,1:20:00 PM,1001 Geidt
+4/20/1999,French,4:40:00 PM,5:45:00 PM,126 Wellman
+4/26/2004,Spanish,6:55:00 AM,9:20:00 AM,6 Olson
+5/2/2007,Comp Sci,4:35:00 PM,5:25:00 PM,2 Wellman
+2/30/1999,Psychiatry,6:50:00 AM,9:00:00 AM,26 Wellman
+9/7/1998,Psychology,6:20:00 AM,6:30:00 AM,1100 Social Science
+4/4/2004,Art History,5:10:00 PM,8:00:00 PM,123 Sciences Lecture Hall
+2/6/2006,Pathology,8:35:00 AM,8:45:00 AM,1001 Geidt
+2/31/2010,Chemistry,11:30:00 AM,1:50:00 PM,3 Kleiber
+5/5/2015,Comp Sci,3:40:00 PM,4:25:00 PM,1001 Geidt
+8/20/2003,Physics,1:50:00 PM,3:35:00 PM,123 Sciences Lecture Hall
+5/6/2015,Russian,12:05:00 PM,12:30:00 PM,2 Wellman
+9/19/2002,Comp Sci,2:55:00 PM,4:10:00 PM,170 Schalm Hall
+3/1/2016,Hydrology,1:40:00 PM,1:50:00 PM,180 Med Sci
+7/25/2000,Philosophy,6:35:00 AM,8:40:00 AM,3 Kleiber
+2/14/2009,Neurology,9:20:00 AM,9:30:00 AM,1100 Social Science
+6/11/2006,Art History,1:00:00 PM,1:35:00 PM,1003 Geidt
+12/25/2014,Spanish,9:25:00 AM,11:35:00 AM,123 Sciences Lecture Hall
+4/18/2013,Geology,9:40:00 AM,10:50:00 AM,Rock Hall
+10/25/2001,German,2:50:00 PM,3:25:00 PM,26 Wellman
+8/5/2017,Japanese,5:40:00 PM,8:20:00 PM,176 Everson
+6/25/2010,Neurology,9:35:00 AM,11:45:00 AM,2 Wellman
+6/11/2006,Geology,1:25:00 PM,3:30:00 PM,1001 Geidt
+7/25/2000,Sociology,10:25:00 AM,12:40:00 PM,2 Wellman
+2/4/2008,Hydrology,6:25:00 AM,6:35:00 AM,1001 Geidt
+7/26/2006,Geology,11:25:00 AM,1:35:00 PM,6 Olson
+9/31/2009,History,12:50:00 PM,2:20:00 PM,66 Roessler
+5/18/2004,Pediatrics,2:00:00 PM,3:20:00 PM,1002 Geidt
+8/5/2009,Music,9:30:00 AM,12:15:00 PM,170 Schalm Hall
+7/28/1995,Classics,6:10:00 AM,6:45:00 AM,6 Olson
+5/18/2004,French,10:00:00 AM,11:05:00 AM,1100 Social Science
+8/16/2012,Pediatrics,3:40:00 PM,5:05:00 PM,126 Wellman
+4/9/1994,Art History,7:35:00 AM,7:50:00 AM,3 Kleiber
+7/26/2006,Psychiatry,7:45:00 AM,10:00:00 AM,6 Welman
+2/6/2006,Japanese,12:25:00 PM,12:45:00 PM,170 Schalm Hall
+7/25/2000,Chemistry,6:25:00 AM,9:15:00 AM,1001 Geidt
+2/14/2009,Urology,2:35:00 PM,2:35:00 PM,2 Wellman
+7/15/2000,French,3:55:00 PM,6:00:00 PM,Rock Hall
+7/25/2000,Psychology,10:15:00 AM,10:25:00 AM,126 Wellman
+8/16/2011,German,4:55:00 PM,6:20:00 PM,26 Wellman
+4/4/2004,Psychiatry,8:00:00 AM,10:40:00 AM,198 Young
+11/2/1993,Comp Sci,12:40:00 PM,2:40:00 PM,179 Chemistry
+9/12/2011,English,7:05:00 AM,7:15:00 AM,206 Olson
+3/15/1993,Physics,6:30:00 AM,7:30:00 AM,1100 Social Science
+1/5/2016,German,7:45:00 AM,8:10:00 AM,194 Young
+6/3/2005,Philosophy,3:40:00 PM,4:20:00 PM,2 Wellman
+4/16/1997,Pathology,5:20:00 PM,6:40:00 PM,2205 Haring
+11/25/1994,Physics,8:00:00 AM,9:35:00 AM,126 Wellman
+8/20/2003,Psychiatry,4:35:00 PM,6:10:00 PM,1003 Geidt
+8/16/2012,Mathematics,8:45:00 AM,9:25:00 AM,2205 Haring
+5/17/2004,Mathematics,5:25:00 PM,8:15:00 PM,1003 Geidt
+10/14/2001,Classics,4:40:00 PM,5:30:00 PM,100 Hunt
+8/16/2012,History,4:20:00 PM,6:50:00 PM,106 Wellman
+2/31/2010,English,6:50:00 AM,7:05:00 AM,1100 Social Science
+9/12/2011,German,1:10:00 PM,2:35:00 PM,1001 Geidt
+1/15/2007,Art History,5:25:00 PM,5:55:00 PM,3 Kleiber
+3/23/2003,Mathematics,7:05:00 AM,9:40:00 AM,194 Young
+6/1/2016,Mathematics,1:40:00 PM,2:20:00 PM,179 Chemistry
+8/9/1994,Spanish,8:30:00 AM,10:10:00 AM,206 Olson
+5/18/2015,Spanish,3:05:00 PM,3:30:00 PM,1002 Geidt
+4/16/1997,Spanish,11:20:00 AM,11:35:00 AM,123 Sciences Lecture Hall
+5/11/1994,Japanese,6:30:00 AM,6:45:00 AM,2 Wellman
+7/15/2000,Sociology,5:20:00 PM,7:20:00 PM,66 Roessler
+5/31/2008,Psychiatry,8:10:00 AM,8:55:00 AM,2205 Haring
+9/31/2009,Urology,2:35:00 PM,3:35:00 PM,3 Kleiber
+9/7/1998,Pediatrics,5:20:00 PM,5:35:00 PM,194 Young
+8/30/2006,Hydrology,8:25:00 AM,11:15:00 AM,194 Young
+6/25/1995,Spanish,11:15:00 AM,12:00:00 PM,2 Wellman
+9/19/2002,Pathology,6:40:00 AM,9:15:00 AM,179 Chemistry
+2/4/2008,German,9:05:00 AM,10:25:00 AM,1002 Geidt
+2/30/1999,Chemistry,3:50:00 PM,4:40:00 PM,1002 Geidt
+9/21/2010,Pediatrics,2:20:00 PM,4:00:00 PM,106 Wellman
+6/23/2007,Mathematics,8:50:00 AM,9:40:00 AM,1003 Geidt
+6/23/2007,Psychiatry,12:55:00 PM,2:35:00 PM,1001 Geidt
+6/25/1995,Neurology,2:00:00 PM,2:45:00 PM,2205 Haring
+7/28/2017,Neurology,5:45:00 PM,8:05:00 PM,206 Olson
+8/9/1994,French,3:50:00 PM,5:10:00 PM,Rock Hall
+11/25/1994,Psychiatry,8:35:00 AM,10:50:00 AM,1001 Geidt
+8/6/1997,Pediatrics,9:30:00 AM,10:50:00 AM,6 Olson
+12/13/1999,Statistics,2:15:00 PM,3:25:00 PM,1002 Geidt
+4/16/2001,English,1:00:00 PM,2:40:00 PM,1100 Social Science
+8/6/1997,Spanish,7:20:00 AM,7:20:00 AM,1100 Social Science
+7/28/2017,Psychiatry,10:15:00 AM,12:35:00 PM,179 Chemistry
+6/25/1995,Neurology,10:10:00 AM,11:15:00 AM,Rock Hall
+6/1/2016,Surgery,12:50:00 PM,3:20:00 PM,176 Everson
+12/13/1999,German,8:30:00 AM,10:45:00 AM,6 Olson
+2/14/2004,French,3:25:00 PM,4:35:00 PM,123 Sciences Lecture Hall
+11/12/2013,Pediatrics,4:15:00 PM,6:45:00 PM,123 Sciences Lecture Hall
+1/2/2000,Japanese,4:20:00 PM,7:10:00 PM,1003 Geidt
+7/9/2008,History,2:40:00 PM,2:45:00 PM,6 Olson
+7/14/2003,Geology,8:40:00 AM,9:10:00 AM,26 Wellman
+6/1/2016,Statistics,12:15:00 PM,12:45:00 PM,1002 Geidt
+2/14/2009,Surgery,6:25:00 AM,8:40:00 AM,234 Wellman
+2/6/2006,German,5:40:00 PM,7:10:00 PM,180 Med Sci
+1/2/2000,Urology,3:20:00 PM,4:25:00 PM,6 Welman
+7/26/2006,Japanese,3:25:00 PM,5:25:00 PM,176 Everson
+11/1/2012,French,8:25:00 AM,8:50:00 AM,170 Schalm Hall
+6/9/1994,Physics,9:15:00 AM,10:20:00 AM,1003 Geidt
+5/26/2016,Psychiatry,3:05:00 PM,4:50:00 PM,198 Young
+6/23/1998,Surgery,7:05:00 AM,9:55:00 AM,6 Welman
+11/3/2001,History,8:45:00 AM,11:00:00 AM,66 Roessler
+2/26/2001,Art History,10:10:00 AM,1:00:00 PM,2 Wellman
+2/6/2006,English,7:40:00 AM,8:45:00 AM,66 Roessler
+4/9/1994,Economics,7:20:00 AM,8:45:00 AM,176 Everson
+5/17/2004,Classics,10:35:00 AM,12:05:00 PM,206 Olson
+1/2/2000,Mathematics,6:30:00 AM,7:20:00 AM,126 Wellman
+8/15/1998,Nutrition,10:30:00 AM,11:40:00 AM,2205 Haring
+3/12/2000,Pathology,11:30:00 AM,12:55:00 PM,179 Chemistry
+2/5/2004,Classics,11:25:00 AM,11:45:00 AM,1100 Social Science
+2/14/2009,Chemistry,7:25:00 AM,9:25:00 AM,198 Young
+2/7/2008,Physics,9:00:00 AM,9:50:00 AM,1002 Geidt
+7/15/2000,Nutrition,7:50:00 AM,8:00:00 AM,234 Wellman
+10/14/2001,Music,11:55:00 AM,12:20:00 PM,2 Wellman
+10/14/2001,History,11:45:00 AM,12:55:00 PM,1002 Geidt
+6/23/1998,Physics,7:45:00 AM,8:30:00 AM,1100 Social Science
+7/15/2000,Sociology,4:35:00 PM,4:45:00 PM,106 Wellman
+10/14/2001,Chemistry,11:00:00 AM,12:45:00 PM,123 Sciences Lecture Hall
+6/25/2010,Comp Sci,6:55:00 AM,8:10:00 AM,106 Wellman
+3/23/2003,Urology,9:35:00 AM,10:45:00 AM,198 Young
+1/15/2007,Psychology,10:00:00 AM,10:40:00 AM,26 Wellman
+5/18/2004,Hydrology,1:50:00 PM,2:35:00 PM,234 Wellman
+4/26/2004,History,6:45:00 AM,8:50:00 AM,1002 Geidt
+9/28/2010,Surgery,2:50:00 PM,2:50:00 PM,194 Young
+2/31/2010,Art History,10:40:00 AM,10:45:00 AM,1100 Social Science
+8/16/2012,English,3:55:00 PM,4:10:00 PM,26 Wellman
+6/31/2014,Russian,2:10:00 PM,3:15:00 PM,206 Olson
+8/21/2001,Economics,5:55:00 PM,7:20:00 PM,1100 Social Science
+9/21/2010,Hydrology,6:55:00 AM,9:40:00 AM,2205 Haring
+7/28/2017,French,1:00:00 PM,3:15:00 PM,180 Med Sci
+7/26/2006,Pediatrics,7:50:00 AM,8:00:00 AM,1100 Social Science
+9/23/2002,Music,10:00:00 AM,10:40:00 AM,179 Chemistry
+7/28/1995,Philosophy,11:05:00 AM,12:15:00 PM,170 Schalm Hall
+1/5/2016,Psychiatry,9:55:00 AM,11:40:00 AM,126 Wellman
+11/18/2008,Surgery,6:35:00 AM,8:00:00 AM,234 Wellman
+12/25/2014,Pediatrics,8:25:00 AM,11:15:00 AM,1100 Social Science
+11/10/2001,Hydrology,11:15:00 AM,12:45:00 PM,100 Hunt
+8/16/2012,English,12:40:00 PM,2:55:00 PM,2205 Haring
+4/2/2001,Classics,11:45:00 AM,12:55:00 PM,234 Wellman
+2/30/1999,Music,1:35:00 PM,2:45:00 PM,194 Young
+5/18/2015,Art History,8:50:00 AM,9:15:00 AM,Rock Hall
+4/26/2004,Classics,2:00:00 PM,2:45:00 PM,6 Welman
+7/10/1999,Comp Sci,8:20:00 AM,10:25:00 AM,3 Kleiber
+12/25/2014,History,10:50:00 AM,1:20:00 PM,Rock Hall
+11/1/2012,Linguistics,12:10:00 PM,12:55:00 PM,179 Chemistry
+2/5/2004,Chemistry,7:45:00 AM,8:50:00 AM,170 Schalm Hall
+3/16/2015,Urology,12:05:00 PM,2:50:00 PM,Rock Hall
+9/28/2010,Nutrition,8:05:00 AM,9:35:00 AM,206 Olson
+7/28/1995,Spanish,5:45:00 PM,7:55:00 PM,26 Wellman
+8/15/1998,Pediatrics,11:35:00 AM,1:15:00 PM,106 Wellman
+7/15/2000,History,9:35:00 AM,11:00:00 AM,6 Olson
+8/16/2011,Japanese,2:05:00 PM,3:30:00 PM,2205 Haring
+6/11/2006,Chemistry,4:15:00 PM,4:45:00 PM,106 Wellman
+4/21/2002,Sociology,10:10:00 AM,11:40:00 AM,6 Olson
+9/30/2003,Music,6:25:00 AM,6:55:00 AM,179 Chemistry
+11/3/2001,Classics,4:45:00 PM,6:55:00 PM,106 Wellman
+5/18/2015,Nutrition,2:45:00 PM,5:05:00 PM,170 Schalm Hall
+4/2/2001,Surgery,6:25:00 AM,6:55:00 AM,1003 Geidt
+12/20/2004,Chemistry,6:20:00 AM,7:10:00 AM,180 Med Sci
+6/3/2005,Art History,8:35:00 AM,10:15:00 AM,176 Everson
+2/5/2004,Classics,2:50:00 PM,3:20:00 PM,179 Chemistry
+6/23/2007,Geology,7:15:00 AM,9:45:00 AM,2205 Haring
+1/5/2014,Psychiatry,9:40:00 AM,10:50:00 AM,2 Wellman
+6/23/2007,German,8:40:00 AM,11:10:00 AM,179 Chemistry
+2/5/2004,French,10:40:00 AM,10:45:00 AM,Rock Hall
+5/31/2008,Psychology,4:55:00 PM,5:45:00 PM,1100 Social Science
+4/27/2011,Russian,7:45:00 AM,9:10:00 AM,6 Welman
+6/25/1995,Economics,1:10:00 PM,1:25:00 PM,123 Sciences Lecture Hall
+11/18/2008,Economics,9:50:00 AM,10:25:00 AM,100 Hunt
+8/16/2011,History,2:30:00 PM,2:35:00 PM,1002 Geidt
+2/7/2008,Economics,1:10:00 PM,2:35:00 PM,1002 Geidt
+7/9/2008,Psychology,8:05:00 AM,10:20:00 AM,2205 Haring
+2/5/2004,Geology,9:00:00 AM,10:05:00 AM,126 Wellman
+1/5/2014,French,1:45:00 PM,3:50:00 PM,Rock Hall
+5/17/2004,Classics,7:00:00 AM,9:35:00 AM,2205 Haring
+9/9/2005,Art History,8:40:00 AM,9:10:00 AM,176 Everson
+2/14/2004,Music,8:25:00 AM,11:05:00 AM,1002 Geidt
+1/2/2000,Physics,2:10:00 PM,2:15:00 PM,26 Wellman
+5/26/2016,Hydrology,6:30:00 AM,9:05:00 AM,6 Welman
+3/16/2015,Music,12:00:00 PM,2:05:00 PM,26 Wellman
+7/15/2000,German,12:00:00 PM,12:15:00 PM,6 Welman
+3/15/1993,Sociology,10:55:00 AM,12:40:00 PM,179 Chemistry
+10/25/2001,Japanese,1:55:00 PM,4:25:00 PM,180 Med Sci
+8/5/2017,Comp Sci,2:35:00 PM,3:50:00 PM,1100 Social Science
+3/23/2003,Spanish,4:30:00 PM,5:45:00 PM,3 Kleiber
+2/4/2008,Russian,11:30:00 AM,12:55:00 PM,Rock Hall
+3/1/2016,History,8:55:00 AM,11:35:00 AM,6 Olson
+5/31/2008,Art History,9:10:00 AM,10:20:00 AM,1002 Geidt
+3/23/2003,Italian,3:00:00 PM,3:25:00 PM,1002 Geidt
+7/14/2003,Pediatrics,9:00:00 AM,9:45:00 AM,194 Young
+3/18/2009,Japanese,12:20:00 PM,1:50:00 PM,206 Olson
+3/12/2000,Spanish,12:30:00 PM,2:10:00 PM,66 Roessler
+8/9/1994,Spanish,12:40:00 PM,1:25:00 PM,3 Kleiber
+6/29/2016,Psychology,12:15:00 PM,1:25:00 PM,176 Everson
+1/2/2000,Neurology,3:55:00 PM,5:10:00 PM,194 Young
+3/18/2009,Comp Sci,9:55:00 AM,10:10:00 AM,206 Olson
+11/21/2002,Physics,7:15:00 AM,10:05:00 AM,1001 Geidt
+3/17/1997,Neurology,12:45:00 PM,2:35:00 PM,170 Schalm Hall
+9/31/2009,Psychology,12:10:00 PM,1:35:00 PM,176 Everson
+12/25/2014,Hydrology,12:55:00 PM,3:30:00 PM,170 Schalm Hall
+12/13/1999,Art History,3:20:00 PM,4:05:00 PM,176 Everson
+8/21/2001,Italian,3:30:00 PM,3:45:00 PM,234 Wellman
+9/31/2009,French,9:10:00 AM,11:35:00 AM,180 Med Sci
+5/18/2015,Russian,10:15:00 AM,11:40:00 AM,176 Everson
+6/31/2014,Pediatrics,6:30:00 AM,8:35:00 AM,100 Hunt
+4/16/2001,Comp Sci,7:20:00 AM,8:50:00 AM,123 Sciences Lecture Hall
+6/25/1995,Russian,2:45:00 PM,2:55:00 PM,26 Wellman
+8/16/2012,English,11:55:00 AM,1:35:00 PM,100 Hunt
+1/5/2014,Nutrition,1:30:00 PM,2:15:00 PM,6 Olson
+11/14/2009,Pathology,3:55:00 PM,4:45:00 PM,6 Welman
+11/25/1994,English,12:05:00 PM,1:45:00 PM,1100 Social Science
+4/27/2011,Chemistry,8:35:00 AM,11:05:00 AM,1001 Geidt
+3/12/2000,Geology,10:15:00 AM,11:45:00 AM,1003 Geidt
+6/29/2016,Neurology,11:15:00 AM,12:55:00 PM,26 Wellman
+7/9/2008,Russian,12:25:00 PM,3:05:00 PM,170 Schalm Hall
+8/2/2017,Psychiatry,2:20:00 PM,4:25:00 PM,26 Wellman
+2/14/2004,German,1:15:00 PM,2:00:00 PM,100 Hunt
+5/26/2015,English,4:05:00 PM,5:20:00 PM,234 Wellman
+8/5/2017,Italian,10:05:00 AM,12:50:00 PM,123 Sciences Lecture Hall
+2/27/1997,Russian,6:50:00 AM,7:20:00 AM,123 Sciences Lecture Hall
+8/5/2017,Economics,6:30:00 AM,9:20:00 AM,66 Roessler
+4/18/2013,Nutrition,12:30:00 PM,1:20:00 PM,126 Wellman
+1/5/2014,Chemistry,4:50:00 PM,4:50:00 PM,2205 Haring
+11/12/2013,Chemistry,6:55:00 AM,7:25:00 AM,1002 Geidt
+8/5/2009,Spanish,7:00:00 AM,8:40:00 AM,1002 Geidt
+5/26/2015,Physics,4:35:00 PM,6:20:00 PM,106 Wellman
+3/17/1997,Japanese,8:00:00 AM,9:35:00 AM,194 Young
+8/9/1994,Economics,7:50:00 AM,9:50:00 AM,106 Wellman
+3/16/2015,Hydrology,7:10:00 AM,7:35:00 AM,66 Roessler
+2/6/2006,Spanish,2:40:00 PM,2:55:00 PM,2205 Haring
+3/12/2000,Linguistics,12:00:00 PM,1:50:00 PM,26 Wellman
+1/5/2014,Psychiatry,8:05:00 AM,8:10:00 AM,176 Everson
+3/23/2003,Psychiatry,4:30:00 PM,4:35:00 PM,234 Wellman
+2/26/2001,Japanese,9:25:00 AM,10:05:00 AM,6 Olson
+3/23/2003,Hydrology,8:15:00 AM,9:35:00 AM,1100 Social Science
+6/31/2014,Statistics,1:40:00 PM,2:25:00 PM,Rock Hall
+6/1/2016,Sociology,3:15:00 PM,5:30:00 PM,6 Olson
+5/26/2016,Mathematics,6:10:00 AM,7:30:00 AM,234 Wellman
+12/25/2014,Psychiatry,5:35:00 PM,6:00:00 PM,180 Med Sci
+9/9/2005,Sociology,4:05:00 PM,6:40:00 PM,6 Olson
+6/29/2016,Urology,2:50:00 PM,5:35:00 PM,123 Sciences Lecture Hall
+7/26/2006,Pediatrics,8:40:00 AM,9:25:00 AM,2 Wellman
+7/14/2003,Art History,11:40:00 AM,2:30:00 PM,179 Chemistry
+3/1/2016,Psychiatry,3:00:00 PM,5:35:00 PM,3 Kleiber
+5/31/2008,Geology,10:45:00 AM,11:05:00 AM,6 Welman
+11/12/2013,Physics,2:10:00 PM,4:40:00 PM,100 Hunt
+4/7/2012,Philosophy,12:30:00 PM,2:30:00 PM,100 Hunt
+3/18/2009,French,4:40:00 PM,4:40:00 PM,180 Med Sci
+8/16/2012,Chemistry,6:35:00 AM,7:20:00 AM,6 Welman
+8/6/1997,French,9:50:00 AM,11:35:00 AM,100 Hunt
+8/16/2011,Russian,6:25:00 AM,8:15:00 AM,123 Sciences Lecture Hall
+4/20/1999,Classics,11:55:00 AM,12:25:00 PM,206 Olson
+9/21/2010,Mathematics,10:35:00 AM,11:00:00 AM,194 Young
+7/25/2000,Sociology,9:25:00 AM,11:05:00 AM,126 Wellman
+8/9/1994,Neurology,4:40:00 PM,6:25:00 PM,234 Wellman
+1/2/2000,Mathematics,9:40:00 AM,10:50:00 AM,100 Hunt
+7/14/2003,Pediatrics,1:25:00 PM,4:05:00 PM,1002 Geidt
+5/18/2004,Psychiatry,12:10:00 PM,1:25:00 PM,180 Med Sci
+11/3/2001,German,3:30:00 PM,3:45:00 PM,1001 Geidt
+4/20/1999,Economics,12:25:00 PM,1:50:00 PM,Rock Hall
+1/5/2016,History,8:10:00 AM,9:25:00 AM,100 Hunt
+4/16/2001,Urology,2:35:00 PM,3:55:00 PM,Rock Hall
+5/2/2007,Philosophy,7:20:00 AM,9:10:00 AM,2205 Haring
+4/9/1994,Mathematics,10:10:00 AM,11:30:00 AM,1002 Geidt
+4/18/2013,Mathematics,12:50:00 PM,2:35:00 PM,234 Wellman
+3/18/2009,Art History,4:50:00 PM,5:05:00 PM,Rock Hall
+5/18/2015,Pathology,6:50:00 AM,8:55:00 AM,6 Welman
+2/7/2008,Psychiatry,7:35:00 AM,9:20:00 AM,170 Schalm Hall
+3/23/2003,Psychology,8:45:00 AM,11:15:00 AM,1003 Geidt
+3/12/2000,Hydrology,6:40:00 AM,6:40:00 AM,180 Med Sci
+8/21/2001,Music,10:00:00 AM,11:20:00 AM,1100 Social Science
+4/26/2004,Music,10:05:00 AM,11:15:00 AM,123 Sciences Lecture Hall
+9/7/1998,Sociology,6:25:00 AM,6:30:00 AM,194 Young
+3/6/2004,Classics,7:20:00 AM,8:45:00 AM,206 Olson
+5/18/2015,Spanish,2:20:00 PM,3:55:00 PM,6 Welman
+1/5/2016,German,9:50:00 AM,10:50:00 AM,1003 Geidt
+11/1/2012,Urology,11:30:00 AM,11:40:00 AM,179 Chemistry
+6/29/2016,Japanese,3:10:00 PM,4:35:00 PM,3 Kleiber
+3/17/1997,Comp Sci,4:45:00 PM,7:30:00 PM,106 Wellman
+8/9/1994,Chemistry,5:10:00 PM,7:15:00 PM,1003 Geidt
+9/31/2009,Classics,5:50:00 PM,7:40:00 PM,170 Schalm Hall
+4/9/1994,Psychiatry,6:20:00 AM,7:30:00 AM,2 Wellman
+11/21/2002,Philosophy,4:35:00 PM,4:35:00 PM,3 Kleiber
+6/11/2006,Nutrition,2:35:00 PM,3:10:00 PM,198 Young
+4/11/1995,German,7:50:00 AM,10:25:00 AM,Rock Hall
+7/10/1999,Hydrology,5:55:00 PM,7:25:00 PM,123 Sciences Lecture Hall
+6/31/2014,Economics,8:15:00 AM,9:05:00 AM,179 Chemistry
+7/25/2000,Music,6:15:00 AM,6:35:00 AM,176 Everson
+8/7/2006,Surgery,12:00:00 PM,12:15:00 PM,180 Med Sci
+7/14/2003,French,12:55:00 PM,3:40:00 PM,Rock Hall
+4/2/2001,Music,7:35:00 AM,10:00:00 AM,1003 Geidt
+5/11/1994,Pathology,6:05:00 AM,6:10:00 AM,26 Wellman
+4/11/1995,Urology,2:25:00 PM,3:10:00 PM,1100 Social Science
+11/10/2001,Music,7:55:00 AM,8:25:00 AM,100 Hunt
+9/7/1998,Nutrition,7:45:00 AM,7:45:00 AM,6 Welman
+2/5/2004,French,8:25:00 AM,11:05:00 AM,170 Schalm Hall
+6/11/2006,Sociology,3:05:00 PM,3:10:00 PM,26 Wellman
+5/18/2015,Pathology,1:45:00 PM,4:15:00 PM,100 Hunt
+3/25/2004,German,7:20:00 AM,7:20:00 AM,1003 Geidt
+7/28/2017,Hydrology,5:55:00 PM,8:35:00 PM,234 Wellman
+4/27/2011,Russian,2:20:00 PM,2:50:00 PM,170 Schalm Hall
+11/2/1993,Physics,1:25:00 PM,2:35:00 PM,66 Roessler
+1/31/2000,Sociology,8:00:00 AM,9:00:00 AM,126 Wellman
+4/18/2013,Spanish,6:10:00 AM,8:25:00 AM,100 Hunt
+7/26/2006,French,9:20:00 AM,11:00:00 AM,26 Wellman
+12/20/2004,Surgery,3:05:00 PM,5:55:00 PM,66 Roessler
+5/18/2004,Geology,10:40:00 AM,1:20:00 PM,176 Everson
+4/20/1999,Nutrition,3:50:00 PM,4:15:00 PM,26 Wellman
+2/14/2009,Sociology,5:30:00 PM,8:10:00 PM,106 Wellman
+9/30/2003,Philosophy,7:55:00 AM,8:00:00 AM,26 Wellman
+3/6/2004,Neurology,8:15:00 AM,9:55:00 AM,1100 Social Science
+9/12/2011,Music,9:00:00 AM,10:05:00 AM,234 Wellman
+8/16/2012,History,1:25:00 PM,2:15:00 PM,1001 Geidt
+1/15/2007,Comp Sci,1:50:00 PM,1:55:00 PM,26 Wellman
+9/19/2002,Philosophy,1:40:00 PM,2:45:00 PM,6 Olson
+4/18/2013,Music,9:35:00 AM,10:10:00 AM,179 Chemistry
+5/26/2016,Pathology,5:50:00 PM,6:55:00 PM,1001 Geidt
+1/5/2014,Urology,2:55:00 PM,5:30:00 PM,6 Olson
+4/2/2001,Philosophy,11:20:00 AM,11:20:00 AM,198 Young
+3/25/2004,Hydrology,11:50:00 AM,12:30:00 PM,198 Young
+2/6/2006,Sociology,11:35:00 AM,12:45:00 PM,180 Med Sci
+9/12/2011,Psychiatry,4:30:00 PM,5:30:00 PM,198 Young
+6/9/1994,French,1:35:00 PM,2:10:00 PM,1100 Social Science
+9/9/2005,French,4:55:00 PM,5:30:00 PM,126 Wellman
+9/12/2011,Italian,1:00:00 PM,2:25:00 PM,2 Wellman
+11/10/2001,Comp Sci,12:40:00 PM,2:45:00 PM,206 Olson
+6/11/2006,Mathematics,7:45:00 AM,9:50:00 AM,234 Wellman
+4/16/2001,Statistics,2:00:00 PM,3:15:00 PM,180 Med Sci
+7/14/2003,Nutrition,5:40:00 PM,7:55:00 PM,194 Young
+5/26/2016,Psychiatry,9:35:00 AM,12:15:00 PM,106 Wellman

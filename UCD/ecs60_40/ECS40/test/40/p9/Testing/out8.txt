@@ -1,0 +1,9 @@
+1 Queue size 29
+2 BU  8
+3 BU  12
+4 BP  8
+5 BP  12
+6 BU  9
+7 BP  9
+8 BP BST underflow error. -1
+9 BU  7

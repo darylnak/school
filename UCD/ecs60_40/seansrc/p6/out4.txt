@@ -1,0 +1,17 @@
+Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+3. Add an appointment.
+4. Print appointment count.
+
+Your choice >> Appointment count: 548
+
+Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+3. Add an appointment.
+4. Print appointment count.
+
+Your choice >> 

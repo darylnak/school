@@ -1,0 +1,50 @@
+Scores from p1 for Davis,Sean,Davis,Steve,
+Note that format is: e-mail<comma>family name<comma>given name
+For example: ssdavis@ucdavis.edu,Davis,Sean
+
+Addresses used: davis@cs.ucdavis.edu ssdavis@ucdavis.edu   
+Ins.c: 
+OK
+ 
+
+makemake.sh testing:
+makemake.sh without executable provided error message:
+OK
+makemake.sh CPU.out: 
+OK
+makemake.sh  CPU.out -pg -O1 : 
+OK
+ 
+NoComments.sh:
+NC1.c:
+OK
+NC2.c:
+OK
+NC3.c:
+OK
+ 
+HeadFiles.sh:
+Non-interactive:
+prompts: OK
+ 
+ls: OK
+Interactive:
+ls: OK
+ 
+stdio.sh:
+S1.c:
+OK
+S2.c:
+OK
+S3.c:
+OK
+S4.c:
+OK
+S5.c:
+OK
+ddd score: 10 out of 10
+makemake score: 20 out of 20
+NoComments.sh score: 5 out of 5
+HeadFiles.sh score: 5 out of 5
+stdio.sh score: 5 out of 5
+Total: 45 out of 45.

@@ -1,0 +1,38 @@
+Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+
+Your choice >> Please enter the subject >> Date       Start End   Subject      Location
+ 8/ 7/1993 09:20 11:35 Psychiatry   1001 Geidt
+ 8/ 7/1993 16:30 17:40 Psychiatry   1002 Geidt
+10/18/1993 07:15 09:50 Psychiatry   123 Sciences Lecture Hall
+10/18/1993 15:30 15:30 Psychiatry   106 Wellman
+12/ 7/1994 10:20 10:40 Psychiatry   123 Sciences Lecture Hall
+ 9/ 5/1997 07:25 09:25 Psychiatry   106 Wellman
+ 5/11/1998 17:40 18:25 Psychiatry   194 Young
+12/13/1999 11:50 24:20 Psychiatry   123 Sciences Lecture Hall
+10/10/2001 06:00 08:00 Psychiatry   123 Sciences Lecture Hall
+10/12/2001 24:15 24:20 Psychiatry   194 Young
+ 8/25/2003 06:10 07:45 Psychiatry   2205 Haring
+ 8/25/2003 11:40 11:40 Psychiatry   Rock Hall
+ 1/20/2005 09:20 11:45 Psychiatry   1003 Geidt
+ 3/25/2005 16:10 17:50 Psychiatry   180 Med Sci
+ 3/15/2008 17:15 19:35 Psychiatry   6 Olson
+ 8/23/2008 11:30 14:00 Psychiatry   66 Roessler
+ 8/27/2009 11:00 24:35 Psychiatry   234 Wellman
+ 8/27/2009 17:30 20:00 Psychiatry   198 Young
+11/ 5/2009 24:20 24:55 Psychiatry   26 Wellman
+ 3/ 8/2012 06:35 07:45 Psychiatry   176 Everson
+ 4/19/2012 10:05 24:55 Psychiatry   6 Welman
+ 5/11/2013 16:30 18:50 Psychiatry   Rock Hall
+ 5/12/2013 11:05 13:30 Psychiatry   1003 Geidt
+ 7/ 2/2016 15:15 15:35 Psychiatry   206 Olson
+10/23/2017 13:20 13:50 Psychiatry   1003 Geidt
+
+Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+
+Your choice >> 

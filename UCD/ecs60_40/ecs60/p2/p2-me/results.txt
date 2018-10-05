@@ -1,0 +1,37 @@
+Scores from p2 for Nakamoto,Daryl 
+
+Note that the format for authors.csv is: e-mail<comma>last name<comma>first name
+For example: ssdavis@ucdavis.edu,Davis,Sean
+
+Addresses used: dtnakamoto@ucdavis.edu  
+BTree1.dat 3 4:
+OK
+ 
+BTree2.dat 3 4:
+OK
+  
+BTree5.dat 3 4:
+OK
+ 
+BTree12.dat 3 4:
+OK
+ 
+BTree25.dat 3 4:
+OK
+ 
+BTree5.dat 5 2:
+OK
+ 
+BTree12.dat 5 2:
+OK
+ 
+BTree25.dat 5 2:
+OK
+ 
+BTree12.dat 2 6:
+OK
+ 
+BTree25.dat 2 6:
+OK
+ 
+Total score: 50

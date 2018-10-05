@@ -1,0 +1,112 @@
+#! /bin/bash
+
+testingDirectory=/home/ssdavis/40/p3/Testing
+executableNeame=calendar.out
+
+if [ $# -ne 1 ]; then
+  echo "testhw usage: testhw calendar_src_directory"
+  exit
+fi
+
+cd $1
+rm -f *.out *.o *esults.txt &> /dev/null
+
+echo -n "Scores from p3 for " >> results.txt
+
+if [ -e authors.csv ]; then
+  dos2unix -q authors.csv
+  awk -F, '{printf"%s,%s ", $2, $3}' authors.csv >> results.txt
+  awk -F, '{printf"%s,%s\n", $2, $3}' authors.csv > names.txt
+  echo -e "\n\nNote that the format for authors.csv is: e-mail<comma>family name<comma>given name" >> results.txt
+  echo "For example: ssdavis@ucdavis.edu,Davis,Sean"  >> results.txt
+  awk -F, {'printf"%s ", $1'} authors.csv > addresses
+else
+  echo  "You need to create an authors.csv file!!!! No one will receive credit for this assignment"  >> results.txt
+  echo "$1@ucdavis.edu" > addresses
+  finger ${PWD##*/} | awk 'NR == 1 {printf"%s,%s", $NF, $4}' > names.txt
+fi
+
+echo -en "\nAddresses used: " >> results.txt
+cat addresses >> results.txt
+echo " " >> results.txt
+echo "Directory: $1"
+
+warningScore=0
+styleScore=0
+designScore=0
+operationsScore=0 
+designErrors=0
+
+if [ -e Makefile ]; then
+  make &> makeOutput
+  if [ -e makeOutput ]; then
+    grep warning makeOutput >& warningResults.txt
+    warningScore=$(cat warningResults.txt | wc -l)
+  fi
+
+  if [ -e $executableName ]; then
+    operationsScore=$( $testingDirectory/Tester.sh $PWD)
+  fi
+fi
+
+/home/ssdavis/40/cppChecker.sh $PWD | awk '/Processing/,/Violated File Details/' > styleResults.txt
+
+designErrors=$( $testingDirectory/DesignChecker.sh $PWD)
+styleScore=$( awk '/Total Errors Occurs/ {printf"%d\n", 5 - $6}' styleResults.txt ) 
+
+if [[ $styleScore -lt 0 ]]; then
+  styleScore=0
+fi
+
+if [[ $warningScore -eq 0 ]]; then
+  echo "No warnings." > warningResults.txt
+fi
+
+if [ ! -e designResults.txt ]; then
+  echo "No design errors."  >> designResults.txt
+  designScore=8
+else
+  designScore=$(( 8 - `cat designResults.txt | wc -l` ))
+
+  if [[  $designScore -lt 0 ]]; then
+    designScore=0
+  fi
+fi
+
+echo "Style: $styleScore out of 5" >> results.txt
+echo "Design: $designScore out of 8 " >> results.txt
+echo "Operation: $operationsScore out of 12 " >> results.txt
+echo "Warnings (subtracted from final score down to zero): $warningScore"  >> results.txt
+
+
+if [ $designErrors -gt 0 ]; then
+  echo "You had fatal design errors listed in designResults.txt so you will receive a zero." >> results.txt
+  finalScore=0
+else  # no fatal design errors
+  if [ $operationsScore -eq 0 ]; then
+    echo "Your program did not work so you will only receive points for design." >> results.txt
+    finalScore=$(( $designScore))
+  else # works!
+    finalScore=$(( $styleScore + $designScore + $operationsScore - $warningScore))
+  fi  # if operation doesn't work
+fi # if fatal design errors
+
+if [ $finalScore -lt 0 ]; then
+  finalScore=0
+fi
+
+echo "Total: $finalScore out of 25.">> results.txt
+
+touch designResults.txt styleResults.txt operationsResults.txt warningResults.txt
+
+#mailx -s "ECS 40 P1 Test Results" -a designResults.txt -a styleResults.txt -a operationsResults.txt -a warningResults.txt `cat addresses` < results.txt
+
+#awk 'NR == 1 {printf"%s,", $0}' names.txt >> ../results.csv
+#echo "${1%%/},$finalScore,$operationsScore,$styleScore,$designScore,$warningScore" >> ../results.csv
+#authorCount=$(grep "@" authors.csv | wc -l)
+
+#if [ $authorCount -gt 1 ]; then
+#  awk 'NR == 2 {printf"%s,", $0}' names.txt >> ../results.csv
+#  echo "${1%%/},$finalScore,$operationsScore,$styleScore,$designScore,$warningScore" >> ../results.csv
+#fi
+

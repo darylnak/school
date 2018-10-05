@@ -1,0 +1,11 @@
+Scores from p6 for Nakamoto,Daryl 
+
+Note that the format for authors.csv is: e-mail<comma>family name<comma>given name
+For example: ssdavis@ucdavis.edu,Davis,Sean
+
+Addresses used: dtnakamoto@ucdavis.edu  
+Style: 5 out of 5
+Design: 13 out of 15 
+Operation: 30 out of 30 
+Warnings (subtracted from final score down to zero): 0
+Total: 48 out of 50.

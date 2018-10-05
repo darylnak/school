@@ -1,0 +1,22 @@
+Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+
+Your choice >> 
+Please enter the month, day, and year (mm/dd/yyyy) >> Start End   Subject      Location
+11:20 13:35 Music        234 Wellman
+11:40 24:10 Japanese     106 Wellman
+13:00 13:40 Linguistics  234 Wellman
+15:55 16:30 Neurology    Rock Hall
+16:30 18:50 Psychiatry   Rock Hall
+16:40 18:15 Surgery      123 Sciences Lecture Hall
+24:00 14:30 Sociology    3 Kleiber
+24:10 14:10 Japanese     3 Kleiber
+
+Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+
+Your choice >> 

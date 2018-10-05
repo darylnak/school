@@ -1,0 +1,27 @@
+commit 09d760876ed85dfa78c6a036b7ee541192208921
+Author: davis <davis@why>
+Date:   Wed Apr 26 07:43:51 2017 -0700
+
+    Add Appointment
+
+commit 6fb61ea43a0a8ae70c07ec958a709d82a929720f
+Author: davis <davis@why>
+Date:   Wed Apr 26 06:05:31 2017 -0700
+
+    Days of Week
+
+commit b9f0acb89ae6bc1be523e29251749a254c897651
+Author: davis <davis@why>
+Date:   Tue Apr 25 22:36:33 2017 -0700
+
+    Destructors
+
+commit 6a11f1899f00a49016149b7706b303645402e034
+Author: davis <davis@why>
+Date:   Tue Apr 25 20:55:49 2017 -0700
+
+    Constructors
+
+commit 6530bc72045cab3e50ebdad47762122814652946
+Author: davis <davis@why>
+Date:   Tue Apr 25 17:49:51 2017 -0700

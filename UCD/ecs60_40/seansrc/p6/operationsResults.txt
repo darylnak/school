@@ -1,0 +1,15 @@
+File#: 1 
+OK
+File#: 2 
+OK
+File#: 3 
+OK
+File#: 4 
+OK
+File#: 5 
+OK
+File#: 6 
+OK
+Memory leak check (6 points):
+OK +4
+OK +2

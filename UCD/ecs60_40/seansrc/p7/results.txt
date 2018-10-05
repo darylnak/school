@@ -1,0 +1,9 @@
+Scores from p7 for You need to create an authors.csv file!!!! No one will receive credit for this assignment
+
+Addresses used: SeansSrc@ucdavis.edu
+ 
+Style: 7 out of 7
+Design: 4 out of 4
+Operation: 34 out of 34
+Warnings (subtracted final score down to zero): 0
+Total: 45 out of 45.

@@ -1,0 +1,139 @@
+==8452== Memcheck, a memory error detector
+==8452== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==8452== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==8452== Command: calendar.out appts4.csv
+==8452== 
+Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+3. Add an appointment.
+4. Print appointment count.
+
+Your choice >> 
+Please enter the month, day, and year (mm/dd/yyyy) >> That date was not found.
+Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+3. Add an appointment.
+4. Print appointment count.
+
+Your choice >> Please enter the subject >> Date                          Start End   Subject      Location
+Friday, January 28, 1994      10:10 11:40 English      1002 Geidt                
+Friday, May 26, 1995          11:50 13:40 English      198 Young                 
+Tuesday, October 17, 1995     12:45 13:50 English      180 Med Sci               
+Monday, February 19, 1996     13:20 15:05 English      26 Wellman                
+Thursday, August 1, 1996      08:45 10:00 English      123 Sciences Lecture Hall 
+Saturday, June 5, 2004        13:45 13:50 English      3 Kleiber                 SRT     (15)
+Tuesday, June 8, 2004         13:45 13:50 English      3 Kleiber                 SRT     (15)
+Thursday, June 10, 2004       13:45 13:50 English      3 Kleiber                 SRT     (15)
+Saturday, June 12, 2004       13:45 13:50 English      3 Kleiber                 SRT     (15)
+Tuesday, June 15, 2004        13:45 13:50 English      3 Kleiber                 SRT     (15)
+Thursday, June 17, 2004       13:45 13:50 English      3 Kleiber                 SRT     (15)
+Saturday, June 19, 2004       13:45 13:50 English      3 Kleiber                 SRT     (15)
+Tuesday, June 22, 2004        13:45 13:50 English      3 Kleiber                 SRT     (15)
+Thursday, June 24, 2004       13:45 13:50 English      3 Kleiber                 SRT     (15)
+Saturday, June 26, 2004       13:45 13:50 English      3 Kleiber                 SRT     (15)
+Tuesday, June 29, 2004        13:45 13:50 English      3 Kleiber                 SRT     (15)
+Thursday, July 1, 2004        13:45 13:50 English      3 Kleiber                 SRT     (15)
+Saturday, July 3, 2004        13:45 13:50 English      3 Kleiber                 SRT     (15)
+Tuesday, July 6, 2004         13:45 13:50 English      3 Kleiber                 SRT     (15)
+Thursday, July 8, 2004        13:45 13:50 English      3 Kleiber                 SRT     (15)
+Sunday, July 3, 2005          07:00 07:05 English      1002 Geidt                
+Sunday, January 31, 2010      14:10 14:50 English      170 Schalm Hall           
+Monday, September 27, 2010    09:35 11:40 English      194 Young                 
+Wednesday, April 27, 2011     13:10 14:10 English      6 Olson                   
+Tuesday, May 21, 2013         07:35 10:20 English      1001 Geidt                
+Friday, November 15, 2013     12:55 14:45 English      180 Med Sci               
+
+Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+3. Add an appointment.
+4. Print appointment count.
+
+Your choice >> 
+Please enter the month, day, and year (mm/dd/yyyy) >> That date was not found.
+Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+3. Add an appointment.
+4. Print appointment count.
+
+Your choice >> 
+Please enter the month, day, and year (mm/dd/yyyy) >> Subject >> Location >> Start time (hh:mm) >> End time (hh:mm) >> Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+3. Add an appointment.
+4. Print appointment count.
+
+Your choice >> 
+Please enter the month, day, and year (mm/dd/yyyy) >> Subject >> Location >> Start time (hh:mm) >> End time (hh:mm) >> Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+3. Add an appointment.
+4. Print appointment count.
+
+Your choice >> Please enter the subject >> Date                          Start End   Subject      Location
+Wednesday, February 2, 1994   06:30 08:30 Comp Sci     123 Sciences Lecture Hall 
+Sunday, August 17, 1997       16:55 18:10 Comp Sci     26 Wellman                UMWRF   (16)
+Monday, August 18, 1997       16:55 18:10 Comp Sci     26 Wellman                UMWRF   (16)
+Wednesday, August 20, 1997    16:55 18:10 Comp Sci     26 Wellman                UMWRF   (16)
+Thursday, August 21, 1997     16:55 18:10 Comp Sci     26 Wellman                UMWRF   (16)
+Friday, August 22, 1997       16:55 18:10 Comp Sci     26 Wellman                UMWRF   (16)
+Sunday, August 24, 1997       16:55 18:10 Comp Sci     26 Wellman                UMWRF   (16)
+Monday, August 25, 1997       16:55 18:10 Comp Sci     26 Wellman                UMWRF   (16)
+Wednesday, August 27, 1997    16:55 18:10 Comp Sci     26 Wellman                UMWRF   (16)
+Thursday, August 28, 1997     16:55 18:10 Comp Sci     26 Wellman                UMWRF   (16)
+Friday, August 29, 1997       16:55 18:10 Comp Sci     26 Wellman                UMWRF   (16)
+Sunday, August 31, 1997       16:55 18:10 Comp Sci     26 Wellman                UMWRF   (16)
+Monday, September 1, 1997     16:55 18:10 Comp Sci     26 Wellman                UMWRF   (16)
+Wednesday, September 3, 1997  16:55 18:10 Comp Sci     26 Wellman                UMWRF   (16)
+Thursday, September 4, 1997   16:55 18:10 Comp Sci     26 Wellman                UMWRF   (16)
+Friday, September 5, 1997     16:55 18:10 Comp Sci     26 Wellman                UMWRF   (16)
+Sunday, September 7, 1997     16:55 18:10 Comp Sci     26 Wellman                UMWRF   (16)
+Saturday, June 5, 2004        06:15 07:00 Comp Sci     126 Wellman               
+Monday, May 1, 2017           09:00 09:50 Comp Sci     1001 Giedt                
+
+Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+3. Add an appointment.
+4. Print appointment count.
+
+Your choice >> 
+Please enter the month, day, and year (mm/dd/yyyy) >> Start End   Subject      Location
+09:00 09:50 Comp Sci     1001 Giedt                
+16:10 17:00 CompSci      223 Olson                 
+
+Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+3. Add an appointment.
+4. Print appointment count.
+
+Your choice >> Appointment count: 550
+
+Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+3. Add an appointment.
+4. Print appointment count.
+
+Your choice >> ==8452== 
+==8452== HEAP SUMMARY:
+==8452==     in use at exit: 0 bytes in 0 blocks
+==8452==   total heap usage: 147,572 allocs, 147,572 frees, 3,735,936 bytes allocated
+==8452== 
+==8452== All heap blocks were freed -- no leaks are possible
+==8452== 
+==8452== For counts of detected and suppressed errors, rerun with: -v
+==8452== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

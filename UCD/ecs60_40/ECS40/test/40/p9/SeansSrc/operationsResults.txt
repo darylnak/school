@@ -1,0 +1,34 @@
+p9.out file1.txt: 
+OK
+p9.out file2.txt: 
+OK
+p9.out file3.txt: 
+OK
+p9.out file4.txt: 
+OK
+p9.out file5.txt: 
+OK
+p9.out file6.txt: 
+OK
+p9.out file7.txt: 
+OK
+p9.out file8.txt: 
+OK
+p9.out file9.txt: 
+OK
+p9.out file10.txt: 
+OK
+p9.out file11.txt: 
+OK
+p9.out file12.txt: 
+OK
+p9b.out file8.txt: 
+OK
+p9b.out file9.txt: 
+OK
+p9b.out file10.txt: 
+OK
+p9b.out file11.txt: 
+OK
+p9b.out file12.txt: 
+OK

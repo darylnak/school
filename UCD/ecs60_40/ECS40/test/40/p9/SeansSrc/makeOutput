@@ -1,0 +1,2 @@
+g++ -ansi -Wall -DNDEBUG -o p9.out main.cpp   
+g++ -ansi -Wall -o p9b.out main.cpp   

@@ -1,0 +1,71 @@
+Design error: Calendar extraction operator not found in calendar.h
+Design error: "} // operator >>" not found in calendar.cpp
+Design error: Calendar default contructor not found in calendar.h
+Design error: Calendar destructor not found in calendar.h
+Design error: operator< not found in day.h
+Design error: "} // operator<" not found in day.cpp
+Design error: "} // operator==" not found in day.cpp
+Design error: "} // operator=" not found in day.cpp
+Design error: "} // operator<<" not found in day.cpp
+Design error: "} // operator>>" not found in day.cpp
+Design error: operator== not found in day.h
+Design error: extraction operator not found in day.h
+Design error: insertion operator not found in day.h
+Design error: Day default constructor not found in day.h
+Design error: Day "standard" constructor not found in day.h
+Design error: Day overloaded assignment operator not found in day.h
+Design error: "operator= (const ...)" not found in day.h
+Design error: "subjectSearch(const ...) const" not found in day.h
+Design error: "operator<< (...const Day" not found in day.h
+Design error: "} // operator==" not found in appt.cpp
+Design error: "} // operator<" not found in appt.cpp
+Design error: "} // operator<<" not found in appt.cpp
+Design error: "} // operator>>" not found in appt.cpp
+Design error: operator< not found in appt.h
+Design error: operator== not found in appt.h
+Design error: extraction operator not found in appt.h
+Design error: insertion operator not found in appt.h
+Design error: Appointment default constructor not found in appt.h
+Design error: Appointment copy constructor with const parameter not found in appt.h
+Design error: Appointment copy constructor not found in appt.h
+Design error: Appointment destructor not found in appt.h
+Design error: static count variable not found in appt.h
+Design error: static getCount not found in appt.h
+Design error: "operator== (const ...) const" not found in appt.h
+Design error: "operator< (const ...) const" not found in appt.h
+Design error: "operator<< (...,const Appointment" not found in appt.h
+Design error: "} // operator<" not found in time.cpp
+Design error: "} // operator<<" not found in time.cpp
+Design error: "} // operator>>" not found in time.cpp
+Design error: operator< not found in time.h
+Design error: extraction operator not found in time.h
+Design error: insertion operator not found in time.h
+Design error: "operator< (const ...) const" not found in time.h
+Design error: "operator<< (..., const Time" not found in time.h
+Design error: "} // operator<<" not found in DayOfWeek.cpp
+Design error: "} // operator>>" not found in DayOfWeek.cpp
+Design error: extraction operator not found in DayOfWeek.h
+Design error: insertion operator not found in DayOfWeek.h
+Design error: seekg() not found in DayOfWeek extraction operator in DayOfWeek.cpp
+Design error: "} // operator<<" not found in linkedlist.cpp
+Design error: "} // operator=" not found in linkedlist.cpp
+Design error: "} // operator[]" not found for const[] in linkedlist.cpp
+Design error: "} // operator+=" not found in linkedlist.cpp
+Design error: "} // LinkedList" not found in linkedlist.cpp
+Design error: "} // ~LinkedList" not found in linkedlist.cpp
+Design error: insertion operator not found in ListNode class linkedlist.h
+Design error: destructor not found in ListNode class in linkedlist.h
+Design error: insertion operator not found in List class linkedlist.h
+Design error: find method not found in List class linkedlist.h
+Design error: assignment operator not found in List class linkedlist.h
+Design error: default constructor not found in List class linkedlist.h
+Design error: destructor not found in List class linkedlist.h
+Design error: const version of operator[] not found in List class linkedlist.h
+Design error: non-const version of operator[] not found in List class linkedlist.h
+Design error: operator+= not found in List class linkedlist.h
+Design error: "operator<< (..., const LinkedList" not found in ListNode class in linkedlist.h
+Design error: "operator<< (..., const LinkedList" not found in LinkedList class in linkedlist.h
+Design error: "find (const ...) *const" not found in linkedlist.h
+Design error: "operator= (const" not found in linkedlist.h
+Design error: static getCount() not called in main()
+Design error: Calendar extraction operator not called in main()

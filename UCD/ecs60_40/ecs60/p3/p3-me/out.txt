@@ -1,0 +1,6 @@
+Height: 5
+Sum: 197
+5 is an ancestor of 4
+4 is not an ancestor of 5
+Highest Full: 3
+Deepest Full: 2

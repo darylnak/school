@@ -1,0 +1,33 @@
+Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+3. Add an appointment.
+4. Print appointment count.
+
+Your choice >> Please enter the subject >> Date                          Start End   Subject      Location
+Tuesday, August 9             08:30 10:10 Spanish      206 Olson
+Tuesday, August 9             12:40 13:25 Spanish      3 Kleiber
+Sunday, June 25               11:15 12:00 Spanish      2 Wellman
+Friday, July 28               17:45 19:55 Spanish      26 Wellman
+Wednesday, April 16           11:20 11:35 Spanish      123 Sciences Lecture Hall
+Wednesday, August 6           07:20 07:20 Spanish      1100 Social Science
+Sunday, March 12              12:30 14:10 Spanish      66 Roessler
+Tuesday, August 21            17:15 17:40 Spanish      100 Hunt
+Sunday, March 23              16:30 17:45 Spanish      3 Kleiber
+Monday, April 26              06:55 09:20 Spanish      6 Olson
+Monday, February 6            14:40 14:55 Spanish      2205 Haring
+Wednesday, August 5           07:00 08:40 Spanish      1002 Geidt
+Thursday, April 18            06:10 08:25 Spanish      100 Hunt
+Thursday, December 25         09:25 11:35 Spanish      123 Sciences Lecture Hall
+Monday, May 18                14:20 15:55 Spanish      6 Welman
+Monday, May 18                15:05 15:30 Spanish      1002 Geidt
+
+Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+3. Add an appointment.
+4. Print appointment count.
+
+Your choice >> 

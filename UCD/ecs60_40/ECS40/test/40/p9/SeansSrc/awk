@@ -1,0 +1,1 @@
+p9b.out: BST.cpp:24: void BST<T>::pop(T&) [with T = int]: Assertion `root != NULL' failed.

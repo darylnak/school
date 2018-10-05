@@ -1,0 +1,2 @@
+Design error: operator==...const not found in DayOfWeek.h
+Design error: "Appointment* clone() const" not found in weeklyappt.h

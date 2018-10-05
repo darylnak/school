@@ -1,0 +1,20 @@
+Leaf: 4 6 8 9 10 
+Inserting 11. 
+Internal: 1 4 
+Leaf: 1 2 3 
+Leaf: 4 6 8 9 10 11 
+Inserting 12. 
+Internal: 1 6 
+Leaf: 1 2 3 4 
+Leaf: 6 8 9 10 11 12 
+Inserting 5. 
+Internal: 1 6 
+Leaf: 1 2 3 4 5 
+Leaf: 6 8 9 10 11 12 
+Inserting 7. 
+Internal: 1 7 
+Leaf: 1 2 3 4 5 6 
+Leaf: 7 8 9 10 11 12 
+Internal: 1 7 
+Leaf: 1 2 3 4 5 6 
+Leaf: 7 8 9 10 11 12 

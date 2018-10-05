@@ -1,0 +1,5 @@
+Inserting 2. 
+Leaf: 2 
+Inserting 1. 
+Leaf: 1 2 
+Leaf: 1 2 

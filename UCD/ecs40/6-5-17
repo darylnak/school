@@ -1,0 +1,32 @@
+#define
+#include
+#ifndef
+#ifdef
+#else
+#elif
+#undef
+#if defined(ATT) && defined(IBM)
+#pragma
+#define DBL(X) x+x
+DBL(5) // 5+5
+DBL(6+8) // 6+8+6+8
+#define DBL(x) 2*x
+DBL(6+8) // 2*6+8
+#define SQR(x) x*x
+SQR(5) // 5*5
+SQR(3+2) // 3+2*3+2
+#define SQR(x) (x)*(x)
+SQR(3+2) // (3+2)*(3+2)
+#define DBL(x) (x)+(x)
+4*DBL(5+7) // 4*(5+7)+(5+7)
+#define DBL(x) ((x)+(x))
+4*DBL(5+7) 4((5+7)+(5+7))
+
+#if defined(SunOS) || defined(IBM)
+  lockf(fd);
+#else
+  flock(fd);
+#endf
+
+// makefile -DSunOS
+// the above can make two make files

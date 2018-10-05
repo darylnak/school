@@ -1,0 +1,454 @@
+#+1494917084
+mkdir p6
+#+1494917115
+cp ~ssdavis/40/p5/SeansSrc/* p6
+#+1494918342
+cp appts4.csv ~/p6
+#+1495066710
+~ssdavis/40/p6/calendar.out
+#+1495066727
+~ssdavis/40/p6/calendar.out appts4.csv
+#+1495169615
+ls handin
+#+1495169624
+handin
+#+1495170923
+./calendar.out ./appts4.csv
+#+1495170972
+cd ~ssdavis/40/p6/
+#+1495171019
+cp appts4.csv ~/
+#+1495171057
+mv appts4.csv ./p6
+#+1495171072
+cd p
+#+1495171081
+cd ~/
+#+1495171169
+cp ~ssdavis/40/p6/Testing/appts4.csv ~/p6
+#+1495172956
+~ssdavis/40/p6/testhw ./p6/
+#+1495173483
+~ssdavis/40/p7
+#+1495173486
+~ssdavis/40/p6
+#+1495173502
+vi appts4.csv
+#+1495173636
+cat in6
+#+1495173638
+cat in6.txt
+#+1495256711
+cd ~ssdavis/40/p6
+#+1495256749
+./calendar.out appts4.csv
+#+1495257389
+./p7.out
+#+1495257442
+mkdir ~/p7
+#+1495257456
+cp * ~/p7
+#+1495257476
+ls ~/p7
+#+1495261405
+cd -6
+#+1495261416
+cd ~/p6
+#+1495261491
+./calendar.out
+#+1495261841
+valgrind --leakcheck=yes ./calendar.out appts4.csv
+#+1495261861
+valgrind --leak-check=yes ./calendar.out appts4.csv
+#+1495262092
+handin cs40 p6 *
+#+1495262402
+rm -y *.txt
+#+1495262408
+rm -a *.txt
+#+1495307300
+~ssdavis/40/p6/testhw .
+#+1495307313
+~ssdavis/40/p6/testhw p6
+#+1495307400
+cd p6
+#+1495307437
+less appt.h
+#+1495307448
+vim appt.h
+#+1495307505
+vim appt.cpp
+#+1495307548
+vim weeklyappt.h
+#+1495307569
+vim weeklyappt.cpp
+#+1495507744
+p7.out limerick.txt commands2.txt
+#+1495508425
+cat commands.txt
+#+1495508440
+p7.out limerick.txt commands2.txt test.txt
+#+1495508443
+cat test.txt
+#+1495508498
+cat limerick.txt
+#+1495508524
+cat commands2.txt
+#+1495509641
+p7.out limerick.txt commands2.txt testt.txt
+#+1495509656
+cat testt.txt
+#+1495511483
+rm *.txt
+#+1495511518
+g++ -Wall editor.cpp
+#+1495511528
+a.out
+#+1495512184
+./a.out limerick.txt commands2.txt testttt.txt
+#+1495512252
+g++ -Wall -ansi -g editor.cpp
+#+1495512271
+./a.out limerick.txt commands.txt testttt.txt
+#+1495515536
+cat ./input1.txt
+#+1495515540
+cat ./input2.txt
+#+1495515545
+cat ./input4.txt
+#+1495517042
+cp ~/p6/authors.csv .
+#+1495517064
+handin cs40 p7 .
+#+1495517090
+handin cs40 p7 *
+#+1495517522
+cd p7
+#+1495517526
+~ssdavis/40/p7/testhw .
+#+1495652933
+cd testing/
+#+1495652945
+g++ -Wall main.cpp
+#+1495818765
+~ssddahj
+#+1495818838
+~ssdavis/40/p8
+#+1495818879
+cd ..
+#+1496086658
+mkdir p8
+#+1496086685
+cp * ~/p8
+#+1496086697
+mkdir ~/p8/Testing
+#+1496086710
+cp Testing/* ~/p8/Testing/
+#+1496086714
+cd ~/p8
+#+1496086715
+sls
+#+1496136571
+~ssdavis/40/p8/p8.out
+#+1496215776
+p8.out pager.cpp 2
+#+1496298776
+rm -r *
+#+1496298839
+cp ~/p7/authors.csv .
+#+1496298884
+~/ssdavis/40/p8/
+#+1496298890
+cd ~/ssdavis/40/p8/
+#+1496298896
+cd ~/ssdavis/40/
+#+1496298928
+cp ~ssdavis/40/p8/testhw .
+#+1496298943
+./testhw
+#+1496300626
+./testhw .
+#+1496302872
+cd -8
+#+1496302883
+p8.out File1.txt 2
+#+1496302891
+ddd p8.out File1.txt 2
+#+1496302897
+gdb p8.out File1.txt 2
+#+1496302932
+exec /home/darylnak/p8/p8.out
+#+1496353434
+cat indexpager.cpp
+#+1496361112
+touch check.cpp
+#+1496361119
+less check.cpp
+#+1496361142
+vim check.cpp
+#+1496361215
+cat check.cpp
+#+1496361223
+g++ check.cpp
+#+1496419543
+handin c40 p8
+#+1496419554
+whoami
+#+1496419650
+rm temp makeOutput
+#+1496419662
+rm addresses
+#+1496442739
+cd /
+#+1496442747
+ls usr
+#+1496467134
+\rm p8.out addresses temp makeOutput
+#+1496469637
+handin cs40 p8 *
+#+1496519050
+handin cs40 p8
+#+1496531256
+mkdir seansrc/p[1..9]
+#+1496531261
+mkdir seansrc/p[1...9]
+#+1496531265
+mkdir seansrc/p[1-9]
+#+1496531285
+mkdir seansrc/p{1-9}
+#+1496531290
+mkdir seansrc/p{1..9}
+#+1496531293
+mkdir seansrc/p{1...9}
+#+1496531371
+mkdir seansrc/{p1,p2,p3,p4,p5,p6,p7,p8,p9}
+#+1496531380
+mkdir seansrc
+#+1496531390
+mkdir p1
+#+1496531408
+mkdir p{2,3,4,5,6,7,8,9}
+#+1496531445
+cp ~ssdavis/40/p1/SeansSrc/* p1
+#+1496531459
+cp ~ssdavis/40/p2/SeansSrc/* p2
+#+1496531472
+cp -r ~ssdavis/40/p2/SeansSrc/* p2
+#+1496531491
+cp -r ~ssdavis/40/p3/SeansSrc/* p3
+#+1496531551
+ls p1
+#+1496531565
+cp -r ~ssdavis/40/p4/SeansSrc/* p4
+#+1496531577
+cp -r ~ssdavis/40/p5/SeansSrc/* p5
+#+1496531584
+cp -r ~ssdavis/40/p6/SeansSrc/* p6
+#+1496531591
+cp -r ~ssdavis/40/p7/SeansSrc/* p7
+#+1496531598
+cp -r ~ssdavis/40/p8/SeansSrc/* p8
+#+1496604552
+cd ~ssdavis/40/p8
+#+1496639430
+cp * ~/p9
+#+1496683633
+cd seansrc/
+#+1496683636
+cs p8
+#+1496683653
+ls ~ssdavis/40/p8
+#+1496683657
+ls ~ssdavis/40/p8/SeansSrc/
+#+1496683669
+cp ~ssdavis/40/p8/SeansSrc/* .
+#+1496737212
+cd testhw
+#+1496773843
+cd ~ssdavis/40/p7
+#+1496773868
+cd ../SeansSrc/
+#+1496773994
+handin cs40 p7
+#+1496774025
+handin cs40 p6
+#+1496798036
+less testhw
+#+1496812302
+cd seansrc/p6
+#+1496812313
+cat linkedlist.h
+#+1496812323
+cat linkedlist.cpp
+#+1496858404
+vim indexpager.h
+#+1496858484
+~ssdavis/40/p8/testhw .
+#+1496867499
+cd p8
+#+1496867517
+cat indexpager.h
+#+1496867544
+vim indexpager.cpp
+#+1496885340
+cat testhw
+#+1496956502
+cd ../
+#+1496956507
+rm -r p9
+#+1496956522
+mkdir p9
+#+1496956610
+cp ~/p8/authors.csv .
+#+1496957867
+make all
+#+1496957877
+./p9b.out file8.txt
+#+1496957897
+\rm*.txt
+#+1496957929
+rm core addresses temp makeOutput
+#+1496958021
+cd ssdavis/40/p9/testhw
+#+1496958026
+cat ssdavis/40/p9/testhw
+#+1496961258
+clear
+#+1496961572
+cat ~ssdavis/40/p9/Testing/DesignChecker.sh
+#+1496961897
+\rm designResults.txt
+#+1496962325
+rm addresses makeOutput temp
+#+1496962329
+y
+#+1497052638
+vim BST.h
+#+1497052858
+cat designResults.txt
+#+1497052880
+cat main.cpp
+#+1497052899
+vim BST.cpp
+#+1497052927
+vim stack.h
+#+1497052977
+vim stack.cpp
+#+1497052986
+vim queue.h
+#+1497053009
+vim queue.cpp
+#+1497053018
+~ssdavis/40/p9/Testing/DesignChecker.sh .
+#+1497053051
+cat styleResults.txt
+#+1497053125
+cat operationsResults.txt
+#+1497053169
+vim main.cpp
+#+1497053289
+make
+#+1497053386
+\rm *.txt
+#+1497053390
+make clean
+#+1497053404
+\rm addresses makeOutput temp
+#+1497053417
+handin cs40 p9 *
+#+1497053472
+cat results.txt
+#+1497062437
+cat ~ssdavis/40/p9/testhw
+#+1497062460
+cp ~ssdavis/40/p9/testhw ~/p9
+#+1497062617
+vim ./p9/testhw
+#+1497062663
+chmod u+w
+#+1497062683
+chmod u+w ./testhw
+#+1497062693
+vim testhw
+#+1497064454
+cp ~ssdavis/40/p9/Testing/DesignChecker.sh .
+#+1497065370
+cd Testing/
+#+1497065384
+vim DesignChecker.sh
+#+1497065527
+~ssdavis/40/p9/Testing/
+#+1497065531
+cd ~ssdavis/40/p9/Testing/
+#+1497065537
+vim Tester.sh
+#+1497065602
+find -name * -exec grep main {} \;
+#+1497065630
+find -name * -exec grep {} main \;
+#+1497065705
+find ~/ssdavis/40/p9 -name * -exec grep main {} \;
+#+1497065757
+find ~/ssdavis/40/p9 -name "*" -exec grep main {} \;
+#+1497065769
+find ~ssdavis/40/p9 -name "*" -exec grep main {} \;
+#+1497065804
+exit
+#+1497392171
+cd p9
+#+1497392184
+~ssdavis/40/p9/testhw .
+#+1497505655
+ls seansrc/
+#+1497505669
+cd ~ssdavis/40/p9
+#+1497505674
+cd SeansSrc/
+#+1497505695
+cp *.cpp ~/seansrc/p9
+#+1497505701
+cp *.h ~/seansrc/p9
+#+1497505712
+cd ~/seansrc/p9
+#+1497553348
+cd final
+#+1497553364
+g++ -Wall main.cpp exercise.h routines.h weightedexercise.h
+#+1497553394
+cd ../final2
+#+1497553482
+g++ -Wall main.cpp FattyFood.h Food.h
+#+1497553492
+./a.out
+#+1497553505
+valgrind ./a.out
+#+1497553518
+cd ../final
+#+1497553524
+valgrind a.out
+#+1497662469
+mkdir test
+#+1497662506
+cp -R ~ssdavis/40/ test
+#+1497662523
+ls test
+#+1497662529
+ls 40
+#+1497662547
+cd 40
+#+1497662549
+cd p1
+#+1497662570
+cd ~darylnak
+#+1497662608
+mkdir ECS40
+#+1497662611
+mvdir
+#+1497662621
+mv test ECS40/
+#+1497662651
+cd ECS40
+#+1497662665
+cd test
+#+1497662666
+ls

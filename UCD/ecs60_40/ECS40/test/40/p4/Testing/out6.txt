@@ -1,0 +1,40 @@
+Monday, April 16              07:20 08:50 Comp Sci     123 Sciences Lecture Hall
+Saturday, November 10         12:40 14:45 Comp Sci     206 Olson
+Thursday, September 19        14:55 16:10 Comp Sci     170 Schalm Hall
+Monday, January 15            13:50 13:55 Comp Sci     26 Wellman
+Wednesday, May 2              16:35 17:25 Comp Sci     2 Wellman
+Wednesday, March 18           09:55 10:10 Comp Sci     206 Olson
+Friday, June 25               06:55 08:10 Comp Sci     106 Wellman
+Tuesday, May 5                15:40 16:25 Comp Sci     1001 Geidt
+Monday, May 1                 09:00 09:50 Comp Sci     1001 Giedt
+Saturday, August 5            14:35 15:50 Comp Sci     1100 Social Science
+
+Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+3. Add an appointment.
+4. Print appointment count.
+
+Your choice >> 
+Please enter the month, day, and year (mm/dd/yyyy) >> Start End   Subject      Location
+09:00 09:50 Comp Sci     1001 Giedt
+16:10 17:00 CompSci      223 Olson
+
+Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+3. Add an appointment.
+4. Print appointment count.
+
+Your choice >> Appointment count: 343
+
+Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+3. Add an appointment.
+4. Print appointment count.
+
+Your choice >> 

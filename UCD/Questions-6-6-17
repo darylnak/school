@@ -1,0 +1,7 @@
+if throw string, would you just do:
+
+catch (strin s)
+  cout << s << endl; // ?
+
+
+Why bad_alloc reference?

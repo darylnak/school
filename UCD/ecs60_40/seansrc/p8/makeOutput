@@ -1,0 +1,4 @@
+g++ -c -Wall pager.cpp
+g++ -c -Wall main.cpp
+g++ -c -Wall indexpager.cpp
+g++ -o p8.out -Wall pager.o main.o indexpager.o

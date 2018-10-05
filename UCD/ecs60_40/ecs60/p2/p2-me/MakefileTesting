@@ -1,0 +1,21 @@
+BTree: BTree.o  BTreeDriverTesting.o BTreeNode.o InternalNode.o LeafNode.o 
+	g++ -Wall -ansi -o BTree BTree.o BTreeDriverTesting.o BTreeNode.o InternalNode.o LeafNode.o  
+
+BTree.o: BTree.cpp BTree.h BTreeNode.h LeafNode.h InternalNode.h 
+	g++ -Wall -ansi -c BTree.cpp
+
+BTreeDriverTesting.o: BTreeDriverTesting.cpp BTree.h 
+	g++ -Wall -ansi -c BTreeDriverTesting.cpp
+
+BTreeNode.o: BTreeNode.cpp BTreeNode.h 
+	g++ -Wall -ansi -c BTreeNode.cpp
+
+InternalNode.o: InternalNode.cpp InternalNode.h 
+	g++ -Wall -ansi -c InternalNode.cpp
+
+LeafNode.o: LeafNode.cpp LeafNode.h InternalNode.h QueueAr.h 
+	g++ -Wall -ansi -c LeafNode.cpp
+
+
+clean:
+	rm -f BTree BTree.o BTreeDriverTesting.o BTreeNode.o BTreeShort.o InternalNode.o LeafNode.o  

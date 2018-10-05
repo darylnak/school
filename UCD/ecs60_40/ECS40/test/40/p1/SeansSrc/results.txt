@@ -1,0 +1,14 @@
+I have changed the spec for years in getDate() to allow any value greater than 999.
+The appts.csv used for this, will be replaced with a new one for the actual testing.
+The current appts.csv used is appts2.csv in ~ssdavis/60/p1 that is renamed for your program to use.
+Scores from p1 for Davis,Sean Davis,Steve , 
+
+Note that the format for authors.csv is: e-mail<comma>family name<comma>given name
+For example: ssdavis@ucdavis.edu,Davis,Sean
+
+Addresses used: davis@cs.ucdavis.edu ssdavis@ucdavis.edu   
+Style: 10 out of 10
+Design: 20 out of 20 
+Operation: 19 out of 20 
+Warnings (subtracted from final score down to zero): 0
+Total: 49 out of 50.

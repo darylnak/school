@@ -1,0 +1,113 @@
+==31473== Memcheck, a memory error detector
+==31473== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==31473== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==31473== Command: calendar.out
+==31473== 
+Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+
+Your choice >> 
+Please enter the month, day, and year (mm/dd/yyyy) >> Start End   Subject      Location
+07:00 08:40 Spanish      1002 Geidt
+09:30 12:15 Music        170 Schalm Hall
+
+Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+
+Your choice >> Please enter the subject >> Date       Start End   Subject      Location
+11/25/1994 12:05 13:45 English      1100 Social Science
+ 4/16/2001 13:00 14:40 English      1100 Social Science
+ 2/ 6/2006 07:40 08:45 English      66 Roessler
+ 2/31/2010 06:50 07:05 English      1100 Social Science
+ 9/12/2011 07:05 07:15 English      206 Olson
+ 8/16/2012 11:55 13:35 English      100 Hunt
+ 8/16/2012 12:40 14:55 English      2205 Haring
+ 8/16/2012 15:55 16:10 English      26 Wellman
+ 5/26/2015 16:05 17:20 English      234 Wellman
+
+Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+
+Your choice >> 
+Please enter the month, day, and year (mm/dd/yyyy) >> Start End   Subject      Location
+08:40 09:10 Geology      26 Wellman
+09:00 09:45 Pediatrics   194 Young
+11:40 14:30 Art History  179 Chemistry
+12:55 15:40 French       Rock Hall
+13:25 16:05 Pediatrics   1002 Geidt
+17:40 19:55 Nutrition    194 Young
+
+Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+
+Your choice >> Please enter the subject >> Date       Start End   Subject      Location
+ 8/ 6/1997 09:30 10:50 Pediatrics   6 Olson
+ 8/15/1998 11:35 13:15 Pediatrics   106 Wellman
+ 9/ 7/1998 17:20 17:35 Pediatrics   194 Young
+ 7/14/2003 09:00 09:45 Pediatrics   194 Young
+ 7/14/2003 13:25 16:05 Pediatrics   1002 Geidt
+ 5/18/2004 14:00 15:20 Pediatrics   1002 Geidt
+ 7/26/2006 07:50 08:00 Pediatrics   1100 Social Science
+ 7/26/2006 08:40 09:25 Pediatrics   2 Wellman
+ 9/21/2010 14:20 16:00 Pediatrics   106 Wellman
+ 8/16/2012 15:40 17:05 Pediatrics   126 Wellman
+11/12/2013 16:15 18:45 Pediatrics   123 Sciences Lecture Hall
+ 6/31/2014 06:30 08:35 Pediatrics   100 Hunt
+12/25/2014 08:25 11:15 Pediatrics   1100 Social Science
+
+Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+
+Your choice >> Please enter the subject >> Date       Start End   Subject      Location
+ 3/15/1993 06:30 07:30 Physics      1100 Social Science
+11/ 2/1993 13:25 14:35 Physics      66 Roessler
+ 6/ 9/1994 09:15 10:20 Physics      1003 Geidt
+11/25/1994 08:00 09:35 Physics      126 Wellman
+ 6/23/1998 07:45 08:30 Physics      1100 Social Science
+ 1/ 2/2000 14:10 14:15 Physics      26 Wellman
+11/21/2002 07:15 10:05 Physics      1001 Geidt
+ 8/20/2003 13:50 15:35 Physics      123 Sciences Lecture Hall
+12/20/2004 10:40 13:20 Physics      1001 Geidt
+ 2/ 7/2008 09:00 09:50 Physics      1002 Geidt
+11/12/2013 14:10 16:40 Physics      100 Hunt
+ 5/26/2015 16:35 18:20 Physics      106 Wellman
+
+Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+
+Your choice >> 
+Please enter the month, day, and year (mm/dd/yyyy) >> Start End   Subject      Location
+06:15 06:35 Music        176 Everson
+06:25 09:15 Chemistry    1001 Geidt
+06:35 08:40 Philosophy   3 Kleiber
+08:20 09:00 Classics     206 Olson
+09:25 11:05 Sociology    126 Wellman
+10:15 10:25 Psychology   126 Wellman
+10:25 12:40 Sociology    2 Wellman
+
+Calendar Menu
+0. Done
+1. Search for date.
+2. Search for subject.
+
+Your choice >> ==31473== 
+==31473== HEAP SUMMARY:
+==31473==     in use at exit: 0 bytes in 0 blocks
+==31473==   total heap usage: 1,031 allocs, 1,031 frees, 244,858 bytes allocated
+==31473== 
+==31473== All heap blocks were freed -- no leaks are possible
+==31473== 
+==31473== For counts of detected and suppressed errors, rerun with: -v
+==31473== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

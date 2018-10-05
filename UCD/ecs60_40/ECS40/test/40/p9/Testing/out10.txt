@@ -1,0 +1,9 @@
+1 Queue size 9
+2 SU  23
+3 SU  43
+4 SU  19
+5 SP  19
+6 SP  43
+7 SP  23
+8 SP Stack underflow error. -1
+9 SU  8

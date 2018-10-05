@@ -1,0 +1,53 @@
+---BST---
+
+BST only has Node* root
+
+insert(const T& data)
+{
+  if (!root)
+    root = new Node(...);
+  else
+    insert(data, root); // <--- recursive function
+}
+
+insert(Node& n, T& d)
+{
+  if (d < n->data)
+    if(n->left)
+}
+pop(node->left)
+
+june 14th 8:30-10:30pm
+OH T W 1-5
+
+---Assert---
+
+#include <cassert>
+
+assert(divisor != 0); // division check
+// give file name, line number, and assertion that failed if false.
+// #define NDEBUG will disable assert (why? because assert is surround by #ifndef NDEBUG)
+
+the makefile (take care of #define for us)
+---
+g++ main.cpp -ansi -Wall -o ... -DNDEBUG <--- -D is #define
+
+P9 Notes
+---
+Recommended that stack work 100% before moving on.
+foo()
+{
+  if(...)
+    throw Whoops(string("Stack underflow"))
+}
+try
+{
+  foo()
+}
+catch (Whoops &whoops) // ""..."" catches a generic exception
+{
+  // typically do this
+  cout << whoops.what(); // will tell you what happened
+}
+
+<stdexcept> ---> bad_alloc

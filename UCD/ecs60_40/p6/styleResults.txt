@@ -1,0 +1,31 @@
+Processing :  /home/darylnak/p6/appt.h
+Processing :  /home/darylnak/p6/appt.cpp
+Processing :  /home/darylnak/p6/calendar.cpp
+Processing :  /home/darylnak/p6/calendar.h
+Processing :  /home/darylnak/p6/day.cpp
+Processing :  /home/darylnak/p6/day.h
+Processing :  /home/darylnak/p6/DayOfWeek.cpp
+Processing :  /home/darylnak/p6/DayOfWeek.h
+Processing :  /home/darylnak/p6/linkedlist.cpp
+Processing :  /home/darylnak/p6/linkedlist.h
+Processing :  /home/darylnak/p6/main.cpp
+Processing :  /home/darylnak/p6/time.cpp
+Processing :  /home/darylnak/p6/time.h
+Processing :  /home/darylnak/p6/vector.cpp
+Processing :  /home/darylnak/p6/vector.h
+Processing :  /home/darylnak/p6/weeklyappt.cpp
+Processing :  /home/darylnak/p6/weeklyappt.h
+
+
+=================================== Summary Report ===================================
+ ** Total Available Rules     : 52
+ ** Total Applied Rules       : 30
+ ** Total Violated Rules      : 0
+ ** Total Errors Occurs       : 0
+ ** Total Analyzed Files      : 17
+ ** Total Violated Files Count: 0
+ ** Build Quality             : 100.00%
+
+================================ Violated Rule Details ===============================
+
+================================ Violated File Details ===============================

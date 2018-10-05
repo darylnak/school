@@ -1,0 +1,77 @@
+% cat file1.cpp
+#include <stdio.h>
+% grep "std" file1.cpp
+#include <stdio.h>
+% grep "Std" file1.cpp
+% grep -i "Std" file1.cpp
+#include <stdio.h>
+% grep -x "std" file1.cpp
+% grep -x "#include <stdio.h>" file1.cpp
+#include <stdio.h>
+% grep -x "#include <Stdio.h>" file1.cpp
+% grep -xi "#include <Stdio.h>" file1.cpp
+#include <stdio.h>
+% grep -xin "#include <Stdio.h>" file1.cpp
+1:#include <stdio.h>
+% grep -lxin "#include <Stdio.h>" file1.cpp
+file1.cpp
+% find .
+.
+./hw2
+./hw2/file2.cpp
+./hw2/file1.cpp
+./file1.cpp
+% find . -print
+.
+./hw2
+./hw2/file2.cpp
+./hw2/file1.cpp
+./file1.cpp
+% find . -name file1.cpp
+./hw2/file1.cpp
+./file1.cpp
+% find . -type d
+.
+./hw2
+% find . -type f
+./hw2/file2.cpp
+./hw2/file1.cpp
+./file1.cpp
+% find . -exec cat {} \;
+cat: .: Is a directory
+cat: ./hw2: Is a directory
+#include <stdio.h>
+#include <iostream.h>
+#include <stdio.h>
+% find . -exec cat {} \; -print
+cat: .: Is a directory
+cat: ./hw2: Is a directory
+#include <stdio.h>
+./hw2/file2.cpp
+#include <iostream.h>
+./hw2/file1.cpp
+#include <stdio.h>
+./file1.cpp
+% find . -print -exec cat {} \;
+.
+cat: .: Is a directory
+./hw2
+cat: ./hw2: Is a directory
+./hw2/file2.cpp
+#include <stdio.h>
+./hw2/file1.cpp
+#include <iostream.h>
+./file1.cpp
+#include <stdio.h>
+% find . -exec grep "stdio.h" {} \; -print
+grep: .: Is a directory
+grep: ./hw2: Is a directory
+#include <stdio.h>
+./hw2/file2.cpp
+#include <stdio.h>
+./file1.cpp
+% find hw2 -exec grep "stdio.h" {} \; -print
+grep: hw2: Is a directory
+#include <stdio.h>
+hw2/file2.cpp
+%                                                                      

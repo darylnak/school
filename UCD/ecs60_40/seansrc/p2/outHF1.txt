@@ -1,0 +1,21 @@
+Displaying first 3 lines of HF1.txt:
+HF1 first 
+HF1 second
+HF1 third
+
+Delete file HF1.txt? (y/n) Displaying first 3 lines of HF2.txt:
+HF2 first 
+HF2 second
+HF2 third
+
+Delete file HF2.txt? (y/n) Displaying first 3 lines of HF4.txt:
+HF4 first 
+HF4 second
+HF4 third
+
+Delete file HF4.txt? (y/n) Displaying first 3 lines of HF5.txt:
+HF5 first 
+HF5 second
+HF5 third
+
+Delete file HF5.txt? (y/n) 
